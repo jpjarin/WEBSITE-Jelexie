@@ -212,21 +212,17 @@ h1{
 .about-section{
 	z-index: 2;
 }
-/*.read-more{
-	outline: 1px solid #000000;
-	padding: 8px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
+.about-section h1{
+  color: #da251c;
 }
-.read-more:hover{
-	color: #ffffff;
-	outline: 2px solid #ffffff;
-	background-color: #da251c;
-}*/
+.about-section p{
+  
+}
 .read-more a{
 	color: #000000;
-  outline: 1px solid #000000;
+  outline: 2px solid #000000;
   padding: 8px;
+  font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
 }

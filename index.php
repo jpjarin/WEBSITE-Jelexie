@@ -38,7 +38,7 @@
 				<h1 class="mt-0">ABOUT US</h1>
 				<p>
 					Behind our company’s success are different people united by the same vision — one summarized in ensuring total customer satisfaction.
-					<div class="hvr-icon-pulse-grow read-more float-right"><a href="#" class="hvr-float-shadow">Read more <i class="hvr-icon fa fa-angle-double-right" style="position: relative; top: -1.5px;"></i></a></div>
+					<div class="hvr-icon-pulse-grow read-more float-right"><a href="#" class="hvr-float-shadow">Read more <i class="hvr-icon fa fa-angle-double-right" style="position: relative; top: 0.5px;"></i></a></div>
 				</p>
 			</div>
 
