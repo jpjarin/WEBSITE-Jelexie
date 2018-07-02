@@ -15,8 +15,22 @@
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-/* Styles */
+@media only screen and (min-device-width : 768px) and (max-device-width : 800px) {
+.navbar .navbar-collapse{
+	z-index: 10;
+	height: 150vh;
+	left: 0;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  background-color: #fff500;
+  transition: height 0.2s linear;
+  font-size: 2rem;
+}
+.nav-link:hover{
+	width: 33%;
+	margin: auto;
+}
 }
 
 /* iPads (landscape) ----------- */
@@ -51,6 +65,16 @@ footer .adjust{
 	padding-left: 5.5em
 }
 }
+@media only screen and (max-width: 500px){
+footer .adjust{
+	padding-left: 15px;
+}
+}
+@media only screen and (min-width: 501px){
+footer .adjust{
+	padding-left: 3.5em;
+}
+}
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
 .navbar{
@@ -58,7 +82,7 @@ footer .adjust{
 }
 .navbar-brand .logo{
 	height: 100%;
-	width: 130px;
+	width: 120px;
 }
 footer .container-fluid{
  	padding-left: 4.5rem!important;
@@ -72,7 +96,7 @@ footer h1{
 	font-size: 1.500em;
 }
 footer p{
-	font-size: 1.250em;
+	font-size: 1em;
 }
 }
 @media only screen and (min-width: 1300px) {
@@ -81,7 +105,7 @@ footer p{
 	padding-right: 10rem !important;
 }
 footer .adjust{
-	padding-left: 6rem
+	padding-left: 5rem
 }
 }
 

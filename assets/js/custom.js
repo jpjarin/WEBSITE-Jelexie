@@ -1,3 +1,11 @@
+new WOW().init();
+
+$(window).on('load', function() {
+	    $('.about-heading,.about-description,.read-more').css({"opacity":"100"});
+	    $('.about-heading,.about-description').addClass('animated fadeIn');
+	    $('.read-more').addClass('animated bounceIn');
+	});
+
 //JQuery Sticky
  $(document).ready(function(){
     $("#navbar").sticky({topSpacing:0,zIndex:999});
@@ -29,3 +37,13 @@
 		}).resize();
 	}
 });
+
+//Ads
+$('#ads').carousel({
+  interval: 6000
+})
+
+//Carousel
+$('#carousel').carousel({
+  interval: 500000
+})
