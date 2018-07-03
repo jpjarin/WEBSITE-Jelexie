@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto|Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto|Muli|Open+Sans);
 html{
 	height: 100%;
 	width: 100%;
@@ -75,8 +75,9 @@ p{
 /* NAVVIGATION BAR */
 .navbar{
 	font-size: 1.500em;
-	font-family: 'Harabara', Arial, San-serif;
-	font-weight: 700;
+	font-family: 'Harabara', Inherit, San-serif;
+	font-weight: 500;
+  text-transform: capitalize;
 	letter-spacing: 1.5px;
 	border-bottom: 4px solid #ffffff;/*#da251c;*/
 }

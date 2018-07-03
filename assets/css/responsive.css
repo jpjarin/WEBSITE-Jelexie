@@ -76,7 +76,15 @@ footer .adjust{
 }
 }
 /* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
+@media (min-width: 992px){
+.navbar {
+    font-size: 1.5em;
+}
+.employees{
+	background-position: 50% 140%;
+}
+}
+@media only screen  and (max-width : 1224px) {
 .navbar{
 	font-size: 2em;
 }
