@@ -114,6 +114,13 @@ footer .adjust{
 .navbar{
 		font-size: 1.250em;
 }
+.employees{
+  background-image: url(../../assets/img/employees.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 103%;
+  background-position: 50% 140%;
+}
 }
 @media only screen  and (min-width : 1824px) {
 	
