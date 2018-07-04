@@ -27,11 +27,17 @@
 
 
 <div class="preloader">
-		<div class="load">
-			<div class="loader"><div class="jelexie-loading"><img src="assets/img/logo-min.png" style="width: 33vw;height: 100%;"></div><div class="loading"><p class="loading"><!-- Loading --><span>.</span><span>.</span><span>.</span></p></h1></div>
+	<div class="load">
+		<div class="loader">
+			<div class="jelexie-loading">
+				<img src="assets/img/logo-min.png" class="img-fluid">
 			</div>
+			<p class="loading">
+				<!-- Loading -->&nbsp;<span>.</span><span>.</span><span>.</span>
+			</p>
 		</div>
 	</div>
+</div>
 
 <div id="main" class="main">
 <?php include 'assets/includes/navbar.html';?>
@@ -40,13 +46,13 @@
 	<div id="ads" class="carousel slide" data-ride="carousel">
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
-	      <img data-animation="animated bounceIn" class="img-fluid d-block w-100" src="assets/img/morning coffee combo tarp 2018 (size 3).min.jpg">
+	      <img data-animation="animated bounceIn" class="img-fluid d-block w-100" src="assets/img/ads/morning coffee combo tarp 2018 (size 3).min.jpg">
 	    </div>
 	    <div class="carousel-item">
-	      <img data-animation="animated bounceIn" class="img-fluid d-block w-100" src="assets/img/butter just got better website.jpg">
+	      <img data-animation="animated bounceIn" class="img-fluid d-block w-100" src="assets/img/ads/butter just got better website.jpg">
 	    </div>
 	    <div class="carousel-item">
-	      <img class="img-fluid d-block w-100" src="assets/img/mocha roll website.jpg">
+	      <img class="img-fluid d-block w-100" src="assets/img/ads/mocha roll website.jpg">
 	    </div>
 	   
 	    <a class="carousel-control-prev" href="#ads" role="button" data-slide="prev">
@@ -64,27 +70,27 @@
 </section>
 
 <section id="about" class="about-section pt-4 bg-white">
-	<div class="container pb-2 mb-5">
+	<div id="about-home" class="container pb-2 mb-5">
 		<div class="row">
 			<div class="col-md-8">
 				<div class="about-content">
 				<h1 class="about-heading mt-0 pt-2" style="animation-delay: 0.2s;">ABOUT US</h1>
 				<p class="about-description" style="animation-delay: 0.3s;">
 					Behind our company’s success are different people united by the same vision — one summarized in ensuring total customer satisfaction.
-					<div class="hvr-icon-pulse-grow read-more float-right" style="animation-delay: 0.8s;"><a href="index.html" class="hvr-float-shadow">Read more <i class="hvr-icon fa fa-angle-double-right" style="position: relative; top: 0.5px;"></i></a></div>
+					<div class="hvr-icon-pulse-grow read-more float-right" style="animation-delay: 0.8s;"><a href="about.php" class="hvr-float-shadow">Read more <i class="hvr-icon fa fa-angle-double-right" style="position: relative; top: 0.5px;"></i></a></div>
 				</p>
 			</div>
 			</div>
 
 			<div class="col-md-4 mt-3 text-center">
-				<div class="" style="border: 1px solid #000000; padding: 100px;">
+				<div class="container-fluid" style="border: 1px solid #000000; padding: 100px;">
 					
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="mt-2 pt-2 px-2 pb-3 bg-gray">
+	<div id="carousel-section" class="mt-2 pt-2 px-2 pb-3 bg-gray">
 		<div class="container-fluid pl-2 mt-2">
 			<div class="row">
 				<div class="col-sm-6 mb-4">
@@ -100,7 +106,7 @@
 					       	MANAGEMENT ENGINEER, ACCOUNTING OFFICER, WAREHOUSE OFFICER, PROGRAMMER, HARDWARE SPECIALIST, MARKETING STAFF, AUDIT STAFF, MANAGEMENT TRAINEE, STORE CREW, PRODUCTION CREW, SAP SYSTEM ANALYST / ADMINISTRATOR, POS SYSTEM ADMINISTRATOR
 					       </p>
 					       <div class="mx-auto text-center pb-4">
-					       		<a class="btn-custom" href="">APPLY NOW</a>
+					       		<a class="btn-custom" href="#">APPLY NOW</a>
 					   		</div>
 					    </div>
 					    <div class="carousel-item">
@@ -109,7 +115,7 @@
 					       	Please Contact Us For More Info
 					       </p>
 					       <div class="mx-auto text-center pb-4">
-					       		<a class="btn-custom" href="">CONTACT US</a>
+					       		<a class="btn-custom" href="contact_us.php">CONTACT US</a>
 					   		</div>
 					    </div>
 					  </div>
@@ -134,6 +140,6 @@
 <script src="assets/js/wow.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/jquery.sticky.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/home-script.js"></script>
 </body>
 </html>

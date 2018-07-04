@@ -1,7 +1,10 @@
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
 .navbar .navbar-brand {
     margin-right: 1.5rem;
+}
+.branches-heading,.branch-text{
+	text-align: left;
 }
 }
 
@@ -78,15 +81,18 @@ footer .adjust{
 /* Desktops and laptops ----------- */
 @media (min-width: 992px){
 .navbar {
-    font-size: 1.5em;
+    font-size: 1.125em;
 }
 .employees{
 	background-position: 50% 140%;
 }
+footer .adjust{
+	padding-left: 2em;
 }
-@media only screen  and (max-width : 1224px) {
+}
+@media only screen  and (min-width : 1224px) {
 .navbar{
-	font-size: 2em;
+	font-size: 1.125em;
 }
 .navbar-brand .logo{
 	height: 100%;

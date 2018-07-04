@@ -8,22 +8,36 @@ body{
 	height: 100%;
 	width: 100%;
 	color: #000000;
-	font-family: 'Verdana', Roboto, San-serif;
+	font-family: 'Verdana', Roboto, Sans-serif;
 	font-size: 24px;
 	line-height: 1.6em;
 	background-color: #ffffff;
 }
 @font-face {
   font-family: 'Verdana';
-  src: url('assets/fonts/Verdana.woff') format('woff'),
-       url('assets/fonts/Verdana.tff') format('truetype');
+  src: local('../../assets/fonts/Verdana/verdana.woff') format('woff'),
+       local('../../assets/fonts/Verdana/verdana.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bago';
+   src: local('../../assets/Bago/bago.eot');
+  src: local("../../assets/Bago/bago.otf") format("opentype"),
+       local('../../assets/Bago/bago.woff2') format('woff2'),
+       local('../../assets/Bago/bago.woff') format('woff'), 
+       local('../../assets/Bago/bago.ttf')  format('truetype'),
+       local('../../assets/Bago/bago.svg') format('svg');
 }
 @font-face {
   font-family: 'Harabara';
-  src: url('assets/fonts/Harabara.tff') format('truetype');
+   src: local('../../assets/Harabara/harabara.eot');
+  src: local('../../assets/Harabara/harabara.otf') format("opentype"),
+       local('../../assets/Harabara/harabara.woff2') format('woff2'),
+       local('../../assets/Harabara/harabara.woff') format('woff'), 
+       local('../../assets/Harabara/harabara.ttf')  format('truetype'),
+       local('../../assets/Harabara/harabara.svg') format('svg');
 }
 h1{
-	font-family: 'Verdana', Roboto, San-serif;
+	font-family: 'Verdana', Inherit, Sans-serif;
   -webkit-transform: translateZ(0px);
 }
 p{
@@ -75,9 +89,9 @@ p{
 /* NAVVIGATION BAR */
 .navbar{
 	font-size: 1.500em;
-	font-family: 'Harabara', Inherit, San-serif;
+	font-family: 'Harabara', Sans-serif;
 	font-weight: 500;
-  text-transform: capitalize;
+  text-transform: uppercase;
 	letter-spacing: 1.5px;
 	border-bottom: 4px solid #ffffff;/*#da251c;*/
 }
@@ -132,7 +146,7 @@ p{
 
 .dropdown .menu-dropdown{
 	font-size: 1rem;
-	top: 35px;
+	top: 35.5px;
     left: 0px;
     background-color: #da251c;
     border-radius: 3px;
@@ -154,14 +168,31 @@ p{
 	text-decoration-color: #fff500;
 }
 
+/* BREADCRUMBS */
+.breadcrumb{
+  background-color: #ffffff!important;
+  padding: 1rem 1rem !important;
+  font-family: inherit, Sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.breadcrumb .breadcrumb-item a{
+  color: #da251c;
+}
+.breadcrumb-item.active {
+    color: #000000 !important;
+}
+
 /* ABOUT SECTION */
 .about-section{
 	z-index: 2;
 }
-.about-section h1{
+#about-home h1{
+  font-family: 'Harabara', Sans-serif;
   color: #da251c;
 }
-.about-section p{
+#about-home p{
+  font-family: 'Bago', Sans-serif;
   font-size: 1.375em;
 }
 .about-heading, .about-description, .read-more{
@@ -206,6 +237,7 @@ p{
 }
 .carousel h1{
   letter-spacing: 2px;
+  color: #da251c;
 }
 .carousel p{
   font-weight: 500;
@@ -260,10 +292,45 @@ p{
   z-index: 2;
 }
 
-
+/* ABOUT PAGE */
+#about-page{
+  font-family: 'Bago', Sans-serif;
+}
+#about-heading{
+  font-family: 'Harabara', Sans-serif; 
+  color: #da251c !important;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.branches-heading{
+ font-family: 'Harabara', Sans-serif; 
+  color: #da251c !important;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-align: right; 
+}
+.branch-text{
+  text-align: right;
+}
+#about-page .about__us{
+  font-size: 1.125em;
+}
+#about-page .about-company{
+  font-size: 1em;
+}
+#about-page .about-logo{
+  height: auto;
+  max-width: 80%;
+}
+.tagline{
+  font-family: "Bago", Sans-serif;
+}
+.breadcrumb,.aboutUs,.Jelexie,.ourProducts,.Branches{
+  opacity: 0;
+}
 /* FOOTER */
 footer{
-	font-family: 'Verdana', Roboto, San-serif;
+	font-family: 'Verdana', Roboto, Sans-serif;
 	color: #ffffff;
 }
 footer .footer{
