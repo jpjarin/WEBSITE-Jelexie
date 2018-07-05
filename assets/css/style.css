@@ -15,26 +15,26 @@ body{
 }
 @font-face {
   font-family: 'Verdana';
-  src: local('../../assets/fonts/Verdana/verdana.woff') format('woff'),
-       local('../../assets/fonts/Verdana/verdana.ttf') format('truetype');
+  src: url('../../assets/fonts/Verdana/verdana.woff') format('woff'),
+       url('../../assets/fonts/Verdana/verdana.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Bago';
-   src: local('../../assets/Bago/bago.eot');
-  src: local("../../assets/Bago/bago.otf") format("opentype"),
-       local('../../assets/Bago/bago.woff2') format('woff2'),
-       local('../../assets/Bago/bago.woff') format('woff'), 
-       local('../../assets/Bago/bago.ttf')  format('truetype'),
-       local('../../assets/Bago/bago.svg') format('svg');
+   src: url('../../assets/Bago/bago.eot');
+  src: url("../../assets/Bago/bago.otf") format("opentype"),
+       url('../../assets/Bago/bago.woff2') format('woff2'),
+       url('../../assets/Bago/bago.woff') format('woff'), 
+       url('../../assets/Bago/bago.ttf')  format('truetype'),
+       url('../../assets/Bago/bago.svg') format('svg');
 }
 @font-face {
   font-family: 'Harabara';
-   src: local('../../assets/Harabara/harabara.eot');
-  src: local('../../assets/Harabara/harabara.otf') format("opentype"),
-       local('../../assets/Harabara/harabara.woff2') format('woff2'),
-       local('../../assets/Harabara/harabara.woff') format('woff'), 
-       local('../../assets/Harabara/harabara.ttf')  format('truetype'),
-       local('../../assets/Harabara/harabara.svg') format('svg');
+   src: url('../../assets/Harabara/harabara.eot');
+  src: url('../../assets/Harabara/harabara.otf') format("opentype"),
+       url('../../assets/Harabara/harabara.woff2') format('woff2'),
+       url('../../assets/Harabara/harabara.woff') format('woff'), 
+       url('../../assets/Harabara/harabara.ttf')  format('truetype'),
+       url('../../assets/Harabara/harabara.svg') format('svg');
 }
 h1{
 	font-family: 'Verdana', Inherit, Sans-serif;
@@ -223,7 +223,7 @@ p{
 
 
 /*CAROUSEL*/
-.carousel{
+.home-info .carousel{
   background: linear-gradient(#fff500, #ffffff);
 }
 .carousel-indicators li{
@@ -258,7 +258,7 @@ p{
   text-decoration: none;
 }
 .employees{
-  background-image: url(../../assets/img/employees.png);
+  background-image: url(../../assets/img/employees.min.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 103%;
@@ -291,6 +291,7 @@ p{
 .carousel-fade .carousel-control {
   z-index: 2;
 }
+
 
 /* ABOUT PAGE */
 #about-page{

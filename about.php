@@ -101,7 +101,34 @@
 					<h5 id="about-heading">The People</h5>
 				</div>
 				<div class="col px-0">
-					<div class="container-fluid" style="border: 1px solid #000000; height: 95%; padding-top: 15em; margin-top: 5px;"></div>
+					<div id="the_people" class="carousel slide carousel-fade" data-ride="carousel">
+						<ol class="carousel-indicators">
+						    <li data-target="#the_people" data-slide-to="0" class="active"></li>
+						    <li data-target="#the_people" data-slide-to="1"></li>
+						    <li data-target="#the_people" data-slide-to="2"></li>
+						</ol>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active" style="background-color: #fff500;">
+					      <img class="img-fluid d-block w-100" src="assets/img/about/the_people/proj.png">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="img-fluid d-block w-100" src="assets/img/about/the_people/DSC_2420.jpg">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="img-fluid d-block w-100" src="assets/img/about/the_people/DSC_2425.jpg">
+					    </div>
+
+					    <!-- <a class="carousel-control-prev" href="#the_people" role="button" data-slide="prev">
+						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="carousel-control-next" href="#the_people" role="button" data-slide="next">
+						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						  </a> -->
+					  </div>
+					<!-- <img class="img-fluid" src="assets/img/morning coffee combo tarp 2018 (size 3).min.jpg"> -->
+					</div>
 					<p class="py-3">
 						What Jelexie is truly appreciative of is the people behind the production of every bread and pastry that reaches its stores. Today, there are around 400 employees who strive to maintain Jelexie’s standards. The company’s catchphrase, “A Passion for Excellence,” continues to inspire each and every individual who works toward a customer-oriented goal. In return, Jelexie takes pride in its company scholarship program, ensuring that even the children of its workers are not forgotten when it comes to fulfilling its social obligations. There are currently 21 scholars under this program and it has already produced 2 college graduates.
 					</p>
@@ -112,7 +139,35 @@
 					<h5 id="about-heading">The Community</h5>
 				</div>
 				<div class="col px-0">
-					<div class="container-fluid" style="border: 1px solid #000000; height: 95%; padding-top: 15em; margin-top: 5px;"></div>
+					<div id="the_community" class="carousel slide carousel-fade" data-ride="carousel">
+						<ol class="carousel-indicators">
+						    <li data-target="#the_community" data-slide-to="0" class="active"></li>
+						    <li data-target="#the_community" data-slide-to="1"></li>
+						    <li data-target="#the_community" data-slide-to="2"></li>
+						</ol>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img class="img-fluid d-block w-100" src="assets/img/about/the_community/DSC_0343.jpg">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="img-fluid d-block w-100" src="assets/img/about/the_community/DSC_0342.jpg">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="img-fluid d-block w-100" src="assets/img/about/the_community/DSC_0359.jpg">
+					    </div>
+
+					    <!-- <a class="carousel-control-prev" href="#the_community" role="button" data-slide="prev">
+						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="carousel-control-next" href="#the_community" role="button" data-slide="next">
+						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						  </a> -->
+
+					  </div>
+					<!-- <img class="img-fluid" src="assets/img/morning coffee combo tarp 2018 (size 3).min.jpg"> -->
+					</div>
 					<p class="py-3">
 						Aside from producing breads that continue to satisfy the taste of the masses, Jelexie has been active in giving back to its community. It has partnered with several government sectors such as the Philippine Army and the Department of Education with its nutrition programs all around the province, and has been active in typhoon relief programs whenever the need arises. Jelexie is proud of where it is now, carrying on to serve as it always has. Its commitment continues in achieving its vision to become a national brand that will be endeared in households around the country. Standing by its corporate values, the company remains strong and energetic in fulfilling its founder’s legacy of a never-ending quest for excellence.
 					</p>

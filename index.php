@@ -46,10 +46,10 @@
 	<div id="ads" class="carousel slide" data-ride="carousel">
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
-	      <img data-animation="animated bounceIn" class="img-fluid d-block w-100" src="assets/img/ads/morning coffee combo tarp 2018 (size 3).min.jpg">
+	      <img class="img-fluid d-block w-100" src="assets/img/ads/morning coffee combo tarp 2018 (size 3).min.jpg">
 	    </div>
 	    <div class="carousel-item">
-	      <img data-animation="animated bounceIn" class="img-fluid d-block w-100" src="assets/img/ads/butter just got better website.jpg">
+	      <img class="img-fluid d-block w-100" src="assets/img/ads/butter just got better website.jpg">
 	    </div>
 	    <div class="carousel-item">
 	      <img class="img-fluid d-block w-100" src="assets/img/ads/mocha roll website.jpg">
@@ -66,6 +66,7 @@
 
 	  </div>
 	<!-- <img class="img-fluid" src="assets/img/morning coffee combo tarp 2018 (size 3).min.jpg"> -->
+	</div>
 </div>
 </section>
 
@@ -92,7 +93,7 @@
 
 	<div id="carousel-section" class="mt-2 pt-2 px-2 pb-3 bg-gray">
 		<div class="container-fluid pl-2 mt-2">
-			<div class="row">
+			<div class="home-info row">
 				<div class="col-sm-6 mb-4">
 					<div id="carousel" class="wow slideInUp h-100 carousel slide carousel-fade" data-ride="carousel">
 					<ol class="carousel-indicators">

@@ -84,7 +84,7 @@ footer .adjust{
     font-size: 1.125em;
 }
 .employees{
-	background-position: 50% 140%;
+	background-position: 50% 115%;
 }
 footer .adjust{
 	padding-left: 2em;
@@ -129,7 +129,6 @@ footer .adjust{
 		font-size: 1.250em;
 }
 .employees{
-  background-image: url(../../assets/img/employees.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 103%;

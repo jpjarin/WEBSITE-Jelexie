@@ -11,3 +11,16 @@ new WOW().init();
 	    $('.ourProducts,.Branches').css({'opacity':'100','animation-delay':'0.7s'});
 	    $('.breadcrumb,.aboutUs,.Jelexie,.ourProducts,.Branches').addClass('animated fadeIn');
 	});
+
+
+  $(document).ready(function(){
+   //The Community
+	$('#the_community').carousel({
+	  interval: 6000
+	});
+
+	//Carousel
+	$('#the_people').carousel({
+	  interval: 5000
+	});
+  });
