@@ -1,7 +1,7 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
 .navbar .navbar-brand {
-    margin-right: 1.5rem;
+
 }
 .branches-heading,.branch-text{
 	text-align: left;
@@ -26,12 +26,12 @@
   width: 100%;
   position: absolute;
   top: 100%;
-  background-color: #fff500;
+  background-color: #fbdd17;
   transition: height 0.2s linear;
   font-size: 2rem;
 }
 .nav-link:hover{
-	width: 33%;
+	width: 35%;
 	margin: auto;
 }
 }
@@ -96,7 +96,7 @@ footer .adjust{
 }
 .navbar-brand .logo{
 	height: 100%;
-	width: 120px;
+	width: 140px;
 }
 footer .container-fluid{
  	padding-left: 4.5rem!important;
@@ -132,11 +132,16 @@ footer .adjust{
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 103%;
-  background-position: 50% 140%;
+  background-position: 50% 125%;
 }
 }
-@media only screen  and (min-width : 1824px) {
-	
+@media only screen  and (min-width : 1800px) {
+	.employees{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 105%;
+  background-position: 50% 1500%;
+}
 }
 
 /* iPhone 4 ----------- */

@@ -5,22 +5,22 @@ new WOW().init();
     $("#navbar").sticky({topSpacing:0,zIndex:999});
   });
 
-  $(window).on('load', function() {
+  $(document).ready(function() {
 	    $('.breadcrumb').css({"opacity":"100"});
 	    $('.aboutUs,.Jelexie').css({'opacity':'100','animation-delay':'0.4s'});
-	    $('.ourProducts,.Branches').css({'opacity':'100','animation-delay':'0.7s'});
-	    $('.breadcrumb,.aboutUs,.Jelexie,.ourProducts,.Branches').addClass('animated fadeIn');
+	    $('.ourProducts,.Branches,.thePeople,.theCommunity').css({'opacity':'100','animation-delay':'0.7s'});
+	    $('.breadcrumb,.aboutUs,.Jelexie,.ourProducts,.Branches,.thePeople,.theCommunity').addClass('animated fadeIn');
 	});
 
 
-  $(document).ready(function(){
+  $(window).on('load', function(){
    //The Community
 	$('#the_community').carousel({
-	  interval: 6000
+	  interval: 5000
 	});
 
 	//Carousel
 	$('#the_people').carousel({
-	  interval: 5000
+	  interval: 6000
 	});
   });

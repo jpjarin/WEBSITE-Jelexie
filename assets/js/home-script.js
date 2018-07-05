@@ -25,7 +25,7 @@ $(window).on('load', function() {
   });
 
 
- $(document).ready(function(){
+ $(window).on('load', function(){
    //Ads
 	$('#ads').carousel({
 	  interval: 6000

@@ -39,7 +39,7 @@
 	</div>
 </div>
 
-<div id="main" class="main">
+
 <?php include 'assets/includes/navbar.html';?>
 <section class="ads">
 <div class="ads">
@@ -92,7 +92,7 @@
 	</div>
 
 	<div id="carousel-section" class="mt-2 pt-2 px-2 pb-3 bg-gray">
-		<div class="container-fluid pl-2 mt-2">
+		<div class="container pl-2 mt-2">
 			<div class="home-info row">
 				<div class="col-sm-6 mb-4">
 					<div id="carousel" class="wow slideInUp h-100 carousel slide carousel-fade" data-ride="carousel">
@@ -125,7 +125,7 @@
 				</div>
 
 				<div class="col-sm-6 px-2 mb-4"><div class="container-fluid mx-auto wow slideInUp" data-wow-delay="0.1s">
-					<div class="fb-page" data-href="https://facebook.com/Jelexie-179456868470/" data-tabs="timeline, messages" data-width="500" data-small-header="true" data-adapt-container-width="true" data-hide-cta="false" data-height="565" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://facebook.com/Jelexie-179456868470/" class="fb-xfbml-parse-ignore"><a href="https://facebook.com/Jelexie-179456868470/">Jelexie</a></blockquote></div>
+					<div class="fb-page" data-href="https://facebook.com/Jelexie-179456868470/" data-tabs="timeline, messages" data-width="500" data-small-header="true" data-adapt-container-width="true" data-hide-cta="false" data-height="560" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://facebook.com/Jelexie-179456868470/" class="fb-xfbml-parse-ignore"><a href="https://facebook.com/Jelexie-179456868470/">Jelexie</a></blockquote></div>
 					</div>
 				</div>
 			</div>
@@ -133,9 +133,8 @@
 	</div>
 </section>
 <?php include 'assets/includes/footer.html';?>
-</div>
 
-<script src="assets/js/pace.js"></script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 <script src="assets/js/wow.min.js"></script>

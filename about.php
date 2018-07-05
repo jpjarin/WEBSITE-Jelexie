@@ -5,7 +5,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="icon" href="favicon.png">
-	<link rel="stylesheet" type="text/css" href="assets/css/pre-loader.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/progress.css">
+	<script src="assets/js/progress.js"></script>
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/css/all.css" media="all">
@@ -16,10 +17,15 @@
 </head>
 <body>
 
-<div id="main" class="main">
 <?php include 'assets/includes/navbar.html';?>
 <div class="bg-white">
-
+<div class="progress-progress progress-theme-blue">
+	<div class="progressjs-inner">
+		<div class="progressjs-percent">
+			1%
+		</div>
+	</div>
+</div>
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb container">
     <li class="breadcrumb-item"><a href="index.php">Home</a></li>
@@ -43,12 +49,12 @@
 					</div>
 					<div class="col-md-6">
 						<h5 id="about-heading">The Company</h5>
-										<p class="about-company">
+										<p class="about-p-text">
 											It was 1984 when Jelexie Bakeshop was established in Tarlac City as a home-based bakeshop by its founder, Mr. Armando Tan who had just migrated from China to the Philippines. With its first branch in M.H. Del Pilar Street, Jelexie was mainly engaged in the distribution of breads in different canteens and supermarkets.
 										</p>
 					</div>
 					<div class="col-xl-12">
-						<p class="about-company">
+						<p class="about-p-text">
 							After Mr. Tan passed away in 1990, his eldest son, Mr. Jimmy Tan, took over the company and began to enter Jelexie into the retail world. He opened two more branches within Tarlac province that same year and, wanting to live out his father's mission to become strategically competitive and innovative, opened another branch in 2000 and has been opening other branches almost every year since then. Today, it stands proud with 40 branches all over Tarlac, Pampanga, Nueva Ecija, and Pangasinan.
 						</p>
 					</div>
@@ -75,8 +81,8 @@
 					</div>
 					<div class="col-md-6">
 						<h5 id="about-heading">Our Products</h5>
-											<p>
-												More than the latest advancements in food manufacturing, it’s our sensitivity to our customers ever-changing needs that has made our brands relevant and loved through the years.
+											<p class="about-p-text" style="text-align: left;text-indent: 0px;">
+												More than the latest advancements in food manufacturing,</span> it’s our sensitivity to our customers ever-changing needs that has made our brands relevant and loved through the years.
 											</p>
 					</div>
 				</div>
@@ -85,7 +91,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<h5 class="branches-heading">Branches</h5>
-											<p class="branch-text">
+											<p class="about-p-text branch-text" style="text-indent: 0px;">
 												Expanding store outlets that will make the jelexie a local favorite in every area where it operates
 											</p>
 					</div>
@@ -96,7 +102,7 @@
 			</div>
 		</div>
 		<div class="row mt-4">
-			<div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
+			<div class="col-md-6 thePeople">
 				<div class="col px-0">
 					<h5 id="about-heading">The People</h5>
 				</div>
@@ -108,7 +114,7 @@
 						    <li data-target="#the_people" data-slide-to="2"></li>
 						</ol>
 					  <div class="carousel-inner">
-					    <div class="carousel-item active" style="background-color: #fff500;">
+					    <div class="carousel-item active" style="background-color: #fbdd17;">
 					      <img class="img-fluid d-block w-100" src="assets/img/about/the_people/proj.png">
 					    </div>
 					    <div class="carousel-item">
@@ -118,23 +124,23 @@
 					      <img class="img-fluid d-block w-100" src="assets/img/about/the_people/DSC_2425.jpg">
 					    </div>
 
-					    <!-- <a class="carousel-control-prev" href="#the_people" role="button" data-slide="prev">
+					    <a class="carousel-control-prev" href="#the_people" role="button" data-slide="prev">
 						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 						    <span class="sr-only">Previous</span>
 						  </a>
 						  <a class="carousel-control-next" href="#the_people" role="button" data-slide="next">
 						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 						    <span class="sr-only">Next</span>
-						  </a> -->
+						  </a>
 					  </div>
 					<!-- <img class="img-fluid" src="assets/img/morning coffee combo tarp 2018 (size 3).min.jpg"> -->
 					</div>
-					<p class="py-3">
+					<p class="about-p-text py-3">
 						What Jelexie is truly appreciative of is the people behind the production of every bread and pastry that reaches its stores. Today, there are around 400 employees who strive to maintain Jelexie’s standards. The company’s catchphrase, “A Passion for Excellence,” continues to inspire each and every individual who works toward a customer-oriented goal. In return, Jelexie takes pride in its company scholarship program, ensuring that even the children of its workers are not forgotten when it comes to fulfilling its social obligations. There are currently 21 scholars under this program and it has already produced 2 college graduates.
 					</p>
 				</div>
 			</div>
-			<div class="col-md-6 wow fadeIn" data-wow-delay="0.2s">
+			<div class="col-md-6 theCommunity">
 				<div class="col px-0">
 					<h5 id="about-heading">The Community</h5>
 				</div>
@@ -156,19 +162,19 @@
 					      <img class="img-fluid d-block w-100" src="assets/img/about/the_community/DSC_0359.jpg">
 					    </div>
 
-					    <!-- <a class="carousel-control-prev" href="#the_community" role="button" data-slide="prev">
+					    <a class="carousel-control-prev" href="#the_community" role="button" data-slide="prev">
 						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 						    <span class="sr-only">Previous</span>
 						  </a>
 						  <a class="carousel-control-next" href="#the_community" role="button" data-slide="next">
 						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 						    <span class="sr-only">Next</span>
-						  </a> -->
+						  </a>
 
 					  </div>
 					<!-- <img class="img-fluid" src="assets/img/morning coffee combo tarp 2018 (size 3).min.jpg"> -->
 					</div>
-					<p class="py-3">
+					<p class="about-p-text py-3">
 						Aside from producing breads that continue to satisfy the taste of the masses, Jelexie has been active in giving back to its community. It has partnered with several government sectors such as the Philippine Army and the Department of Education with its nutrition programs all around the province, and has been active in typhoon relief programs whenever the need arises. Jelexie is proud of where it is now, carrying on to serve as it always has. Its commitment continues in achieving its vision to become a national brand that will be endeared in households around the country. Standing by its corporate values, the company remains strong and energetic in fulfilling its founder’s legacy of a never-ending quest for excellence.
 					</p>
 				</div>
@@ -184,7 +190,6 @@
 <br>
 
 <?php include 'assets/includes/footer.html';?>
-</div>
 </div>
 
 <script src="assets/js/pace.js"></script>
