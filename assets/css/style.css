@@ -355,10 +355,27 @@ footer .footer{
 footer h1{
 	text-transform: uppercase;
 	color: #fbdd17;
-	font-size: 1.250em;
+	font-size: 1.600em; 
 }
 footer p{
-	font-size: 0.938em;
+	font-size: 1.250em;
+}
+footer .fa-4x{
+  font-size: 5.5em;
+}
+@media screen and (max-width: 500px){
+ footer h1{
+  font-size: 1.500em; 
+}
+footer p{
+  font-size: 1.250em;
+}
+footer .contact-info{
+  line-height: 2rem;
+}
+footer .fa-4x{
+  font-size: 5em;
+}
 }
 footer a{
 	color: #ffffff;

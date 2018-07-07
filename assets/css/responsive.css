@@ -6,6 +6,18 @@
 .branches-heading,.branch-text{
 	text-align: left;
 }
+footer h1{
+  font-size: 1.818em; 
+}
+footer p{
+  font-size: 1.375em;
+}
+footer .contact-info{
+  line-height: 2rem;
+}
+footer .fa-4x{
+  font-size: 6em;
+}
 }
 
 /* Smartphones (landscape) ----------- */
@@ -33,6 +45,18 @@
 .nav-link:hover{
 	width: 35%;
 	margin: auto;
+}
+footer h1{
+  font-size: 1.250em; 
+}
+footer p{
+  font-size: 0.938em;
+}
+footer .contact-info{
+  line-height: 2rem;
+}
+footer .fa-4x{
+  font-size: 5em;
 }
 }
 
@@ -103,14 +127,6 @@ footer .container-fluid{
  }
  footer .adjust{
 	padding-left: 5.5rem
-}
-footer h1{
-	text-transform: uppercase;
-	color: #fff500;
-	font-size: 1.500em;
-}
-footer p{
-	font-size: 1em;
 }
 }
 @media only screen and (min-width: 1300px) {

@@ -16,7 +16,6 @@
 </head>
 <body>
 
-<div id="main" class="main">
 <?php include 'assets/includes/navbar.html';?>
 
 
@@ -24,7 +23,6 @@
 
 
 <?php include 'assets/includes/footer.html';?>
-</div>
 
 <script src="assets/js/pace.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

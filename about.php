@@ -19,13 +19,7 @@
 
 <?php include 'assets/includes/navbar.html';?>
 <div class="bg-white">
-<div class="progress-progress progress-theme-blue">
-	<div class="progressjs-inner">
-		<div class="progressjs-percent">
-			1%
-		</div>
-	</div>
-</div>
+
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb container">
     <li class="breadcrumb-item"><a href="index.php">Home</a></li>
