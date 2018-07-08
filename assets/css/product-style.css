@@ -205,163 +205,37 @@ p{
     content: ">" !important;
 }*/
 
-/* ABOUT SECTION */
-.about-section{
-	z-index: 2;
-}
-#about-home h1{
-  font-family: 'Heavitas', Sans-serif;
-  font-weight: bold;
-  color: #b42927;
-}
-#about-home p{
-  font-family: 'Bago', Sans-serif;
-  font-size: 1.500em;
-}
-.about-heading, .about-description{
+/*PRODUCT PAGE*/
+#product-page{
+  margin-bottom: 3.5rem;
   opacity: 0;
 }
-.read-more a{
-	color: #000000;
-  outline: 2px solid #000000;
-  padding: 8px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+.product-pic{
+  -moz-box-shadow: 3px 3px 5px #c1cbce;
+  -webkit-box-shadow: 3px 3px 5px #c1cbce;
+  box-shadow: 3px 3px 5px #c1cbce;
 }
-.read-more a:hover{
-	text-decoration: none;
-  color: #ffffff;
-  outline: 2px solid #ffffff;
+.product-description{
   background-color: #b42927;
-}
-
-/*FB-PLUGIN*/
-.fb-page, 
-.fb-page span, 
-.fb-page span iframe[style] { 
-    width: 100% !important; 
-    margin: auto !important;
-}
-.fb-loading{
-  height: 75%;
-   background-image: url(../../assets/img/fb-loading.gif);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
-
-/*CAROUSEL*/
-.home-info .carousel{
-  background: linear-gradient(#fbdd17, #ffffff);
-}
-.carousel-indicators li{
-  background-color: rgba(0, 140, 255, 0.27)!important
-}
-.carousel-indicators .active {
-    background-color: #0093dd!important;
-}
-#carousel .carousel-inner{
-  height: 35em;
-}
-.carousel h1{
-  letter-spacing: 2px;
-  color: #b42927;
-}
-.carousel p{
-  font-weight: 500;
-  color: #000000;
-  font-size: 1em;
-  letter-spacing: 1px;
-}
-.carousel .btn-custom{
-  border: 1px solid #b42927;
-  padding: 10px;
-  color: #b42927;
-}
-.carousel .btn-custom:hover{
-  border: 1px solid #b42927;
-  background-color: #b42927;
-  padding: 10px;
   color: #ffffff;
-  text-decoration: none;
+  text-align: center;
+ /* border-top: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+  border-left:20px solid #ffffff;
+  border-right:20px solid #ffffff;*/
+  height: 100%;
+  width: 100%;
+  -moz-box-shadow: 3px 3px 5px #c1cbce;
+  -webkit-box-shadow: 3px 3px 5px #c1cbce;
+  box-shadow: 3px 3px 5px #c1cbce;
 }
-.employees{
-  background-image: url(../../assets/img/employees.min.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-size: 103%;
-  background-position: 50% 110%;
+.product-description h1{
+  color: #fbdd17;
 }
-.ads .carousel{
-  background: linear-gradient(#000000, #000000);
-}
-
-.carousel-fade .carousel-inner .item {
-  opacity: 0;
-  -webkit-transition-property: opacity;
-  -moz-transition-property: opacity;
-  -o-transition-property: opacity;
-  transition-property: opacity;
-}
-.carousel-fade .carousel-inner .active {
-  opacity: 1;
-}
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  left: 0;
-  opacity: 0;
-  z-index: 1;
-}
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
-  opacity: 1;
-}
-.carousel-fade .carousel-control {
-  z-index: 2;
+.product-description p{
+  font-size: 1.2rem;
 }
 
-
-/* ABOUT PAGE */
-#about-page{
-  font-family: 'Bago', Sans-serif;
-}
-#about-heading{
-  font-family: 'Heavitas', Sans-serif; 
-  color: #b42927 !important;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-}
-.about-p-text{
-  font-size: 1.125em;
-  text-align: justify;
-  text-indent: 50px;
-}
-.branches-heading{
- font-family: 'Heavitas', Sans-serif; 
-  color: #b42927 !important;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  text-align: right; 
-}
-.branch-text{
-  text-align: right;
-}
-#about-page .about-logo{
-  height: auto;
-  max-width: 80%;
-}
-.tagline{
-  font-family: "Bago", Sans-serif;
-}
-.breadcrumb,.aboutUs,.Jelexie,.ourProducts,.Branches,.thePeople,.theCommunity{
-  opacity: 0;
-}
-
-/*CONTACT PAGE*/
-#contact-page h3{
-  color: #b42927;
-}
 
 /* FOOTER */
 footer{

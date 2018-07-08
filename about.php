@@ -33,7 +33,7 @@
 			<div class="col-md-8 aboutUs">
 				<div class="row">
 					<div class="col-xl-12">
-						<h1 id="about-heading" class="aboutUs my-1 mb-2">About Us</h1>
+						<h1 id="about-heading" class="my-1 mb-2">About Us</h1>
 								<p class="about__us">
 									Behind our company’s success are different people united by the same vision — one summarized in ensuring total customer satisfaction.
 								</p>
@@ -95,7 +95,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row mt-4">
+		<div class="row my-4">
 			<div class="col-md-6 thePeople">
 				<div class="col px-0">
 					<h5 id="about-heading">The People</h5>
@@ -176,12 +176,6 @@
 		</div>
 	</div>
 </section>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 <?php include 'assets/includes/footer.html';?>
 </div>
@@ -192,6 +186,6 @@
 <script src="assets/js/wow.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/jquery.sticky.js"></script>
-  <script src="assets/js/about-script.js"></script>
+  <script src="assets/js/custom/about-script.js"></script>
 </body>
 </html>

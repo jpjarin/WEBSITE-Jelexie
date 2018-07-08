@@ -78,7 +78,7 @@
 				<h1 class="about-heading mt-0 pt-2" style="animation-delay: 0.2s;">ABOUT US</h1>
 				<p class="about-description" style="animation-delay: 0.3s;">
 					Behind our company’s success are different people united by the same vision — one summarized in ensuring total customer satisfaction.
-					<div class="hvr-icon-pulse-grow read-more float-right" style="animation-delay: 0.8s;"><a href="about.php" class="hvr-float-shadow">Read more <i class="hvr-icon fa fa-angle-double-right" style="position: relative; top: 0.5px;"></i></a></div>
+					<div class="wow bounceIn hvr-icon-pulse-grow read-more float-right" style="animation-delay: 0.8s;"><a href="about.php" class="hvr-float-shadow">Read more <i class="hvr-icon fa fa-angle-double-right" style="position: relative; top: 0.5px;"></i></a></div>
 				</p>
 			</div>
 			</div>
@@ -124,7 +124,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-6 px-2 mb-4"><div class="container-fluid mx-auto wow slideInUp" data-wow-delay="0.1s">
+				<div class="col-sm-6 px-2 mb-4"><div class="container-fluid fb-loading mx-auto wow slideInUp" data-wow-delay="0.1s">
 					<div class="fb-page" data-href="https://facebook.com/Jelexie-179456868470/" data-tabs="timeline, messages" data-width="500" data-small-header="true" data-adapt-container-width="true" data-hide-cta="false" data-height="560" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://facebook.com/Jelexie-179456868470/" class="fb-xfbml-parse-ignore"><a href="https://facebook.com/Jelexie-179456868470/">Jelexie</a></blockquote></div>
 					</div>
 				</div>
@@ -142,6 +142,6 @@
 <script src="assets/js/wow.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/jquery.sticky.js"></script>
-  <script src="assets/js/home-script.js"></script>
+  <script src="assets/js/custom/home-script.js"></script>
 </body>
 </html>
