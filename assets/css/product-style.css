@@ -54,7 +54,7 @@ body{
        url('../../assets/fonts/Heavitas/heavitas.ttf')  format('truetype'),
        url('../../assets/fonts/Heavitas/heavitas.svg') format('svg');
 }
-h1{
+h1,h2,h3,h4,h5{
 	font-family: 'Verdana', Inherit, Sans-serif;
   -webkit-transform: translateZ(0px);
 }
@@ -111,9 +111,9 @@ p{
 .navbar{
 	font-size: 1.500em;
 	font-family: 'Heavitas', Sans-serif;
-	font-weight: 700;
+	font-weight: lighter;
   text-transform: uppercase;
-	letter-spacing: 1.5px;
+	/*letter-spacing: 1.5px;*/
 	border-bottom: 4px solid #ffffff;/*#da251c;*/
 }
 @media screen and (max-width: 601px){
@@ -210,32 +210,74 @@ p{
   margin-bottom: 3.5rem;
   opacity: 0;
 }
+.categories{
+  text-transform: uppercase;
+  font-family: "Heavitas",Sans-serif;
+}
+.category{
+  cursor: pointer;
+  background-color: #fbdd17;
+  color: #000000;
+  padding: 0px 2px;
+  -webkit-transform: translateZ(0px);
+}
+.category h5{
+  font-size: 1.5rem;
+}
+/*.category h4:after{
+  content: '|';
+  color: #4a4a4a;
+  position: relative;
+  left: 10px;
+}*/
 .product-pic{
   -moz-box-shadow: 3px 3px 5px #c1cbce;
   -webkit-box-shadow: 3px 3px 5px #c1cbce;
   box-shadow: 3px 3px 5px #c1cbce;
 }
 .product-description{
-  background-color: #b42927;
   color: #ffffff;
-  text-align: center;
+  text-align: left;
  /* border-top: 5px solid #ffffff;
   border-bottom: 5px solid #ffffff;
   border-left:20px solid #ffffff;
   border-right:20px solid #ffffff;*/
-  height: 100%;
   width: 100%;
+  border-radius: 10px;
+}
+.drop-shadow{
   -moz-box-shadow: 3px 3px 5px #c1cbce;
   -webkit-box-shadow: 3px 3px 5px #c1cbce;
   box-shadow: 3px 3px 5px #c1cbce;
+  border-radius: 10px;
 }
-.product-description h1{
-  color: #fbdd17;
+.description{
 }
-.product-description p{
-  font-size: 1.2rem;
+.heading{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: 'Heavitas', Sans-serif;
+  color: #b42927;
+  padding: 1px 15px;
+  background-color: #fbdd17;
 }
-
+.paragraph{
+  background-color: #b42927;
+  font-family: 'Bago', Sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  padding: 20px 15px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.comment-section{
+  font-size: 1.2em;
+  font-family: inherit;
+  color: #000000;
+}
+.comment-section form textarea{
+  color: #000000;
+}
 
 /* FOOTER */
 footer{
@@ -251,7 +293,7 @@ footer h1{
 	font-size: 1.600em; 
 }
 footer p{
-	font-size: 1.250em;
+	font-size: 1.063em;
 }
 footer .fa-4x{
   font-size: 5.5em;

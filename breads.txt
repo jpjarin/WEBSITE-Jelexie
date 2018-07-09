@@ -1,0 +1,7 @@
+<div class="col-md-7 px-0 align-self-center">
+				
+				  <div class="product-image text-center"><img src="assets/img/products/pastries/WEBSITE_ASADO_BUN WITH NAME.jpg" class="img-fluid product-pic" style="width: 
+				  80%"></div>
+				
+			</div>
+		</div>

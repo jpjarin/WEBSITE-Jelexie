@@ -29,26 +29,51 @@
 
 <section id="product-page" class="container">
 	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-2">
+		<div class="categories row justify-content-center">
+				<div id="pastries" class="col-xs-4 m-1">
+					<div class="category rounded hvr-float-shadow">
+						<h4 class="p-2 mb-0">Pastries</h4>
+					</div>
+				</div>
+				<div class="col-xs-4 m-1">
+					<div id="breads" class="category rounded hvr-float-shadow">
+						<h4 class="p-2 mb-0">Breads</h4>
+					</div>
+				</div>
+				<div class="col-xs-4 m-1">
+					<div class="category rounded hvr-float-shadow">
+						<h5 class="p-2 mb-0">Refrigerated Cakes</h5>
+					</div>
+				</div>
+		</div>
+		<div id="product-view" class="row mt-4">
+			<div class="col-md-7 px-0 align-self-center">
 				
-			</div>
-			<div class="col-md-6 px-0">
-				<div class="d-flex flex-row">
 				  <div class="product-image text-center"><img src="assets/img/products/pastries/WEBSITE_ASADO_BUN WITH NAME.jpg" class="img-fluid product-pic" style="width: 
 				  80%"></div>
-				</div>
+				
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-5 px-0 py-3">
 				<div class="product-description">
-				  	<div class="description p-3">
-				  		<h1 class="mt-2">
-				  			Asado Buns
-				  		</h1>
-				  		<p>
-				  			A Light Brown bread bun filled with savory pork asado.
-				  		</p>
-				  	</div>		  	
+				  	<div class="description">
+				  		<div class="drop-shadow">
+				  		<div class="heading">
+				  			<h1 class="my-2">Asado Bun</h1>
+				  		</div>
+				  		<div class="paragraph">
+					  		<p>
+					  			A Light Brown bread bun filled with savory pork asado.
+					  		</p>
+				  		</div>
+				  		</div>
+				  		<div class="comment-section mt-4">
+				  			<form>
+				  				<label for="comment">Leave a comment:</label>
+				  				<textarea name="comment" id="comment" class="form-control" required="required" rows="5" cols="30" placeholder="Comment"></textarea>
+				  				<button type="submit" class="btn btn-primary" id="">SEND</button>
+				  			</form>
+				  		</div>
+				  	</div>	  	
 				  </div>
 			</div>
 		</div>
@@ -124,8 +149,8 @@
 <?php include 'assets/includes/footer.html';?>
 
 <script src="assets/js/pace.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.easing.min.js"></script>
 <script src="assets/js/jquery.flexslider.js"></script>
 <script src="assets/js/wow.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>

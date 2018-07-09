@@ -22,7 +22,7 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb container">
     <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">About Us</li>
+    <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
   </ol>
 </nav>
 
@@ -42,15 +42,15 @@
 							<div class="row">
 								<div class="form-group">
 									<label for="name">Name:</label>
-									<input type="text" class="form-control" id="name" placeholder="Enter name" required="required"/>
+									<input type="text" class="form-control" id="name" placeholder="Enter name" required="required" autocomplete="name" />
 								</div>
 								<div class="form-group">
 									<label for="email">Email:</label>
-									<input type="email" class="form-control" id="email" placeholder="Enter email" required="required"/>
+									<input type="email" class="form-control" id="email" placeholder="Enter email" required="required" autocomplete="email" />
 								</div>
 								<div class="form-group">
 										<label for="message">Message:</label>
-										<textarea name="message" id="message" class="form-control" rows="10" cols="30" required="required" placeholder="message"></textarea>
+										<textarea name="message" id="message" class="form-control" rows="10" cols="30" required="required" placeholder="Message"></textarea>
 								</div>
 								<div id="success"></div>
 								<button type="submit" class="btn btn-primary btn-block" id="">SEND MESSAGE</button>

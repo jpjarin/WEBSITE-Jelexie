@@ -111,9 +111,9 @@ p{
 .navbar{
 	font-size: 1.500em;
 	font-family: 'Heavitas', Sans-serif;
-	font-weight: 700;
+	font-weight: lighter;
   text-transform: uppercase;
-	letter-spacing: 1.5px;
+	/*letter-spacing: 1.5px;*/
 	border-bottom: 4px solid #ffffff;/*#da251c;*/
 }
 @media screen and (max-width: 601px){
@@ -377,7 +377,7 @@ footer h1{
 	font-size: 1.600em; 
 }
 footer p{
-	font-size: 1.250em;
+	font-size: 1.063em;
 }
 footer .fa-4x{
   font-size: 5.5em;

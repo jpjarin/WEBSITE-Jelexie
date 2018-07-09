@@ -6,17 +6,23 @@
 .branches-heading,.branch-text{
 	text-align: left;
 }
+.category h4{
+	font-size: 0.563em;
+}
+.category h5{
+	font-size: 0.563em;
+}
 footer h1{
-  font-size: 1.818em; 
+  font-size: 1.500em; 
 }
 footer p{
-  font-size: 1.375em;
+  font-size: 1.125em;
 }
 footer .contact-info{
   line-height: 2rem;
 }
 footer .fa-4x{
-  font-size: 6em;
+  font-size: 7em;
 }
 }
 
@@ -112,6 +118,9 @@ footer .adjust{
 }
 footer .adjust{
 	padding-left: 2em;
+}
+.product-description{
+	width: 80%;
 }
 }
 @media only screen  and (min-width : 1224px) {
