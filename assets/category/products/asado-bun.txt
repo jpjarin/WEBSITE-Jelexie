@@ -1,7 +1,7 @@
 
 			<div class="col-md-7 px-0 align-self-center">
-				<div class="product-image text-center animated fadeIn">
-					<img src="assets/img/products/pastries/WEBSITE_BROWNIES_MINI WITH NAME.jpg" class="img-fluid product-pic" style="width: 
+				<div class="product-image text-center mb-3 animated fadeIn">
+					<img src="assets/img/products/pastries/WEBSITE_ASADO_BUN WITH NAME.jpg" class="img-fluid product-pic" style="width: 
 					  80%">
 				</div>
 			</div>
@@ -10,10 +10,10 @@
 					<div class="description animated fadeIn">
 						<div class="drop-shadow">
 							<div class="heading">
-								<h1 class="my-2">Brownies Mini</h1>
+								<h1 class="my-2">Asado Bun</h1>
 							</div>
 							<div class="paragraph">
-								<p>Rich and thick chocolate bar topped with toasted crushed peanuts.</p>
+								<p>A Light Brown bread bun filled with savory pork asado.</p>
 							</div>
 						</div>
 						<div class="comment-section mt-4">

@@ -1,7 +1,7 @@
 
 			<div class="col-md-7 px-0 align-self-center">
-				<div class="product-image text-center animated fadeIn">
-					<img src="assets/img/products/pastries/WEBSITE_BANANA_BAR WITH NAME.jpg" class="img-fluid product-pic" style="width: 
+				<div class="product-image text-center mb-3 animated fadeIn">
+					<img src="assets/img/products/pastries/WEBSITE_BROWNIES_MINI WITH NAME.jpg" class="img-fluid product-pic" style="width: 
 					  80%">
 				</div>
 			</div>
@@ -10,16 +10,16 @@
 					<div class="description animated fadeIn">
 						<div class="drop-shadow">
 							<div class="heading">
-								<h1 class="my-2">Banana Bar</h1>
+								<h1 class="my-2">Brownies Mini</h1>
 							</div>
 							<div class="paragraph">
-								<p>A Moist cake slice made with fresh bananas.</p>
+								<p>Rich and thick chocolate bar topped with toasted crushed peanuts.</p>
 							</div>
 						</div>
 						<div class="comment-section mt-4">
 							<form id="comment-form">
 								<label for="comment">Leave a comment:</label>
-								<textarea name="comment" id="comment" class="form-control" required="required" rows="5" cols="30" placeholder="Comment">Banana Bar: </textarea>
+								<textarea name="comment" id="comment" class="form-control" required="required" rows="5" cols="30" placeholder="Comment">Brownies Mini: </textarea>
 								<button type="submit" class="btn btn-primary mt-2 animated bounceIn" style="animation-delay: 0.5s;" id="">SEND</button>
 							</form>
 						</div>

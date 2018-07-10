@@ -52,7 +52,7 @@ new WOW().init();
 
 });
 
-$(document).ready(function(){
+   $(document).ready(function(){
    // your on click function here
    $('#products-list a').click(function(){
        $('#product-view').load($(this).attr('href'));
@@ -66,12 +66,13 @@ $(document).ready(function(){
     animation: "slide",
     animationLoop: true,
     controlNav: false,
+    keyboard: false,
     itemWidth: 210,
     itemMargin: 5,
     minItems: 2,
     maxItems: 4,
     easing: "swing",
-    slideshowSpeed: 15000,
+    slideshowSpeed: 1500000,
     animationSpeed: 1500,
     touch: true
   });

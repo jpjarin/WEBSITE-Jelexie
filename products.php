@@ -56,9 +56,10 @@
 				</div>
 		</div>
 	<section id="category-view">
+		<h1>Pastries</h1>
 		<div id="product-view" class="row mt-4">
 			<div class="col-md-7 px-0 align-self-center">
-				<div class="product-image text-center">
+				<div class="product-image text-center mb-3">
 					<img src="assets/img/products/pastries/WEBSITE_ASADO_BUN WITH NAME.jpg" class="img-fluid product-pic" style="width: 
 					  80%">
 				</div>
@@ -85,18 +86,18 @@
 				</div>
 			</div>
 		</div>
-		<div id="products-list" class="row mt-4">
-
+		<div id="products-list" class="row mt-2">
+		<h1 class="mt-2 mb-2">Other Pastries:</h1>
 			<div class="container">
 				<div class="flexslider carousel">
 					<ul class="slides">
-						<li><a href="http://localhost/WEBSITE-Jelexie/assets/category/products/asado-bun.html">
+						<li><a href="assets/category/products/asado-bun.txt">
 							<img src="assets/img/products/pastries/WEBSITE_ASADO_BUN WITH NAME.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="http://localhost/WEBSITE-Jelexie/assets/category/products/banana-bar.html">
+						<li><a href="assets/category/products/banana-bar.txt">
 							<img src="assets/img/products/pastries/WEBSITE_BANANA_BAR WITH NAME.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="http://localhost/WEBSITE-Jelexie/assets/category/products/brownies-mini.html">
+						<li><a href="assets/category/products/brownies-mini.txt">
 							<img src="assets/img/products/pastries/WEBSITE_BROWNIES_MINI WITH NAME.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
 						<li>
@@ -148,7 +149,7 @@
 					</ul>
 				</div>
 			</div>
-			
+
 		</div>
 	</section>
 </section>

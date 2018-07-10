@@ -193,6 +193,7 @@ p{
   font-family: inherit, Sans-serif;
   font-weight: 600;
   text-transform: uppercase;
+  opacity: 0;
 }
 .breadcrumb .breadcrumb-item a{
   color: #b42927;
@@ -248,6 +249,10 @@ p{
   position: relative;
   left: 10px;
 }*/
+#category-view h1{
+  font-family: 'Heavitas', Sans-serif;
+  color: #000000;
+}
 .product-pic{
   -moz-box-shadow: 3px 3px 5px #c1cbce;
   -webkit-box-shadow: 3px 3px 5px #c1cbce;
