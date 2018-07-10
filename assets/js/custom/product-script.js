@@ -18,8 +18,14 @@ new WOW().init();
   //      $('#product-page').addClass('animated fadeIn');
   // });
 
+  $(document).ready(function(){
+
+    $('#category-view').load("assets/category/pastries.txt")
+    return false;
+
+  });
+
    $(document).ready(function() { 
-    
 
   $('#pastries').click(function() {
           $('#category-view').load("assets/category/pastries.txt");

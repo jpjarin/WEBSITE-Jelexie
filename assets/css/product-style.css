@@ -308,7 +308,17 @@ form#comment-form button:focus {
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
   box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
   background: #fff;
-  border-color: #2196f3
+  border-color: #2196f3;
+}
+form .form-control[readonly]:focus {
+  -webkit-box-shadow: 0 1px 2px #fff !important;
+  box-shadow: 0 1px 2px #fff !important;
+  background: #fff !important;
+  border:1px solid #ced4da !important;
+  background-color: #e9ecef !important;
+}
+form .form-control:disabled, .form-control[readonly] {
+    margin-bottom: 5px !important;
 }
 /* FOOTER */
 footer{

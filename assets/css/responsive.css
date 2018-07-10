@@ -7,10 +7,10 @@
 	text-align: left;
 }
 .category h4{
-	font-size: 0.563em;
+	font-size: 7vw;
 }
 .category h5{
-	font-size: 0.563em;
+	font-size: 6vw;
 }
 footer h1{
   font-size: 1.500em; 
@@ -51,6 +51,9 @@ footer .fa-4x{
 .nav-link:hover{
 	width: 35%;
 	margin: auto;
+}
+.dropdown .menu-dropdown {
+    font-size: 1.8rem;
 }
 footer h1{
   font-size: 1.250em; 

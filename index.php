@@ -55,7 +55,7 @@
 	<div id="ads" class="carousel slide" data-ride="carousel">
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
-	      <img class="img-fluid d-block w-100" src="assets/img/ads/morning coffee combo tarp 2018 (size 3).min.jpg">
+	      <img class="img-fluid d-block w-100" src="assets/img/ads/morning-coffee-combo-tarp-2018-(size-3).jpg">
 	    </div>
 	    <div class="carousel-item">
 	      <img class="img-fluid d-block w-100" src="assets/img/ads/butter just got better website.jpg">

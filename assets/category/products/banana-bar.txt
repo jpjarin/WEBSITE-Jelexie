@@ -19,7 +19,8 @@
 						<div class="comment-section mt-4">
 							<form id="comment-form">
 								<label for="comment">Leave a comment:</label>
-								<textarea name="comment" id="comment" class="form-control" required="required" rows="5" cols="30" placeholder="Comment">Banana Bar: </textarea>
+								<textarea name="product-name" id="product-name" class="form-control" readonly="readonly" rows="1">Product Name: Banana Bar</textarea>
+								<textarea name="comment" id="comment" class="form-control" required="required" rows="5" cols="30" placeholder="Comment"></textarea>
 								<button type="submit" class="btn btn-primary mt-2 animated bounceIn" style="animation-delay: 0.5s;" id="">SEND</button>
 							</form>
 						</div>
