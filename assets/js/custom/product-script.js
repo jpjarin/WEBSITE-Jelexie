@@ -20,7 +20,7 @@ new WOW().init();
 
   $(document).ready(function(){
 
-    $('#category-view').load("assets/category/pastries.txt")
+    $('#category-view').load("assets/category/pastries.txt");
     return false;
 
   });
