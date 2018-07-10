@@ -18,9 +18,21 @@ new WOW().init();
   //      $('#product-page').addClass('animated fadeIn');
   // });
 
-  
-    $('#breads').click(function() {
-        $('#product-view').load("assets/category/breads.html");
+   $(document).ready(function() { 
+    
+
+  $('#pastries').click(function() {
+          $('#category-view').load("assets/category/pastries.txt");
+          // it's important to return false from the click
+          // handler in order to cancel the default action
+          // of the link which is to redirect to the url and
+          // execute the AJAX request
+          return false;
+      });
+
+
+     $('#breads').click(function() {
+        $('#category-view').load("assets/category/breads.html");
 
         // it's important to return false from the click
         // handler in order to cancel the default action
@@ -28,18 +40,25 @@ new WOW().init();
         // execute the AJAX request
         return false;
     });
-  
 
- 
-    $('#pastries').click(function() {
-        $('#product-view').load("assets/category/pastries.html");
+    $('#ref-cakes').click(function() {
+          $('#category-view').load("assets/category/ref-cakes.html");
+          // it's important to return false from the click
+          // handler in order to cancel the default action
+          // of the link which is to redirect to the url and
+          // execute the AJAX request
+          return false;
+      });
 
-        // it's important to return false from the click
-        // handler in order to cancel the default action
-        // of the link which is to redirect to the url and
-        // execute the AJAX request
-        return false;
-    });
+});
+
+$(document).ready(function(){
+   // your on click function here
+   $('#products-list a').click(function(){
+       $('#product-view').load($(this).attr('href'));
+       return false;
+   });
+});
 
 
   $(document).ready(function(){

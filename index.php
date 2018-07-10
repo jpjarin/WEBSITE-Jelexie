@@ -1,3 +1,9 @@
+<!-- 
+* Jelexie Bakeshop (http://www.jelexie.com/)
+* Copyright 2018 JVP Breadking Food Corporation
+* Licensed Under MIT (http://www.jelexie.com/LICENSE)
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,6 +19,9 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/hover.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+	<noscript>
+		<meta http-equiv="refresh" content="0;url=noscript.html">
+	</noscript>
 </head>
 <body>
 
