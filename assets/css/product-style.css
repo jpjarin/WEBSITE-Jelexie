@@ -77,6 +77,9 @@ p{
 .bg-gray{
 	background-color: #fafafa;
 }
+.bg-white{
+  min-height: 100%;
+}
 
 
 /*PACE.js*/
@@ -208,7 +211,7 @@ p{
 
 /*PRODUCT PAGE*/
 #product-page{
-  margin-bottom: 3.5rem;
+  min-height: 100%;
   opacity: 0;
 }
 .categories{
@@ -249,6 +252,9 @@ p{
   position: relative;
   left: 10px;
 }*/
+#category-view{
+  min-height: 130vh;
+}
 #category-view h1{
   font-family: 'Heavitas', Sans-serif;
   color: #000000;
