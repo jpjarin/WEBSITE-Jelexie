@@ -39,7 +39,7 @@
 	<div class="load">
 		<div class="loader">
 			<div class="jelexie-loading">
-				<img src="assets/img/logo-min.png" class="img-fluid">
+				<img src="assets/img/logo-loader.png" class="img-fluid">
 			</div>
 			<p class="loading">
 				<!-- Loading -->&nbsp;<span>.</span><span>.</span><span>.</span>

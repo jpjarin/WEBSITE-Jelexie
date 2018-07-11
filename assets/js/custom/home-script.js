@@ -14,15 +14,17 @@ if (Cookies.get('noPreloader') === 'true') {
 	});
     } 
     else  {
-      $(window).on('load', function() {
+      $(window).on('DOMContentLoaded', function() {
           Cookies.set('noPreloader', 'true', {expires: 3}); // 1 day cookie
         // Animate loader off screen
-        $(window).on('DOMContentLoaded', function() {
-		    var Body = $('body,html');
-		    Body.css({"overflow":"hidden"});
-		});
+		var Body = $('body,html');
+		Body.css({"overflow":"hidden"});
+
+		
+		$(window).on('load', function() {
 		    $('.preloader').fadeOut();
-			$(document).ready(function() {
+		});
+		$(document).ready(function() {
 			    $('.about-heading,.about-description').css({"opacity":"100"});
 			    $('.about-heading,.about-description').addClass('animated fadeIn');
 			   

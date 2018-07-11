@@ -50,7 +50,7 @@
 								<label for="comment">Leave a comment:</label>
 								<textarea name="product-name" id="product-name" class="form-control" readonly="readonly" rows="1">Product Name: Asado Bun</textarea>
 								<textarea name="comment" id="comment" class="form-control" required="required" rows="5" cols="30" placeholder="Your comment here"></textarea>
-								<button type="submit" class="btn btn-primary mt-2 animated bounceIn" style="animation-delay: 0.5s;" id="">SEND</button>
+								<button type="submit" class="btn btn-primary mt-2 animated bounceIn" style="animation-delay: 0.5s;" id="sendCommentBtn">SEND</button><div id="success" class="form-group"></div>
 							</form>
 						</div>
 					</div>
@@ -122,3 +122,6 @@
 			</div>
 
 		</div>
+
+<script src="assets/js/jqBootstrapValidation.min.js"></script>
+ <script src="assets/js/comment.js"></script>

@@ -72,6 +72,8 @@
 <script src="assets/js/wow.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/jquery.sticky.js"></script>
+  <script src="assets/js/jqBootstrapValidation.min.js"></script>
   <script src="assets/js/custom/product-script.js"></script>
+  <script src="assets/js/comment.js"></script>
 </body>
 </html>

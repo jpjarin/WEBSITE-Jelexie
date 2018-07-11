@@ -326,6 +326,25 @@ form .form-control[readonly]:focus {
 form .form-control:disabled, .form-control[readonly] {
     margin-bottom: 5px !important;
 }
+form#comment-form textarea {resize: none;}
+.alert {
+    margin: auto;
+    display: block;
+    bottom: 130px;
+   /* left: 8%;*/
+    width: 273px;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    z-index: 500;
+}
+#success{
+  position: absolute;
+}
+
+
 /* FOOTER */
 footer{
 	font-family: 'Verdana', Roboto, Sans-serif;

@@ -211,7 +211,7 @@ p{
 }
 #about-home h1{
   font-family: 'Heavitas', Sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   color: #b42927;
 }
 #about-home p{
@@ -244,10 +244,11 @@ p{
     margin: auto !important;
 }
 .fb-loading{
-  height: 75%;
+  height: 100%;
    background-image: url(../../assets/img/fb-loading.gif);
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 30%;
+/*    background-color: #dfdfdf;*/
 }
 
 
@@ -319,6 +320,9 @@ p{
 }
 .carousel-fade .carousel-control {
   z-index: 2;
+}
+#ads img.img-fluid{
+  background-color: #fafafa;
 }
 
 
