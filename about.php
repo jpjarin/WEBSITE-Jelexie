@@ -42,7 +42,7 @@
 								</p>
 					</div>
 					<div class="col-md-6 mb-3">
-						<div class="container-fluid" style="border: 1px solid #000000; height: 95%; margin-top: 5px;"></div>
+						<div class="container-fluid"><img class="img-fluid w-100" src="http://via.placeholder.com/2x2"></div>
 					</div>
 					<div class="col-md-6">
 						<h5 id="about-heading">The Company</h5>
@@ -59,12 +59,12 @@
 			</div>
 			<div class="col-md-4 Jelexie">
 				<div class="row">
-					<div class="col text-center pt-2">
+					<div class="col text-center pt-3">
 						<img class="about-logo img-fluid pb-3" src="assets/img/logo-min.png">
 						<p class="text-center">
 							<strong class="tagline">“ Ang Sarap Kasama Sa Bawat Okasyon! ”
 								<br>(“Great To Have In Every Occasion”)</strong>
-							<p style="font-size: 1.188em;">Upholds Jelexie’s mission to become a customer-driven and family-oriented corporation. It continues to produce freshly baked breads and cakes, giving customers the best value for their money.</p>
+							<p class="about__jelexie">Upholds Jelexie’s mission to become a customer-driven and family-oriented corporation. It continues to produce freshly baked breads and cakes, giving customers the best value for their money.</p>
 						</p>
 					</div>
 				</div>

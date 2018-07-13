@@ -7,10 +7,10 @@
 	text-align: left;
 }
 .category h4{
-	font-size: 7vw;
+	font-size: 4.5vw;
 }
 .category h5{
-	font-size: 6vw;
+	font-size: 4.5vw;
 }
 footer h1{
   font-size: 1.500em; 
@@ -55,6 +55,15 @@ footer .fa-4x{
 .dropdown .menu-dropdown {
     font-size: 1.8rem;
 }
+.about-p-text {
+	font-size: 13px;
+}
+h5#about-heading{
+	font-size: 15px;
+}
+h5#branches-heading{
+	font-size: 15px;
+}
 footer h1{
   font-size: 1.250em; 
 }
@@ -97,6 +106,12 @@ iPad 3
 }
 }
 @media only screen and (max-width: 1024px){
+.about__us {
+    font-size: 1em;
+}
+.about__jelexie{
+  font-size: 1.4em;
+}
 footer .adjust{
 	padding-left: 5.5em
 }
@@ -116,6 +131,9 @@ footer .adjust{
 .navbar {
     font-size: 1.125em;
 }
+.about-wrapper{
+  padding: 15px 25px 20px 25px;
+}
 .employees{
 	background-position: 50% 125%;
 }
@@ -124,6 +142,9 @@ footer .adjust{
 }
 .product-description{
 	width: 80%;
+}
+.about__us {
+    font-size: 1.3em;
 }
 }
 @media only screen  and (min-width : 1224px) {
@@ -161,6 +182,15 @@ footer .adjust{
   background-repeat: no-repeat;
   background-size: 103%;
   background-position: 50% 125%;
+}
+.about-p-text{
+  font-size: 1.313em;
+  text-align: justify;
+  text-indent: 50px;
+}
+.about__jelexie{
+  font-size: 1.438em;
+}
 }
 }
 @media only screen  and (min-width : 1800px) {

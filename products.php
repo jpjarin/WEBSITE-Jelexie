@@ -25,7 +25,6 @@
 	</noscript>
 </head>
 <body>
-
 <?php include 'assets/includes/navbar.html';?>
 <div class="bg-white">
 
@@ -51,7 +50,7 @@
 				</div>
 				<div class="col-xs-4 m-1">
 					<div id="ref-cakes" class="category rounded hvr-bob">
-						<h5 class="p-2 mb-0">Refrigerated Cakes</h5>
+						<h5 class="p-2 mb-0">Cakes</h5>
 					</div>
 				</div>
 		</div>
@@ -65,15 +64,16 @@
 
 <?php include 'assets/includes/footer.html';?>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="assets/js/pace.js"></script>
-<script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/jquery.easing.min.js"></script>
 <script src="assets/js/jquery.flexslider.js"></script>
 <script src="assets/js/wow.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/jquery.sticky.js"></script>
-  <script src="assets/js/jqBootstrapValidation.min.js"></script>
-  <script src="assets/js/custom/product-script.js"></script>
-  <script src="assets/js/comment.js"></script>
+ <script src="assets/js/bootstrap.min.js"></script>
+ <script src="assets/js/jquery.sticky.js"></script>
+ <script src="assets/js/jqBootstrapValidation.min.js"></script>
+ <script src="assets/js/custom/product-script.js"></script>
+ <script src="assets/js/comment.js"></script>
 </body>
 </html>

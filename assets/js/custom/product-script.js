@@ -5,7 +5,7 @@ new WOW().init();
     $("#navbar").sticky({topSpacing:0,zIndex:999});
   });
 
-  $(document).ready(function() {
+  $(window).on('load',function() {
 	    $('.breadcrumb').css({"opacity":"100"});
       $('#product-page').css({'opacity':'100','animation-delay':'0.4s'});
 	    $('.breadcrumb').addClass('animated fadeIn');
@@ -19,21 +19,18 @@ new WOW().init();
   // });
 
   $(document).ready(function(){
-
-    $('#category-view').load("assets/category/pastries.txt");
-    return false;
-
+     $('#category-view').load("assets/category/pastries.html");
   });
 
    $(document).ready(function() { 
 
   $('#pastries').click(function() {
-          $('#category-view').load("assets/category/pastries.txt");
+          $('#category-view').load("assets/category/pastries.html");
           // it's important to return false from the click
           // handler in order to cancel the default action
           // of the link which is to redirect to the url and
           // execute the AJAX request
-          return false;
+          event.preventDefault();
       });
 
 
@@ -44,7 +41,7 @@ new WOW().init();
         // handler in order to cancel the default action
         // of the link which is to redirect to the url and
         // execute the AJAX request
-        return false;
+        event.preventDefault();
     });
 
     $('#ref-cakes').click(function() {
@@ -53,22 +50,22 @@ new WOW().init();
           // handler in order to cancel the default action
           // of the link which is to redirect to the url and
           // execute the AJAX request
-          return false;
+          event.preventDefault();
       });
 
 });
 
    $(document).ready(function(){
    // your on click function here
-   $('#products-list a').click(function(){
+   $('#products-list .flex-viewport a').click(function(){
        $('#product-view').load($(this).attr('href'));
-       return false;
    });
+   return false;
 });
 
    //jQuery for page scrolling feature - requires jQuery Easing plugin
   $(function() {
-    $('#products-list a').bind('click', function(event) {
+    $('#products-list .flex-viewport a').on('click', function(event) {
       var $anchor = $(this);
       $('html, body').stop().animate({
         scrollTop: $($anchor.attr('href')).offset().top

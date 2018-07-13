@@ -80,25 +80,27 @@
 </section>
 
 <section id="about" class="about-section pt-4 bg-white">
-	<div id="about-home" class="container pb-2 mb-5">
+	<div id="about-home" class="container pb-2 mb-4">
+		<div class="about-wrapper">
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-md-8 mb-4">
 				<div class="about-content">
 				<h1 class="about-heading mt-0 pt-2" style="animation-delay: 0.2s;">ABOUT US</h1>
-				<p class="about-description" style="animation-delay: 0.3s;">
+				<p class="about-description mb-2" style="animation-delay: 0.3s;">
 					Behind our company’s success are different people united by the same vision — one summarized in ensuring total customer satisfaction.
 					<div class="wow bounceIn hvr-icon-pulse-grow read-more float-right" style="animation-delay: 0.8s;"><a href="about.php" class="hvr-float-shadow">Read more <i class="hvr-icon fa fa-angle-double-right" style="position: relative; top: 0.5px;"></i></a></div>
 				</p>
 			</div>
 			</div>
 
-			<div class="col-md-4 mt-3 text-center">
-				<div class="container-fluid" style="border: 1px solid #000000; padding: 100px;">
-					
+			<div class="col-md-4">
+				<div class="container-fluid">
+					<img class="img-fluid w-100" src="http://via.placeholder.com/1x1">
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 
 	<div id="carousel-section" class="mt-2 pt-2 px-2 pb-3 bg-gray">
 		<div class="container pl-2 mt-2">
