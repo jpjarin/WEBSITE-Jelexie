@@ -66,6 +66,7 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- <script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script> -->
 <script src="assets/js/pace.js"></script>
 <script src="assets/js/jquery.easing.min.js"></script>
 <script src="assets/js/jquery.flexslider.js"></script>

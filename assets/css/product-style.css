@@ -252,7 +252,7 @@ p{
   left: 10px;
 }*/
 #category-view{
-  min-height: 100%;
+  min-height: 50vh;
 }
 #category-view h1{
   font-family: 'Heavitas', Sans-serif;

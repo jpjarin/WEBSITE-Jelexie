@@ -55,24 +55,24 @@ new WOW().init();
 
 });
 
-   $(document).ready(function(){
-   // your on click function here
-   $('#products-list .flex-viewport a').click(function(){
-       $('#product-view').load($(this).attr('href'));
-   });
-   return false;
-});
+ // $(document).ready(function(){
+ //       // your on click function here
+ //       $('#products-list .flex-viewport a').on('click tap',function(){
+ //           $('#product-view').load($(this).attr('href'));
+ //       });
+ //       return false;
+ //    });
 
    //jQuery for page scrolling feature - requires jQuery Easing plugin
-  $(function() {
-    $('#products-list .flex-viewport a').on('click', function(event) {
-      var $anchor = $(this);
-      $('html, body').stop().animate({
-        scrollTop: $($anchor.attr('href')).offset().top
-      }, 1500, 'easeInOutExpo');
-      event.preventDefault();
-    });
-  });
+  // $(function() {
+  //   $('#products-list .flex-viewport a').on('click', function(event) {
+  //     var $anchor = $(this);
+  //     $('html, body').stop().animate({
+  //       scrollTop: $($anchor.attr('href')).offset().top
+  //     }, 1500, 'easeInOutExpo');
+  //     event.preventDefault();
+  //   });
+  // });
 
 
   $(document).ready(function(){

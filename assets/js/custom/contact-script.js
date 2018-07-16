@@ -7,7 +7,7 @@ new WOW().init();
 
   $(document).ready(function() {
 	    $('.breadcrumb').css({"opacity":"100"});
-      $('#product-page').css({'opacity':'100','animation-delay':'0.4s'});
+      $('#contact-page').css({'opacity':'100','animation-delay':'0.3s'});
 	    $('.breadcrumb').addClass('animated fadeIn');
-       $('#product-page').addClass('animated fadeIn');
+       $('#contact-page').addClass('animated fadeIn');
 	});

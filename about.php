@@ -32,7 +32,7 @@
 
 <section id="about-page" class="about-us">
 	<div class="container">
-		<div class="row">
+		<div class="row mb-2">
 			<div class="col-md-8 aboutUs">
 				<div class="row">
 					<div class="col-xl-12">
@@ -41,7 +41,7 @@
 									Behind our company’s success are different people united by the same vision — one summarized in ensuring total customer satisfaction.
 								</p>
 					</div>
-					<div class="col-md-6 mb-3">
+					<div class="col-md-6 mb-3 align-self-center">
 						<div class="container-fluid"><img class="img-fluid w-100" src="http://via.placeholder.com/2x2"></div>
 					</div>
 					<div class="col-md-6">

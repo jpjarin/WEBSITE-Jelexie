@@ -32,13 +32,16 @@
 <section id="contact-page" class="container mt-4 mb-5">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-12 mb-3">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-12 px-0">
-							<iframe class="map" src="https://www.google.com/maps/d/embed?mid=1zf9_9NNgaN65C1c28SttEQH91vhefepd&hl=en" style="border:0"></iframe>
+						<!-- <div class="col-12">
+							<h3 class="my-3 branch-heading">Our Branches</h3>
+						</div> -->
+						<div class="col-md-8 px-0">
+							<iframe class="map" src="https://www.google.com/maps/d/u/0/embed?mid=1egCvQGSgUMwWA1Yks1dsmBoQPYswrj5U" style="border:0"></iframe>
 						</div>
-						<div class="col-12 px-0">
+						<div class="col-md-4 px-0">
 							<div class="branch-locations">
  								<ul class="list-group list-group-flush">
  									<li class="list-group-item">
@@ -59,7 +62,8 @@
  									</li>
  									<li class="list-group-item">
  										<h1>LUISITA</h1>
- 										<h6>Mc Arthur High Way, San Miguel Tarlac
+ 										<h6>Mc Arthur High Way,<br>
+ 										San Miguel Tarlac
  										<br>0998-842-5937</h6>
  									</li>
  									<li class="list-group-item">
@@ -84,29 +88,39 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-12">
 				<div class="contact-us">
 					<div class="form">
-						<div class="contact-heading text-center">
+						<div class="contact-heading text-left">
 						<h3 class="mt-2">SEND US A MESSAGE</h3>
-						<small>"Say your words."</small>
+						<small style="font-size: 100%;">Feel free to send us your comments and suggestions.</small>
 						</div>
 						<form name="" id="contact-form">
 							<div class="row">
-								<div class="form-group w-100">
-									<label for="name">Name:</label>
-									<input type="text" class="form-control" id="name" placeholder="Your name" required="required" autocomplete="name" />
+								<div class="col-md-6">
+									<div class="form-group w-100">
+										<label for="name">Name:</label>
+										<input type="text" class="form-control" id="name" placeholder="Your name" required="required" autocomplete="name" />
+									</div>
+									<div class="form-group w-100">
+										<label for="email">Email:</label>
+										<input type="email" class="form-control" id="email" placeholder="Your email" required="required" autocomplete="email" />
+									</div>
+									<div class="form-group w-100">
+										<label for="subject">Subject:</label>
+										<input type="text" class="form-control" id="subject" placeholder="Subject" required="required" autocomplete="text" />
+									</div>
 								</div>
-								<div class="form-group w-100">
-									<label for="email">Email:</label>
-									<input type="email" class="form-control" id="email" placeholder="Your email" required="required" autocomplete="email" />
-								</div>
-								<div class="form-group w-100">
-										<label for="message">Message:</label>
-										<textarea name="message" id="message" class="form-control" rows="10" cols="30" required="required" placeholder="Your message"></textarea>
-								</div>
-								<div id="success"></div>
-								<button type="submit" class="btn btn-primary" id="sendMessageBtn">SEND</button>
+								<div class="col-md-6">
+									<div class="form-group w-100">
+											<label for="message">Message:</label>
+											<textarea name="message" id="message" class="form-control" rows="9" cols="30" required="required" placeholder="Your message"></textarea>
+									</div>
+									</div>
+									<div class="container-fluid d-flex justify-content-center">
+										<div id="success"></div>
+									<button type="submit" class="btn btn-primary" id="sendMessageBtn">SEND MESSAGE</button>
+									</div>
 								</div>
 							</div>
 						</form>

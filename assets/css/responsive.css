@@ -56,13 +56,20 @@ footer .fa-4x{
     font-size: 1.8rem;
 }
 .about-p-text {
-	font-size: 13px;
+	font-size: 15px;
+}
+.about__jelexie {
+    font-size: 1.125em;
+}
+.branches-heading {
+ font-size: 15px;
 }
 h5#about-heading{
 	font-size: 15px;
 }
 h5#branches-heading{
 	font-size: 15px;
+}
 }
 footer h1{
   font-size: 1.250em; 
@@ -105,7 +112,7 @@ iPad 3
 	padding-left: 3.5rem
 }
 }
-@media only screen and (max-width: 1024px){
+@media only screen (min-device-width : 801px) and (max-width: 1024px){
 .about__us {
     font-size: 1em;
 }
@@ -132,13 +139,13 @@ footer .adjust{
     font-size: 1.125em;
 }
 .about-wrapper{
-  padding: 15px 25px 20px 25px;
+  padding: 15px 25px 20px 35px;
 }
 .employees{
 	background-position: 50% 125%;
 }
 footer .adjust{
-	padding-left: 2em;
+	padding-left: 3em;
 }
 .product-description{
 	width: 80%;
@@ -160,6 +167,12 @@ footer .container-fluid{
  }
  footer .adjust{
 	padding-left: 5.5rem
+}
+footer h1{
+  font-size: 1.5em; 
+}
+footer p{
+  font-size: 1.250em;
 }
 }
 @media only screen and (min-width: 1300px) {

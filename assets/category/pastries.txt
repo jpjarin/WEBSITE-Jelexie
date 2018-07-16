@@ -22,7 +22,6 @@
 				    top: 160,
 				    behavior: "smooth"
 				});
-		       return false;
 		   });
 		});
 </script>

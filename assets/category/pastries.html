@@ -16,13 +16,15 @@
 
 		$(document).ready(function(){
 		   // your on click function here
-		   $('#products-list .flex-viewport a').click(function(){
+		   $('#products-list .flex-viewport a').click(function(event){
 		       $('#product-view').load($(this).attr('href'));
 		       window.scrollTo({
 				    top: 160,
 				    behavior: "smooth"
 				});
-		       return false;
+		       event.preventDefault();
+		       event.stopPropagation();
+		       // return false;
 		   });
 		});
 </script>
