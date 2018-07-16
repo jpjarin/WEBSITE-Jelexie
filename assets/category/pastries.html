@@ -17,13 +17,13 @@
 		$(document).ready(function(){
 		   // your on click function here
 		   $('#products-list .flex-viewport a').click(function(event){
+		       event.preventDefault();
+		       event.stopPropagation();
 		       $('#product-view').load($(this).attr('href'));
 		       window.scrollTo({
 				    top: 160,
 				    behavior: "smooth"
 				});
-		       event.preventDefault();
-		       event.stopPropagation();
 		       // return false;
 		   });
 		});
@@ -125,5 +125,5 @@
 
 		</div>
 
-<!-- <script src="assets/js/jqBootstrapValidation.min.js"></script>
- <script src="assets/js/comment.js"></script> -->
+<script src="assets/js/jqBootstrapValidation.min.js"></script>
+<script src="assets/js/comment.js"></script>

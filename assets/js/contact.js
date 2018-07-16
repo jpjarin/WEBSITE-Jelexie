@@ -1,6 +1,6 @@
 $(function() {
 
-  $("#comment-form textarea").jqBootstrapValidation({
+  $("#contact-form input,#contact-form textarea").jqBootstrapValidation({
     preventSubmit: true,
     submitError: function($form, event, errors) {
       // additional error messages or events
@@ -8,17 +8,24 @@ $(function() {
     submitSuccess: function($form, event) {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
-      var productName = $("textarea #product-name").val();
-      var comment = $("textarea #comment").val();
-  
-      $this = $("#sendCommentBtn");
+      var name = $("input#name").val();
+      var email = $("input#email").val();
+      var subject = $("select#message").val();
+      var message = $("textarea#message").val();
+      var firstName = name; // For Success/Failure Message
+      // Check for white space in name for Success/Fail message
+      if (firstName.indexOf(' ') >= 0) {
+        firstName = name.split(' ').slice(0, -1).join(' ');
+      }
+      $this = $("#sendMessageBtn");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
-        url: "assets/comment.php",
+        url: "././assets/contact.php",
         type: "POST",
         data: {
-          productName: productName,
-          comment: comment
+          name: name,
+          email: email,
+          message: message
         },
         cache: false,
         success: function() {
@@ -27,21 +34,21 @@ $(function() {
           $('#success > .alert-success').html("<a class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</a>");
           $('#success > .alert-success')
-            .append("<strong>Your comment has been sent. </strong>");
+            .append("<strong>Your message has been sent. </strong>");
           $('#success > .alert-success')
             .append('</div>');
           //clear all fields
-          $('#comment-form').trigger("reset");
+          $('#contact-form').trigger("reset");
         },
         error: function() {
           // Fail message
           $('#success').html("<div class='animated pulse alert alert-danger alert-dismissible'>");
           $('#success > .alert-danger').html("<a class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</a>");
-          $('#success > .alert-danger').append($("<strong>").text("Sorry, it seems that our mail server is not responding. You can try again later or Email us via <email>"));
+          $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", it seems that my mail server is not responding. You can try again later or Email me via jarinjanpaolo@gmail.com"));
           $('#success > .alert-danger').append('</div>');
           //clear all fields
-          $('#comment-form').trigger("reset");
+          $('#contact-form').trigger("reset");
         },
         complete: function() {
           setTimeout(function() {

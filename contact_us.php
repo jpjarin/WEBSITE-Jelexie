@@ -95,7 +95,7 @@
 						<h3 class="mt-2">SEND US A MESSAGE</h3>
 						<small style="font-size: 100%;">Feel free to send us your comments and suggestions.</small>
 						</div>
-						<form name="" id="contact-form">
+						<form name="contact-form" id="contact-form">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group w-100">
@@ -107,14 +107,22 @@
 										<input type="email" class="form-control" id="email" placeholder="Your email" required="required" autocomplete="email" />
 									</div>
 									<div class="form-group w-100">
+										<!-- <label for="subject">Subject:</label>
+										<input type="text" class="form-control" id="subject" placeholder="Subject" required="required" autocomplete="text" /> -->
 										<label for="subject">Subject:</label>
-										<input type="text" class="form-control" id="subject" placeholder="Subject" required="required" autocomplete="text" />
+									    <select class="form-control" id="subject" name="subject" required="required" style="padding-bottom: 9px;" autocomplete="select">
+									      <option disabled selected>Select Subject</option>
+									      <option>Inqury</option>
+									      <option>Suggestion</option>
+									      <option>Complaint</option>
+									      <option>Franchise</option>
+									    </select>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group w-100">
 											<label for="message">Message:</label>
-											<textarea name="message" id="message" class="form-control" rows="9" cols="30" required="required" placeholder="Your message"></textarea>
+											<textarea name="message" id="message" class="form-control" rows="9" cols="30"  placeholder="Your message"></textarea>
 									</div>
 									</div>
 									<div class="container-fluid d-flex justify-content-center">
@@ -142,5 +150,7 @@
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/jquery.sticky.js"></script>
   <script src="assets/js/custom/contact-script.js"></script>
+  <script src="assets/js/jqBootstrapValidation.min.js"></script>
+  <script src="assets/js/contact.js"></script>
 </body>
 </html>
