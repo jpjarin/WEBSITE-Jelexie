@@ -77,6 +77,12 @@ p{
 .bg-gray{
 	background-color: #fafafa;
 }
+.bg-red{
+  background-color:#b42927; 
+}
+.bg-red-2{
+  background-color:#bb2323; 
+}
 
 
 /*PACE.js*/
@@ -150,7 +156,7 @@ p{
 	margin: 13px 8px;
 }
 .nav-link{
-	color: #000000;
+	color: #b42927;
 }
 .nav-link:hover{
 	color: #ffffff;
@@ -243,15 +249,16 @@ p{
 .read-more a:hover{
 	text-decoration: none;
   color: #ffffff;
-  outline: 2px solid #ffffff;
+  outline: 2px solid #b42927;
   background-color: #b42927;
 }
 .about-wrapper{
-  -moz-box-shadow: 0px 0px 5px #c1cbce;
-  -webkit-box-shadow: 0px 0px 5px #c1cbce;
-  box-shadow: 0px 0px 5px #c1cbce;
+  -moz-box-shadow: 5px 3px 10px 0px #890000;
+  -webkit-box-shadow: 5px 3px 10px 0px #890000;
+  box-shadow: 5px 3px 10px 0px #890000;
   border-radius: 10px;
   padding: 15px 15px 20px 20px;
+  background-color:#ffffff;
 }
 /*FB-PLUGIN*/
 .fb-page, 
@@ -260,12 +267,15 @@ p{
     width: 100% !important; 
     margin: auto !important;
 }
+.fb-view{
+  height: 100%;
+}
 .fb-loading{
   height: 100%;
    background-image: url(../../assets/img/fb-loading.gif);
     background-repeat: no-repeat;
     background-position: 50% 30%;
-/*    background-color: #dfdfdf;*/
+    /*background-color: #dfdfdf;*/
 }
 
 
@@ -339,12 +349,12 @@ p{
   z-index: 2;
 }
 #ads img.img-fluid{
-  background-color: #fafafa;
+  background-color: #af3b3a;
 }
 .carousel-inner{
-  -moz-box-shadow: 0px 1px 5px 1px #c1cbce;
-  -webkit-box-shadow: 0px 1px 5px 1px #c1cbce;
-  box-shadow: 0px 0px 5px 1px #c1cbce;
+  -moz-box-shadow: 5px 3px 10px 0px #890000;
+  -webkit-box-shadow: 5px 3px 10px 0px #890000;
+  box-shadow: 5px 3px 10px 0px #890000;
 }
 
 
@@ -359,7 +369,7 @@ p{
   letter-spacing: 1.5px;
 }
 .about-p-text{
-  font-size: 1.125em;
+  font-size: 1.3em;
   text-align: justify;
   text-indent: 50px;
 }
@@ -367,7 +377,7 @@ p{
   font-size: 1.375em;
 }
 .about__jelexie{
-  font-size: 1.250em;
+  font-size: 1.45em;
 }
 .branches-heading{
  font-family: 'Heavitas', Sans-serif; 
@@ -456,6 +466,26 @@ form#contact-form textarea:focus {
   background: #fff;
   border-color: #2196f3;
 }
+.alert {
+    margin: auto;
+    display: block;
+    top: -170px;
+   /* left: 8%;*/
+    width: 273px;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+    padding: 0.75rem 15px !important;
+    z-index: 500;
+}
+#success{
+  position: absolute;
+}
+.alert-dismissible .close {
+    top: -10px !important;
+    right: -10px !important;
+}
 .map{
     width: 100%;
     height: 25em;
@@ -499,15 +529,17 @@ form#contact-form textarea:focus {
 
 /* FOOTER */
 footer{
-	font-family: 'Verdana', Roboto, Sans-serif;
-	color: #ffffff;
+	font-family: 'Bago', Roboto, Sans-serif;
+	color: #000000;
 }
 footer .footer{
-	background-color: #b42927;
+	background-color: #fbdd17;
 }
 footer h1{
+  font-family: 'Heavitas', sans-serif;
+  /*font-weight: bold;*/
 	text-transform: uppercase;
-	color: #fbdd17;
+	color: #b42927;
 	font-size: 1.600em; 
 }
 footer p{
@@ -531,10 +563,10 @@ footer .fa-4x{
 }
 }
 footer a{
-	color: #ffffff;
+	color: #000000;
 }
 footer .fa-instagram{
-  background: #ffffff;
+  background: #000000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -548,8 +580,9 @@ footer .adjust{
 	padding-left: 0px;
 }
 footer .copyright{
+  font-family: 'Verdana',Sans-serif;
 	font-size: 90%;
 	text-transform: uppercase;
 	text-align: center;
-	background-color: #b5302e;
+	background-color: #f6d600;
 }

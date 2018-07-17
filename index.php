@@ -39,7 +39,7 @@
 	<div class="load">
 		<div class="loader">
 			<div class="jelexie-loading">
-				<img src="assets/img/logo-loader.png" class="img-fluid">
+				<img src="assets/img/logo-min-2.png" style="border: 1px solid #ffffff;" class="img-fluid">
 			</div>
 			<p class="loading">
 				<!-- Loading -->&nbsp;<span>.</span><span>.</span><span>.</span>
@@ -79,8 +79,8 @@
 </div>
 </section>
 
-<section id="about" class="about-section pt-4 bg-white">
-	<div id="about-home" class="container pb-2 mb-4">
+<section id="about" class="about-section pt-4 bg-red">
+	<div id="about-home" class="container pb-2 mb-3">
 		<div class="about-wrapper">
 		<div class="row">
 			<div class="col-md-8 mb-4">
@@ -102,7 +102,7 @@
 	</div>
 </div>
 
-	<div id="carousel-section" class="mt-2 pt-2 px-2 pb-3 bg-gray">
+	<div id="carousel-section" class="mt-2 pt-2 px-2 pb-3 bg-red">
 		<div class="container pl-2 mt-2">
 			<div class="home-info row">
 				<div class="col-sm-6 mb-4">
@@ -135,8 +135,10 @@
 					</div>
 				</div>
 
-				<div class="col-sm-6 px-2 mb-4"><div class="container-fluid fb-loading mx-auto wow slideInUp" data-wow-delay="0.1s">
+				<div class="col-sm-6 px-2 mb-4"><div class="container-fluid fb-view mx-auto wow slideInUp" data-wow-delay="0.1s">
+					<div class="fb-loading">
 					<div class="fb-page" data-href="https://facebook.com/Jelexie-179456868470/" data-tabs="timeline, messages" data-width="500" data-small-header="true" data-adapt-container-width="true" data-hide-cta="false" data-height="560" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://facebook.com/Jelexie-179456868470/" class="fb-xfbml-parse-ignore"><a href="https://facebook.com/Jelexie-179456868470/">Jelexie</a></blockquote></div>
+					</div>
 					</div>
 				</div>
 			</div>

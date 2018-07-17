@@ -1,6 +1,6 @@
 $(function() {
 
-  $("#comment-form textarea").jqBootstrapValidation({
+  $("#comment-form input,#comment-form textarea").jqBootstrapValidation({
     preventSubmit: true,
     submitError: function($form, event, errors) {
       // additional error messages or events
@@ -8,13 +8,12 @@ $(function() {
     submitSuccess: function($form, event) {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
-      var productName = $("textarea #product-name").val();
-      var comment = $("textarea #comment").val();
-  
-      $this = $("#sendCommentBtn");
+      var productName = $("input#product-name").val();
+      var comment = $("textarea#comment").val();
+      $this = $("button#sendCommentBtn");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
-        url: "assets/comment.php",
+        url: "././assets/comment.php",
         type: "POST",
         data: {
           productName: productName,
@@ -27,7 +26,7 @@ $(function() {
           $('#success > .alert-success').html("<a class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</a>");
           $('#success > .alert-success')
-            .append("<strong>Your comment has been sent. </strong>");
+            .append("<strong>Thank you! Your comment will be valued. </strong>");
           $('#success > .alert-success')
             .append('</div>');
           //clear all fields
@@ -38,7 +37,7 @@ $(function() {
           $('#success').html("<div class='animated pulse alert alert-danger alert-dismissible'>");
           $('#success > .alert-danger').html("<a class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</a>");
-          $('#success > .alert-danger').append($("<strong>").text("Sorry, it seems that our mail server is not responding. You can try again later or Email us via <email>"));
+          $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", it seems that my mail server is not responding. You can try again later or Email me via jarinjanpaolo@gmail.com"));
           $('#success > .alert-danger').append('</div>');
           //clear all fields
           $('#comment-form').trigger("reset");

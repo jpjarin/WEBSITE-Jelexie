@@ -219,8 +219,8 @@ p{
 }
 .category{
   cursor: pointer;
-  background-color: #fbdd17;
-  color: #000000;
+  background-color: #b42927;
+  color: #ffffff;
   padding: 0px 2px;
   -webkit-transform: translateZ(0px);
 
@@ -239,7 +239,7 @@ p{
 }
 .category:hover{
   background-color: #b42927;
-  color: #ffffff;
+  color: #fbdd17;
 }
 .category a:focus{
   background-color: #b42927;
@@ -329,8 +329,8 @@ form#comment-form textarea {resize: none;}
 .alert {
     margin: auto;
     display: block;
-    bottom: 130px;
-   /* left: 8%;*/
+    bottom: 160px;
+    left: 8% !important;
     width: 273px;
     height: auto;
     border-radius: 2px;
@@ -342,7 +342,11 @@ form#comment-form textarea {resize: none;}
 #success{
   position: absolute;
 }
-
+.alert-dismissible .close {
+    top: -10px;
+    right: -10px;
+    padding: .75rem 1.25rem;
+}
 
 /* FOOTER */
 footer{

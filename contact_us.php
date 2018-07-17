@@ -110,19 +110,19 @@
 										<!-- <label for="subject">Subject:</label>
 										<input type="text" class="form-control" id="subject" placeholder="Subject" required="required" autocomplete="text" /> -->
 										<label for="subject">Subject:</label>
-									    <select class="form-control" id="subject" name="subject" required="required" style="padding-bottom: 9px;" autocomplete="select">
-									      <option disabled selected>Select Subject</option>
-									      <option>Inqury</option>
-									      <option>Suggestion</option>
-									      <option>Complaint</option>
-									      <option>Franchise</option>
+									    <select class="form-control" id="subject" name="subject" required style="padding-bottom: 9px;">
+									      <option disabled selected value="">Select Subject:</option>
+									      <option value="Inquiry">Inqury</option>
+									      <option value="Suggestion">Suggestion</option>
+									      <option value="Complaint">Complaint</option>
+									      <option value="Franchise">Franchise</option>
 									    </select>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group w-100">
 											<label for="message">Message:</label>
-											<textarea name="message" id="message" class="form-control" rows="9" cols="30"  placeholder="Your message"></textarea>
+											<textarea name="message" id="message" class="form-control" rows="9" cols="30"  placeholder="Your message" required="required"></textarea>
 									</div>
 									</div>
 									<div class="container-fluid d-flex justify-content-center">

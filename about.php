@@ -33,7 +33,7 @@
 <section id="about-page" class="about-us">
 	<div class="container">
 		<div class="row mb-2">
-			<div class="col-md-8 aboutUs">
+			<div class="col-md-12 aboutUs">
 				<div class="row">
 					<div class="col-xl-12">
 						<h1 id="about-heading" class="my-1 mb-2">About Us</h1>
@@ -42,7 +42,7 @@
 								</p>
 					</div>
 					<div class="col-md-6 mb-3 align-self-center">
-						<div class="container-fluid"><img class="img-fluid w-100" src="http://via.placeholder.com/2x2"></div>
+						<div class="container-fluid text-center"><img class="img-fluid" style="width: 80%;" src="http://via.placeholder.com/2x1"></div>
 					</div>
 					<div class="col-md-6">
 						<h5 id="about-heading">The Company</h5>
@@ -57,21 +57,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 Jelexie">
-				<div class="row">
-					<div class="col text-center pt-3">
-						<img class="about-logo img-fluid pb-3" src="assets/img/logo-min.png">
-						<p class="text-center">
-							<strong class="tagline">“ Ang Sarap Kasama Sa Bawat Okasyon! ”
-								<br>(“Great To Have In Every Occasion”)</strong>
-							<p class="about__jelexie">Upholds Jelexie’s mission to become a customer-driven and family-oriented corporation. It continues to produce freshly baked breads and cakes, giving customers the best value for their money.</p>
-						</p>
-					</div>
-				</div>
-			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-6 ourProducts">
+			<div class="col-xl-6 col-md-7 ourProducts">
 				<div class="row">
 					<div class="col-md-6">
 					<img src="assets/img/about/products.jpg" class="img-fluid py-2">
@@ -84,7 +72,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6 Branches">
+			<div class="col-xl-6 col-md-5 Branches">
 				<div class="row">
 					<div class="col-md-6">
 						<h5 class="branches-heading">Branches</h5>
