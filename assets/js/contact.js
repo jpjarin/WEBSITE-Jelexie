@@ -46,7 +46,7 @@ $(function() {
           $('#success').html("<div class='animated pulse alert alert-danger alert-dismissible'>");
           $('#success > .alert-danger').html("<a class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</a>");
-          $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", it seems that my mail server is not responding. You can try again later or Email me via jarinjanpaolo@gmail.com"));
+          $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", it seems that my mail server is not responding. You can try again later or Email me via info@jelexie.com"));
           $('#success > .alert-danger').append('</div>');
           //clear all fields
           $('#contact-form').trigger("reset");

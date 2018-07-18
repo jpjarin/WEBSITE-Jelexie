@@ -336,15 +336,23 @@ form#comment-form textarea {resize: none;}
     border-radius: 2px;
     box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 0 17px 17px 0 rgba(0, 0, 0, 0.15);
-    padding: 20px;
+       padding: 0.75rem 1rem !important;
     z-index: 500;
+}
+@media only screen and (max-width: 500px){
+  .alert{
+    left: 0% !important;
+  }
 }
 #success{
   position: absolute;
 }
+.alert-dismissible{
+  padding-right: 1em !important;
+}
 .alert-dismissible .close {
-    top: -10px;
-    right: -10px;
+    top: -10px !important;
+    right: -10px !important;
     padding: .75rem 1.25rem;
 }
 
