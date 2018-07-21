@@ -20,7 +20,7 @@
 <body>
 
 <?php include 'assets/includes/navbar.html';?>
-<div class="bg-white">
+<div class="bg-red">
 
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb container">
@@ -29,9 +29,9 @@
   </ol>
 </nav>
 
-<section id="contact-page" class="container mt-4 mb-5">
-	<div class="container-fluid">
-		<div class="row">
+<section id="contact-page" class="mt-4 pb-5">
+	<div class="container bg-white" style="border-radius: 0.25rem; -moz-box-shadow: 3px 4px 10px 3px #890000;-webkit-box-shadow: 3px 4px 10px 3px #890000;box-shadow: 3px 4px 10px 3px #890000;">
+		<div class="row py-3">
 			<div class="col-12 mb-3">
 				<div class="container-fluid">
 					<div class="row">
@@ -138,6 +138,23 @@
 		</div>
 	</div>
 </section>	
+</div>
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="179456868470"
+  logged_in_greeting="Hi! Jelly Good Day!"
+  logged_out_greeting="Hi! Jelly Good Day!">
 </div>
 
 <?php include 'assets/includes/footer.html';?>

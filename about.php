@@ -21,7 +21,7 @@
 <body>
 
 <?php include 'assets/includes/navbar.html';?>
-<div class="bg-white">
+<div class="bg-red">
 
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb container">
@@ -30,9 +30,9 @@
   </ol>
 </nav>
 
-<section id="about-page" class="about-us">
-	<div class="container">
-		<div class="row mb-2">
+<section id="about-page" class="about-us animated fadeIn" style="animation-delay: 0.4s;">
+	<div class="container bg-white" style="border-radius: 0.25rem; -moz-box-shadow: 3px 4px 10px 3px #890000;-webkit-box-shadow: 3px 4px 10px 3px #890000;box-shadow: 3px 4px 10px 3px #890000;">
+		<div class="row about-page-wrapper mb-2">
 			<div class="col-md-12 aboutUs">
 				<div class="row">
 					<div class="col-xl-12">
@@ -86,7 +86,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row my-4">
+		<div class="row about-page-wrapper my-4">
 			<div class="col-md-6 thePeople">
 				<div class="col px-0">
 					<h5 id="about-heading">The People</h5>

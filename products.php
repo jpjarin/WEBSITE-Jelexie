@@ -26,37 +26,46 @@
 </head>
 <body>
 <?php include 'assets/includes/navbar.html';?>
-<div class="bg-white">
+<div class="bg-red">
 
 	<nav aria-label="breadcrumb">
 	  <ol class="breadcrumb container">
 	    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
 	    <li class="breadcrumb-item active" aria-current="page">Products</li>
 	  </ol>
-	</nav>.
+	</nav>
 
-<section id="product-page" class="container">
-	<div class="container-fluid">
-		<div class="categories row justify-content-center">
-				<div class="col-xs-4 m-1">
-					<div id="pastries" class="category rounded hvr-bob">
-						<h4 class="p-2 mb-0">Pastries</h4>
+<section id="product-page" class="pb-4">
+	<div class="container bg-white pt-3" style="border-radius: 0.25rem; -moz-box-shadow: 3px 4px 10px 3px #890000;-webkit-box-shadow: 3px 4px 10px 3px #890000;box-shadow: 3px 4px 10px 3px #890000;">
+		<div class="container-fluid">
+			<div class="categories row justify-content-center">
+					<div class="col-xs-4 m-1">
+						<div id="pastries" class="category rounded hvr-bob">
+							<h4 class="p-2 mb-0">Pastries</h4>
+						</div>
 					</div>
-				</div>
-				<div class="col-xs-4 m-1">
-					<div id="breads" class="category rounded hvr-bob">
-						<h4 class="p-2 mb-0">Breads</h4>
+					<div class="col-xs-4 m-1">
+						<div id="breads" class="category rounded hvr-bob">
+							<h4 class="p-2 mb-0">Breads</h4>
+						</div>
 					</div>
-				</div>
-				<div class="col-xs-4 m-1">
-					<div id="ref-cakes" class="category rounded hvr-bob">
-						<h5 class="p-2 mb-0">Cakes</h5>
+					<div class="col-xs-4 m-1">
+						<div class="category rounded hvr-bob">
+							<div class="cakes-dropdown">
+							  <div class="dropbtn"><h4 class="p-2 mb-0">Cakes</h4></div>
+							  <div class="cakes-dropdown-content pt-2">
+							    <a href="#"><div id="ref-cakes">Category 1</div></a>
+							    <a href="#"><div id="">Made-to-order cakes</div></a>
+							    <a href="#"><div id="">Fondant Cakes</div></a>
+							  </div>
+							</div>
+						</div>
 					</div>
-				</div>
-		</div>
-	<section id="category-view">
-		
-	</section>
+			</div>
+		<section id="category-view">
+			
+		</section>
+	</div>
 </section>
 
 </div>

@@ -202,6 +202,14 @@ p{
   font-family: inherit, Sans-serif;
   font-weight: 600;
   text-transform: uppercase;
+  border-radius: 0 !important;
+  /*border-top-left-radius: 0rem !important;
+  border-top-right-radius: 0rem !important;
+  border-bottom-left-radius: .25rem !important;
+  border-bottom-right-radius: .25rem !important;*/
+  -moz-box-shadow: 3px 3px 10px 3px #890000;
+  -webkit-box-shadow: 3px 3px 10px 3px #890000;
+  box-shadow: 3px 3px 10px 3px #890000;
 }
 .breadcrumb .breadcrumb-item a{
   color: #b42927;
@@ -371,6 +379,14 @@ p{
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
+.about-page-wrapper{
+  padding: 1rem;
+}
+@media only screen and (max-width: 500px){
+ .about-page-wrapper{
+  padding: 1rem 0rem 1rem 0rem;
+} 
+}
 .about-p-text{
   font-size: 1.3em;
   text-align: justify;
@@ -378,6 +394,7 @@ p{
 }
 .about__us{
   font-size: 1.375em;
+  text-align: justify;
 }
 .about__jelexie{
   font-size: 1.45em;
