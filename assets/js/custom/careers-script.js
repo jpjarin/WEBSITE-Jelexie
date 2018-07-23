@@ -8,9 +8,8 @@ new WOW().init();
 
   $(document).ready(function() {
 	    $('.breadcrumb').css({"opacity":"100"});
-	    $('.aboutUs,.Jelexie').css({'opacity':'100','animation-delay':'0.4s'});
-	    $('.ourProducts,.Branches,.thePeople,.theCommunity').css({'opacity':'100','animation-delay':'0.7s'});
-	    $('.breadcrumb,.aboutUs,.Jelexie,.ourProducts,.Branches,.thePeople,.theCommunity').addClass('animated fadeIn');
+	    $('#careers-section').css({'opacity':'100','animation-delay':'0.4s'});
+	    $('.breadcrumb,#careers-section').addClass('animated fadeIn');
 	});
 
 

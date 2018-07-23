@@ -1,11 +1,10 @@
-new WOW().init();
-
  // $(window).on('DOMContentLoaded', function() {
 	// 	    var Body = $('body,html');
 	// 	    Body.css({"overflow":"hidden"});
 	// 	});
 
 if (Cookies.get('noPreloader') === 'true') {
+		new WOW().init();
         $('.preloader').hide();
         $(document).ready(function() {
 	    $('.about-heading,.about-description,.read-more').css({"opacity":"100"});
@@ -15,8 +14,9 @@ if (Cookies.get('noPreloader') === 'true') {
     } 
     else  {
       $(window).on('DOMContentLoaded', function() {
-          Cookies.set('noPreloader', 'true', {expires: 3}); // 1 day cookie
+          Cookies.set('noPreloader', 'true', {expires: 1}); // 1 day cookie
         // Animate loader off screen
+        new WOW().init();
 		var Body = $('body,html');
 		Body.css({"overflow":"hidden"});
 

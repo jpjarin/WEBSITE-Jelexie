@@ -111,11 +111,88 @@ p{
   height: 3px;
 }
 
+/*AJAX LOADER*/
+.loader {
+    display:    none;
+    position:   absolute;
+    z-index:    99 !important;
+    top:        0;
+    left:       0;
+    height:     63%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../../assets/img/loader-red.svg') 
+                50% 50% 
+                no-repeat;
+    background-size: 30%;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 800px) {
+  .loader{
+    width: 104%;
+    height: 65%;
+  }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 400px) {
+  .loader{
+    left: -18px;
+    height: 78%;
+    width: 115%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../../assets/img/loader-red.svg') 
+                50% 22% 
+                no-repeat;
+    background-size: 30%;
+  }
+}
+@media only screen and (min-device-width : 400px) and (max-device-width : 500px) {
+  .loader{
+    left: -18px;
+    height: 78%;
+    width: 111%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../../assets/img/loader-red.svg') 
+                50% 22% 
+                no-repeat;
+    background-size: 30%;
+  }
+}
 
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+#products-view.loading .loader {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+#products-view.loading .loader {
+    display: block;
+}
+/*......*/
+
+/*PRELOADER*/
+/*#product-loader{
+  position: relative;
+  min-height: 100vh;
+}
+.product-load{
+  position: absolute;
+    z-index:    1001 !important;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: #ffffff
+                url('../../assets/img/loading-bar.gif') 
+                50% 30% 
+                no-repeat;
+    background-size: 45%;
+}*/
+/*......*/
 
 /* NAVVIGATION BAR */
 #navbar{
-  z-index: 999;
+  z-index: 1005;
 }
 .navbar{
   font-size: 1.500em;
@@ -135,7 +212,7 @@ p{
   top: 100%;
   background-color: #fbdd17;
   transition: height 0.2s linear;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .nav-link:hover{
   width: 80%;
@@ -228,6 +305,7 @@ p{
 /*PRODUCT PAGE*/
 #product-page{
   opacity: 0;
+  min-height: 100vh;
 }
 .categories{
   text-transform: uppercase;

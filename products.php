@@ -11,7 +11,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="icon" href="favicon.png">
-	<link rel="stylesheet" type="text/css" href="assets/css/pre-loader.css">
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/pre-loader.css"> -->
 	<link href="assets/css/product-style.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/flexslider.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
@@ -28,7 +28,7 @@
 <?php include 'assets/includes/navbar.html';?>
 <div class="bg-red">
 
-	<nav aria-label="breadcrumb">
+	<nav id="breadcrumb" aria-label="breadcrumb">
 	  <ol class="breadcrumb container">
 	    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
 	    <li class="breadcrumb-item active" aria-current="page">Products</li>
@@ -62,10 +62,14 @@
 						</div>
 					</div>
 			</div>
-		<section id="category-view">
-			
-		</section>
-	</div>
+			<section id="products-view" style="position: relative;">
+				<div class="loader"><!-- Place at bottom of page --></div>
+				<div id="category-view">
+					
+				</div>
+			</section>
+		</div>
+</div>
 </section>
 
 </div>

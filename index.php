@@ -81,7 +81,7 @@
 
 <section id="about" class="about-section pt-4 bg-red">
 	<div id="about-home" class="container pb-2 mb-3">
-		<div class="about-wrapper">
+		<div class="about-wrapper wow fadeIn">
 		<div class="row">
 			<div class="col-md-8 mb-4">
 				<div class="about-content">
@@ -118,7 +118,7 @@
 					       	MANAGEMENT ENGINEER, ACCOUNTING OFFICER, WAREHOUSE OFFICER, PROGRAMMER, HARDWARE SPECIALIST, MARKETING STAFF, AUDIT STAFF, MANAGEMENT TRAINEE, STORE CREW, PRODUCTION CREW, SAP SYSTEM ANALYST / ADMINISTRATOR, POS SYSTEM ADMINISTRATOR
 					       </p>
 					       <div class="mx-auto text-center pb-4">
-					       		<a class="btn-custom" href="#">APPLY NOW</a>
+					       		<a class="btn-custom" href="careers.php">APPLY NOW</a>
 					   		</div>
 					    </div>
 					    <div class="carousel-item">

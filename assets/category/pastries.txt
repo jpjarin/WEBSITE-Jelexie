@@ -41,7 +41,7 @@
 								<h1 class="my-2">Asado Bun</h1>
 							</div>
 							<div class="paragraph">
-								<p>A Light Brown bread bun filled with savory pork asado.</p>
+								<p>A light brown bread bun filled with savory pork asado.</p>
 							</div>
 						</div>
 						<div class="comment-section mt-4">

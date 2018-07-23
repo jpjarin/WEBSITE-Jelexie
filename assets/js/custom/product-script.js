@@ -5,7 +5,9 @@ new WOW().init();
     $("#navbar").sticky({topSpacing:0,zIndex:999});
   });
 
-  $(window).on('load',function() {
+
+  //Preloader
+  $(document).ready(function() {
 	    $('.breadcrumb').css({"opacity":"100"});
       $('#product-page').css({'opacity':'100','animation-delay':'0.4s'});
 	    $('.breadcrumb').addClass('animated fadeIn');
@@ -18,9 +20,18 @@ new WOW().init();
   //      $('#product-page').addClass('animated fadeIn');
   // });
 
-  $(document).ready(function(){
+    $body = $("#products-view");
+
+    $(document).on({
+        ajaxStart: function() { $body.addClass("loading");    },
+         ajaxStop: function() { $body.removeClass("loading"); }    
+    });
+
+    //for debugging
+    // $body.addClass("loading"); 
+ 
      $('#category-view').load("assets/category/pastries.html");
-  });
+  
 
    $(document).ready(function() { 
 

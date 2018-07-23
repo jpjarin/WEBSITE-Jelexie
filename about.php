@@ -23,7 +23,7 @@
 <?php include 'assets/includes/navbar.html';?>
 <div class="bg-red">
 
-<nav aria-label="breadcrumb">
+<nav id="breadcrumb" aria-label="breadcrumb">
   <ol class="breadcrumb container">
     <li class="breadcrumb-item"><a href="index.php">Home</a></li>
     <li class="breadcrumb-item active" aria-current="page">About Us</li>
