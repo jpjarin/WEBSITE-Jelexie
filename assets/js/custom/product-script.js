@@ -64,6 +64,18 @@ new WOW().init();
           event.preventDefault();
       });
 
+    //hover dropdown
+    $('.cakes-dropdown-content a').click(function() {
+          $('.cakes-dropdown-content').removeClass('show');
+      });
+    $('.dropbtn').click(function() {
+          if($('.cakes-dropdown-content').hasClass('show')){
+               $('.cakes-dropdown-content').removeClass('show')
+            }else{
+              $('.cakes-dropdown-content').addClass('show')
+            }
+      });
+
 });
 
  // $(document).ready(function(){

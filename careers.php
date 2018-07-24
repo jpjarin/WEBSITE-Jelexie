@@ -28,8 +28,8 @@
     <li class="breadcrumb-item active" aria-current="page">Hiring</li>
   </ol>
 </nav>
-<section id="careers-section" class="mb-3">
-	<div class="container bg-white pb-4" style="border-radius: 0.25rem; -moz-box-shadow: 3px 4px 10px 3px #890000;-webkit-box-shadow: 3px 4px 10px 3px #890000;box-shadow: 3px 4px 10px 3px #890000;">
+<!-- <section id="careers-section" class="mb-3">
+  <div class="container bg-white pb-4" style="border-radius: 0.25rem; -moz-box-shadow: 3px 4px 10px 3px #890000;-webkit-box-shadow: 3px 4px 10px 3px #890000;box-shadow: 3px 4px 10px 3px #890000;">
       <div class="jumbotron jumbotron-fluid bg-white pt-4 pb-0 mb-0">
         <div class="container-fluid text-center">
           <h1 class="display-4 my-0">Join our team now!</h1>
@@ -39,14 +39,14 @@
       <div class="hiring">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-6 align-self-center">
-              <img src="assets/img/join-us-now-min.png" class="img-fluid">
+            <div class="col-12 align-self-center text-center">
+              <img src="assets/img/join-us-now.png" class="img-fluid" style="width: 80%;">
             </div>
-            <div class="col-md-6 p-0">
+            <div class="col-12 p-0">
               <div class="available-positions">
                 <div>
                   <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
+                  <li class="list-group-item container">
                     <h1 class="my-2">ACCOUNTING OFFICER</h1>
                     <h6 class="mb-3">Responsible for processing accounting transactions and preparation of accounting reports on sales, financial statements, budget variance and other reports pertaining to the operations. </h6>
                     <h5 class="font-weight-bold">Job Qualification</h5>
@@ -84,6 +84,88 @@
                       <li>Have Basic Knowledge in MS Office</li>
                     </ul>
                     <button class="btn btn-apply hvr-bob mt-3">Apply Now</button>
+                  </li>
+
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section> -->
+<section id="careers-section" class="mb-3">
+	<div class="container bg-white pb-4" style="border-radius: 0.25rem; -moz-box-shadow: 3px 4px 10px 3px #890000;-webkit-box-shadow: 3px 4px 10px 3px #890000;box-shadow: 3px 4px 10px 3px #890000;">
+      <div class="jumbotron jumbotron-fluid bg-white pt-4 pb-0 mb-0">
+        <div class="container-fluid text-center">
+          <h1 class="display-4 my-0">Join our team now!</h1>
+          <p class="lead"></p>
+        </div>
+      </div>
+      <div class="hiring">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 align-self-center">
+              <img src="assets/img/join-us-now-min.png" class="img-fluid">
+            </div>
+            <div class="col-md-6 p-0">
+              <div class="available-positions">
+                <div>
+                  <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <h1 class="my-2">ACCOUNTING OFFICER</h1>
+                    <h6 class="mb-3">Responsible for processing accounting transactions and preparation of accounting reports on sales, financial statements, budget variance and other reports pertaining to the operations. </h6>
+                    <h5 class="font-weight-bold">Job Qualification</h5>
+                    <ul class="list-group pl-4">
+                      <li>Must be graduate of Accountancy / Finance / Banking or Equivalent</li>
+                      <li>Has good analytical Skills</li>
+                      <li>Keen on Details</li>
+                      <li>Having SAP Knowledge is an advantage</li>
+                    </ul>
+                    <button class="btn btn-apply mt-3" data-toggle="modal" data-target="#apply">Apply Now</button>
+                  </li>
+                  
+                  <li class="list-group-item">
+                    <h1 class="my-2">MANAGEMENT ENGINEER</h1>
+                    <h6 class="mb-3"></h6>
+                    <h5 class="font-weight-bold">Job Qualification</h5>
+                    <ul class="list-group pl-4">
+                      <li>Candidates must be a graduate of BS MANAGEMENT ENGINEERING</li>
+                      <li>Must have at least 2 years relevant experience</li>
+                      <li>Must possess excellent leadership skills and organizational skill</li>
+                      <li>Have basic knowledge in business process and development</li>
+                      <li>Advanced mathematical and analytical skill is required</li>
+                    </ul>
+                    <button class="btn btn-apply mt-3">Apply Now</button>
+                  </li>
+
+                  <li class="list-group-item">
+                    <h1 class="my-2">WAREHOUSE OFFICER</h1>
+                    <h6 class="mb-3">Responsible for making sure supplies, stock, materials, packages, and/or products are processed through the delivery and/or warehouse system efficiently and safely.</h6>
+                    <h5 class="font-weight-bold">Job Qualification</h5>
+                    <ul class="list-group pl-4">
+                      <li>Should have a previous working experience in a same position </li>
+                      <li>Honest and hardworking</li>
+                      <li>Keen on Details</li>
+                      <li>Have Basic Knowledge in MS Office</li>
+                    </ul>
+                    <button class="btn btn-apply mt-3">Apply Now</button>
+                  </li>
+
+                  <li class="list-group-item">
+                    <h1 class="my-2">PROGRAMMER</h1>
+                    <h6 class="mb-3">Responsible for developing, managing and providing active support for all aspects of the software and Creates and modifies computer programs by converting project requirements into code. </h6>
+                    <h5 class="font-weight-bold">Job Qualification</h5>
+                    <ul class="list-group pl-4">
+                      <li>at least a Bachelor’s/College Degree, Computer Science/Information Technology or equivalent.</li>
+                      <li>Should have a previous working experience in a same position or an equivalent</li>
+                      <li>Programming Languages as C#.net, JavaScript,MsQL, MySQL, jQuery, HTML, CSS, Bootstrap and API's</li>
+                      <li>Knowledge of Object Oriented Programming</li>
+                      <li>Willing to work under pressure and with minimum supervision.</li>
+                      <li>Good communication skills</li>
+                    </ul>
+                    <button class="btn btn-apply mt-3">Apply Now</button>
                   </li>
 
                 </ul>

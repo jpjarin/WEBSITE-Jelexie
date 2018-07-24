@@ -31,7 +31,7 @@ $(function() {
         cache: false,
         success: function() {
           // Success message
-          $('#success').html("<div class='animated jackInTheBox alert alert-success alert-dismissible'>");
+          $('#success').html("<div class='alert alert-success alert-dismissible'>");
           $('#success > .alert-success').html("<a class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</a>");
           $('#success > .alert-success')
@@ -46,7 +46,7 @@ $(function() {
           $('#success').html("<div class='animated pulse alert alert-danger alert-dismissible'>");
           $('#success > .alert-danger').html("<a class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</a>");
-          $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", it seems that my mail server is not responding. You can try again later or Email me via info@jelexie.com"));
+          $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", it seems that our mail server is not responding. You can try again later or Email us via info@jelexie.com"));
           $('#success > .alert-danger').append('</div>');
           //clear all fields
           $('#contact-form').trigger("reset");

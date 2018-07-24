@@ -12,6 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="icon" href="favicon.png">
 	<!-- <link rel="stylesheet" type="text/css" href="assets/css/pre-loader.css"> -->
+	<!-- <link href="https://file.myfontastic.com/y3AetaxQ6K68KPQvMCHkxJ/icons.css" rel="stylesheet"> -->
 	<link href="assets/css/product-style.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/flexslider.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
@@ -41,22 +42,22 @@
 			<div class="categories row justify-content-center">
 					<div class="col-xs-4 m-1">
 						<div id="pastries" class="category rounded hvr-bob">
-							<h4 class="p-2 mb-0">Pastries</h4>
+							<h4 class="p-2 mb-0">Pastries<span style="padding-left: 6px; position: relative;top: 5px;" class="icon-pastry"></span></h4>
 						</div>
 					</div>
 					<div class="col-xs-4 m-1">
 						<div id="breads" class="category rounded hvr-bob">
-							<h4 class="p-2 mb-0">Breads</h4>
+							<h4 class="p-2 mb-0">Breads<span style="padding-left: 6px; position: relative;top: 5px;" data-icon="a"></span></h4>
 						</div>
 					</div>
 					<div class="col-xs-4 m-1">
 						<div class="category rounded hvr-bob">
 							<div class="cakes-dropdown">
-							  <div class="dropbtn"><h4 class="p-2 mb-0">Cakes</h4></div>
-							  <div class="cakes-dropdown-content pt-2">
-							    <a href="#"><div id="ref-cakes">Category 1</div></a>
-							    <a href="#"><div id="">Made-to-order cakes</div></a>
-							    <a href="#"><div id="">Fondant Cakes</div></a>
+							  <div class="dropbtn"><h4 class="p-2 mb-0">Cakes<i class="fas fa-caret-down" style="padding:0 0px 0 5px;"></i></h4></div>
+							  <div id="cakes-dropdown-content" class="cakes-dropdown-content pt-2">
+							    <a id="ref-cakes" href="#">Category 1<span style="padding-left: 12px;position: relative;top: 3px;" class="icon-ref-cake"></span></a>
+							    <a href="#">Made-to-order cakes<span style="padding-left: 10px; position: relative;top: 2px;" class="icon-mto"></span></a>
+							    <a href="#">Fondant Cakes<span style="padding-left: 10px; position: relative;top: 2px;" class="icon-fondant"></span></a>
 							  </div>
 							</div>
 						</div>
