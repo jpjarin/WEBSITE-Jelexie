@@ -36,6 +36,17 @@ $(window).on('load',function(){
 	$('body,html').css({"overflow":"visible"});
 });
 
+// $('.navbar-brand .logo').addClass('scrolled');
+
+// $(window).on('scroll', function() {
+//         if (Math.round($(window).scrollTop()) > 100) {
+//             $('.navbar-brand .logo').removeClass('scrolled');
+//         } else {
+//            $('.navbar-brand .logo').addClass('scrolled');
+//         }
+// });
+
+
 //Preloader
 // $(window).on('DOMContentLoaded', function() {
 // 	    var Body = $('body,html');

@@ -13,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/hover.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+
 	<noscript>
 		<meta http-equiv="refresh" content="0;url=noscript.html">
 	</noscript>

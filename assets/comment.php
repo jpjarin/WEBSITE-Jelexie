@@ -32,7 +32,8 @@ try {
     $mail->setFrom('website@jelexie.com','WWW.JELEXIE.COM');
     $mail->addAddress("q7j6e0e4j6n9g9c8@jelexie2016.slack.com");
     $mail->addAddress("h4d8e0z7w9n9u2m0@jelexie2016.slack.com");
-    $mail->addAddress("x0w1u6z5r2k5h7q8@jelexie2016.slack.com");      // Add a recipient
+    $mail->addAddress("x0w1u6z5r2k5h7q8@jelexie2016.slack.com");
+    $mail->addAddress("y6w7z7x6q6p4p4e9@jelexie2016.slack.com");      // Add a recipient
     //$mail->addAddress('ellen@example.com');               // Name is optional
     //$mail->addReplyTo('info@example.com', 'Information');
     //$mail->addCC('cc@example.com');

@@ -2,7 +2,7 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 500px) {
 .navbar-brand .logo {
     height: 100%;
-    width: 130px;
+    width: 120px;
 }
 .nav-link:hover{
   width: 50%;
@@ -10,6 +10,12 @@
 }
 #breadcrumb{
   padding: 0px 10px 0px 10px;
+}
+.about-jelexie-logo-mobile{
+  display: block;
+}
+.about-jelexie-logo{
+  display: none;
 }
 .branches-heading,.branch-text{
 	text-align: left;
@@ -71,6 +77,9 @@ footer .fa-4x{
 }
 .dropdown .menu-dropdown {
     font-size: 1.8rem;
+}
+.about-jelexie-logo{
+  width: 100%;
 }
 .about__us {
     font-size: 18px;
@@ -153,7 +162,7 @@ footer .adjust{
 }
 @media only screen and (min-width: 501px){
 footer .adjust{
-	padding-left: 3.5em;
+	padding-left: 2.6em;
 }
 }
 /* Desktops and laptops ----------- */
@@ -173,10 +182,14 @@ footer .adjust{
 .product-description{
 	width: 80%;
 }
+.about-jelexie-logo {
+    width: 95%;
+}
 .about__us {
     font-size: 1.3em;
 }
 }
+
 @media only screen  and (min-width : 1224px) {
 .navbar{
 	font-size: 1.125em;
@@ -221,7 +234,6 @@ footer .adjust{
 }
 .about-p-text{
   font-size: 1.313em;
-  text-align: justify;
   text-indent: 50px;
 }
 .about__jelexie{

@@ -10,6 +10,11 @@
 	<title>Jelexie Bakeshop</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta property="og:title" content="Jelexie Bakeshop"/>
+	<meta property="og:description" content="Ang Sarap Kasama Sa Bawat Okasyon" />
+	<meta property="og:url" content="">
+	<meta name="author" content="Jan Paolo V. Jarin - JVP Breadking Food Corporation 2018">
+
 	<link rel="icon" href="favicon.png">
 	<link rel="stylesheet" type="text/css" href="assets/css/pre-loader.css">
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
@@ -19,9 +24,15 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/hover.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+
 	<noscript>
 		<meta http-equiv="refresh" content="0;url=noscript.html">
 	</noscript>
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
 </head>
 <body>
 
@@ -135,7 +146,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-6 px-2 mb-4"><div class="container-fluid fb-view mx-auto wow slideInUp" data-wow-delay="0.1s">
+				<div class="col-sm-6 px-2 mb-4"><div class="container-fluid h-100 fb-view mx-auto wow slideInUp" data-wow-delay="0.1s">
 					<div class="fb-loading">
 					<div class="fb-page" data-href="https://facebook.com/Jelexie-179456868470/" data-tabs="timeline, messages" data-width="500" data-small-header="true" data-adapt-container-width="true" data-hide-cta="false" data-height="560" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://facebook.com/Jelexie-179456868470/" class="fb-xfbml-parse-ignore"><a href="https://facebook.com/Jelexie-179456868470/">Jelexie</a></blockquote></div>
 					</div>

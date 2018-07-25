@@ -17,11 +17,16 @@
 	<noscript>
 		<meta http-equiv="refresh" content="0;url=noscript.html">
 	</noscript>
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
 </head>
 <body>
 
 <?php include 'assets/includes/navbar.html';?>
-<div class="bg-red">
+<div id="about-bg" class="bg-red">
 
 <nav id="breadcrumb" aria-label="breadcrumb">
   <ol class="breadcrumb container">
@@ -31,21 +36,22 @@
 </nav>
 
 <section id="about-page" class="about-us animated fadeIn" style="animation-delay: 0.4s;">
-	<div class="container bg-white" style="border-radius: 0.25rem; -moz-box-shadow: 3px 4px 10px 3px #890000;-webkit-box-shadow: 3px 4px 10px 3px #890000;box-shadow: 3px 4px 10px 3px #890000;">
+	<div class="container bg-white border-radius" style="border-radius: 0.25rem; -moz-box-shadow: 3px 4px 10px 3px #890000;-webkit-box-shadow: 3px 4px 10px 3px #890000;box-shadow: 3px 4px 10px 3px #890000;">
 		<div class="row about-page-wrapper mb-2">
 			<div class="col-md-12 aboutUs">
 				<div class="row">
-					<div class="col-xl-12">
+					<div class="col-xl-12 col-sm-push-12">
 						<h1 id="about-heading" class="my-1 mb-2">About Us</h1>
 								<p class="about__us">
 									Behind our company’s success are different people united by the same vision — one summarized in ensuring total customer satisfaction.
 								</p>
 					</div>
-					<div class="col-md-6 mb-3 align-self-center">
-						<div class="container-fluid text-center"><img class="img-fluid" style="width: 80%;" src="http://via.placeholder.com/2x1"></div>
+					<div class="col-md-6 col-sm-pull-4 mb-3 align-self-center">
+						<div class="container-fluid text-center"><img class="img-fluid about-jelexie-logo" src="assets/img/logo-min.png"></div>
 					</div>
 					<div class="col-md-6">
 						<h5 id="about-heading">The Company</h5>
+						<img class="img-fluid mx-auto w-100 py-3 px-4 about-jelexie-logo-mobile" src="assets/img/logo-min.png">
 										<p class="about-p-text">
 											It was 1984 when Jelexie Bakeshop was established in Tarlac City as a home-based bakeshop by its founder, Mr. Armando Tan who had just migrated from China to the Philippines. With its first branch in M.H. Del Pilar Street, Jelexie was mainly engaged in the distribution of breads in different canteens and supermarkets.
 										</p>
@@ -58,7 +64,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row about-page-wrapper">
 			<div class="col-xl-6 col-md-7 ourProducts">
 				<div class="row">
 					<div class="col-md-6">

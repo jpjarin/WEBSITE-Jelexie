@@ -83,6 +83,9 @@ p{
 .bg-red-2{
   background-color:#bb2323; 
 }
+#about-page,#careers-section,#contact-page{
+  padding: 0 8px;
+}
 
 
 /*PACE.js*/
@@ -141,7 +144,7 @@ p{
 }
 .navbar-brand .logo{
 	height: 100%;
-	width: 170px;
+	width: 155px;
 }
 .navbar-nav{
 	position: relative;
@@ -387,6 +390,12 @@ p{
   padding: 1rem 0rem 1rem 0rem;
 } 
 }
+.about-jelexie-logo-mobile{
+  display: none;
+}
+.about-jelexie-logo{
+  width: 75%;
+}
 .about-p-text{
   font-size: 1.3em;
   text-align: justify;
@@ -395,6 +404,7 @@ p{
 .about__us{
   font-size: 1.375em;
   text-align: justify;
+  text-indent: 50px;
 }
 .about__jelexie{
   font-size: 1.45em;

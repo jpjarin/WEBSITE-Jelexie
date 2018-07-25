@@ -361,6 +361,7 @@ p{
 #product-page{
   opacity: 0;
   min-height: 100vh;
+  padding: 0px 4px;
 }
 .categories{
   text-transform: uppercase;
