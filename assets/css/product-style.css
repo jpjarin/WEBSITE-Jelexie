@@ -332,6 +332,7 @@ p{
 
 /* BREADCRUMBS */
 .breadcrumb{
+  opacity: 0;
   background-color: #fafafa!important;
   padding: 1rem 1rem !important;
   font-family: inherit, Sans-serif;
