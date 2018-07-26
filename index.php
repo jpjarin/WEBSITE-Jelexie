@@ -99,7 +99,11 @@
 				<h1 class="about-heading mt-0 pt-2" style="animation-delay: 0.2s;">ABOUT US</h1>
 				<p class="about-description mb-2" style="animation-delay: 0.3s;">
 					Behind our company’s success are different people united by the same vision — one summarized in ensuring total customer satisfaction.
-					<div class="wow bounceIn hvr-icon-pulse-grow read-more float-right" style="animation-delay: 0.8s;"><a href="about.php" class="hvr-float-shadow">Read more <i class="hvr-icon fa fa-angle-double-right" style="position: relative; top: 0.5px;"></i></a></div>
+					<div class="wow bounceIn read-more float-right" style="animation-delay: 0.8s;">
+						<div class="hvr-float-shadow">
+							<a href="about.php" class="hvr-icon-pulse-grow">Read more <i class="hvr-icon fa fa-angle-double-right" style="position: relative; top: 0.5px;"></i></a>
+						</div>
+					</div>
 				</p>
 			</div>
 			</div>

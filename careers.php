@@ -59,7 +59,7 @@
                       <li>Keen on Details</li>
                       <li>Having SAP Knowledge is an advantage</li>
                     </ul>
-                    <button class="btn btn-apply mt-3" data-toggle="modal" data-target="#apply">Apply Now</button>
+                    <button class="btn btn-apply mt-3" data-toggle="modal" data-target="#under-construction">Apply Now</button>
                   </li>
                   
                   <li class="list-group-item">
@@ -255,13 +255,13 @@
                   <div class="col-md-10">
                     <div class="form-row mb-2">
                       <div class="col-md-4 p-1">
-                    <input id="" type="text" name="first-name" required="required" placeholder="First Name" class="form-control">
+                    <input id="" type="text" name="first-name" required="required" placeholder="First Name" class="form-control" autocomplete="autocomplete">
                   </div>
                   <div class="col-md-4 p-1">
-                    <input id="" type="text" name="first-name" required="required" placeholder="Middle Name" class="form-control">
+                    <input id="" type="text" name="first-name" required="required" placeholder="Middle Name" class="form-control" autocomplete="autocomplete">
                   </div>
                   <div class="col-md-4 p-1">
-                    <input id="" type="text" name="first-name" required="required" placeholder="Last Name" class="form-control">
+                    <input id="" type="text" name="first-name" required="required" placeholder="Last Name" class="form-control" autocomplete="autocomplete">
                   </div>
                     </div>
                   </div>
@@ -275,10 +275,10 @@
                   <div class="col-md-10">
                     <div class="form-row">
                       <div class="col-md-6 p-1">
-                    <input id="" type="text" name="present-address" required="required" placeholder="Present Address" class="form-control">
+                    <input id="" type="text" name="present-address" required="required" placeholder="Present Address" class="form-control" autocomplete="autocomplete">
                   </div>
                   <div class="col-md-6 p-1">
-                    <input id="" type="text" name="permanent-address" required="required" placeholder="Permanent Adress" class="form-control">
+                    <input id="" type="text" name="permanent-address" required="required" placeholder="Permanent Adress" class="form-control" autocomplete="autocomplete">
                   </div>
                     </div>
                   </div>
@@ -342,6 +342,21 @@
       </div>
       <div class="modal-footer">
         <button type="submit" class="btn btn-primary" style="background-color: #b42927; border-color: #b42927;">Submit Application</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="under-construction" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog mx-auto" role="document">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <big>SORRY WE ARE CURRENTLY UPDATING</big>
+        <big></big>
       </div>
     </div>
   </div>

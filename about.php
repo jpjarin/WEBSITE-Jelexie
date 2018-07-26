@@ -40,16 +40,16 @@
 		<div class="row about-page-wrapper mb-2">
 			<div class="col-md-12 aboutUs">
 				<div class="row">
-					<div class="col-xl-12 col-sm-push-12">
+					<div class="col-xl-12">
 						<h1 id="about-heading" class="my-1 mb-2">About Us</h1>
 								<p class="about__us">
 									Behind our company’s success are different people united by the same vision — one summarized in ensuring total customer satisfaction.
 								</p>
 					</div>
-					<div class="col-md-6 col-sm-pull-4 mb-3 align-self-center">
+					<div class="col-md-5 mb-3 align-self-center">
 						<div class="container-fluid text-center"><img class="img-fluid about-jelexie-logo" src="assets/img/logo-min.png"></div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-7">
 						<h5 id="about-heading">The Company</h5>
 						<img class="img-fluid mx-auto w-100 py-3 px-4 about-jelexie-logo-mobile" src="assets/img/logo-min.png">
 										<p class="about-p-text">

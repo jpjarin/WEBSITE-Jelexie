@@ -38,8 +38,7 @@
 
 <section id="product-page" class="pb-4">
 	<div class="container bg-white pt-3" style="border-radius: 0.25rem; -moz-box-shadow: 3px 4px 10px 3px #890000;-webkit-box-shadow: 3px 4px 10px 3px #890000;box-shadow: 3px 4px 10px 3px #890000;">
-		<div class="container-fluid">
-			<div class="categories row justify-content-center">
+		<div class="categories row justify-content-center">
 					<div class="col-xs-4 m-1">
 						<div id="pastries" class="category rounded hvr-bob">
 							<h4 class="p-2 mb-0">Pastries<span style="padding-left: 6px; position: relative;top: 5px;" class="icon-pastry"></span></h4>
@@ -53,7 +52,7 @@
 					<div class="col-xs-4 m-1">
 						<div class="category rounded hvr-bob">
 							<div class="cakes-dropdown">
-							  <div class="dropbtn"><h4 class="p-2 mb-0">Cakes<i class="fas fa-caret-down" style="padding:0 0px 0 5px;"></i></h4></div>
+							  <div class="dropbtn"><h4 class="p-2 mb-0">Cakes<i class="fas fa-caret-down" style="padding:3.4px 0px 0 5px;"></i></h4></div>
 							  <div id="cakes-dropdown-content" class="cakes-dropdown-content pt-2">
 							    <a id="ref-cakes" href="#">Category 1<span style="padding-left: 12px;position: relative;top: 3px;" class="icon-ref-cake"></span></a>
 							    <a href="#">Made-to-order cakes<span style="padding-left: 10px; position: relative;top: 2px;" class="icon-mto"></span></a>
@@ -63,6 +62,7 @@
 						</div>
 					</div>
 			</div>
+		<div class="container-fluid">	
 			<section id="products-view" style="position: relative;">
 				<div class="loader"><!-- Place at bottom of page --></div>
 				<div id="category-view">
@@ -87,8 +87,8 @@
 <script src="assets/js/wow.min.js"></script>
  <script src="assets/js/bootstrap.min.js"></script>
  <script src="assets/js/jquery.sticky.js"></script>
- <script src="assets/js/jqBootstrapValidation.min.js"></script>
+ <!-- <script src="assets/js/jqBootstrapValidation.min.js"></script> -->
  <script src="assets/js/custom/product-script.js"></script>
- <script src="assets/js/comment.js"></script>
+ <!-- <script src="assets/js/comment.js"></script> -->
 </body>
 </html>

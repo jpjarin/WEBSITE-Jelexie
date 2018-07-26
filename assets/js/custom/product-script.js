@@ -30,13 +30,18 @@ new WOW().init();
     //for debugging
     // $body.addClass("loading"); 
  
-     $('#category-view').load("assets/category/pastries.html");
   
 
-   $(document).ready(function() { 
+  $(document).ready(function() { 
+
+  $('#category-view').load("assets/category/pastries.html", function () {
+        $.getScript("assets/js/jqBootstrapValidation.min.js"), $.getScript("assets/js/comment.js")
+      });
 
   $('#pastries').click(function() {
-          $('#category-view').load("assets/category/pastries.html");
+          $('#category-view').load("assets/category/pastries.html", function () {
+        $.getScript("assets/js/jqBootstrapValidation.min.js"), $.getScript("assets/js/comment.js")
+      });
           // it's important to return false from the click
           // handler in order to cancel the default action
           // of the link which is to redirect to the url and
@@ -64,7 +69,7 @@ new WOW().init();
           event.preventDefault();
       });
 
-    //hover dropdown
+    //cakes dropdown
     $('.cakes-dropdown-content a').click(function() {
           $('.cakes-dropdown-content').removeClass('show');
       });
@@ -75,6 +80,15 @@ new WOW().init();
               $('.cakes-dropdown-content').addClass('show')
             }
       });
+    $(document).click(function (e) {
+        e.stopPropagation();
+        var container = $(".cakes-dropdown");
+
+        //check if the clicked area is dropDown or not
+        if (container.has(e.target).length === 0) {
+            $('.cakes-dropdown-content').removeClass('show');
+        }
+    })
 
 });
 

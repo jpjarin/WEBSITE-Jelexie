@@ -397,7 +397,7 @@ p{
   width: 75%;
 }
 .about-p-text{
-  font-size: 1.3em;
+  font-size: 1.2em;
   text-align: justify;
   text-indent: 50px;
 }
@@ -490,6 +490,11 @@ button.btn:hover{
 .modal-dialog {
   max-width: 80% !important;
 }
+@media only screen and (max-width: 500px){
+ .modal-dialog {
+  max-width: 98% !important;
+} 
+}
 .modal-content {
   height: auto;
   border-radius: 5px;
@@ -572,9 +577,10 @@ form#contact-form button {
   height: 40px;
   text-transform: none;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   background-color: #b42927;
   border-color: #b42927;
+  letter-spacing: 5px;
 }
 #sendMessageBtn:hover,
 #sendMessageBtn:focus {
