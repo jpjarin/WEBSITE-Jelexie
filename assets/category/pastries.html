@@ -15,9 +15,9 @@
           });
 
 		$(document).ready(function () {
-			// $('#product-view').load("assets/category/products/asado-bun.html", function () {
-			// 	$.getScript("assets/js/jqBootstrapValidation.min.js"), $.getScript("assets/js/comment.js")
-			// });
+			$('#product-view').load("assets/category/products/pastries/asado-bun.html", function () {
+				$.getScript("assets/js/jqBootstrapValidation.min.js"); $.getScript("assets/js/comment.js");
+			});
 			// your on click function here
 			$('#products-list .flex-viewport a').click(function (event) {
 				event.preventDefault();
@@ -35,8 +35,8 @@
 </script>
 <h1>Pastries</h1>
 		<div id="product-view" class="row mt-4">
-			<div class="col-md-7 px-0 align-self-center">
-				<div class="product-image text-center animated fadeIn mb-3">
+			<!-- <div class="col-md-7 px-0 align-self-center">
+				<div class="product-image text-center animated fadeIn">
 					<img src="assets/img/products/pastries/WEBSITE_ASADO_BUN WITH NAME.jpg" class="product-pic" style="width: 
 					  80%">
 				</div>
@@ -62,13 +62,13 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<!-- <script src="assets/js/jqBootstrapValidation.min.js"></script>
 			<script src="assets/js/comment.js"></script> -->
 		</div>
-		<div id="products-list" class="row mt-2">
+		<div id="products-list" class="row mt-4">
 		<h1 class="mt-2 mb-2 ml-3">Other Pastries:</h1>
-			<div class="container">
+			<div class="container animated fadeIn">
 				<div class="flexslider carousel mb-3">
 					<ul class="slides">
 						<li><a href="assets/category/products/pastries/asado-bun.html">

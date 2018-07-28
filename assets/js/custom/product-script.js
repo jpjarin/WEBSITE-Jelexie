@@ -34,14 +34,10 @@ new WOW().init();
 
   $(document).ready(function() { 
 
-  $('#category-view').load("assets/category/pastries.html", function () {
-        $.getScript("assets/js/jqBootstrapValidation.min.js"), $.getScript("assets/js/comment.js")
-      });
+  $('#category-view').load("assets/category/pastries.html");
 
   $('#pastries').click(function() {
-          $('#category-view').load("assets/category/pastries.html", function () {
-        $.getScript("assets/js/jqBootstrapValidation.min.js"), $.getScript("assets/js/comment.js")
-      });
+          $('#category-view').load("assets/category/pastries.html");
           // it's important to return false from the click
           // handler in order to cancel the default action
           // of the link which is to redirect to the url and
