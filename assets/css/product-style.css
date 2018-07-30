@@ -173,6 +173,7 @@ p{
     z-index:    99 !important;
     top:        0;
     left:       0;
+    min-height: 63%;
     height:     63%;
     width:      100%;
     background: rgba( 255, 255, 255, .8 ) 
@@ -209,6 +210,13 @@ p{
                 50% 22% 
                 no-repeat;
     background-size: 30%;
+  }
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  .loader{
+    width: 107%;
+    left: -20px;
   }
 }
 
@@ -283,6 +291,9 @@ p{
 }
 .navbar .navbar-toggler{
   border: 2px solid #4a4a4a;
+}
+button.navbar-toggler:focus{
+  outline: none;
 }
 .navbar .navbar-toggler .navbar-toggler-icon{
   color: #4a4a4a;
@@ -363,9 +374,16 @@ p{
   opacity: 0;
   min-height: 100vh;
   padding: 0px 4px;
+  transition: height 0.66s ease-out;
+}
+#product-page-body{
+  min-height: 100vh;
+}
+#products-list{
+  min-height: 100%; 
 }
 #products-view{
-  min-height: 100%;
+  min-height: 100vh;
 }
 .categories{
   text-transform: uppercase;
@@ -408,7 +426,7 @@ p{
   left: 10px;
 }*/
 #category-view{
-  min-height: 100%;
+  min-height: 100vh;
 }
 #category-view h1{
   font-family: 'Heavitas', Sans-serif;

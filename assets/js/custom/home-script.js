@@ -7,9 +7,8 @@ if (Cookies.get('noPreloader') === 'true') {
 		new WOW().init();
         $('.preloader').hide();
         $(document).ready(function() {
-	    $('.about-heading,.about-description,.read-more').css({"opacity":"100"});
+	    $('.about-heading,.about-description').css({"opacity":"100"});
 	    $('.about-heading,.about-description').addClass('animated fadeIn');
-	    $('.read-more').addClass('animated bounceIn');
 	});
     } 
     else  {

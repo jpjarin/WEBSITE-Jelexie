@@ -64,6 +64,11 @@
 <section class="ads">
 <div class="ads">
 	<div id="ads" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+					    <li data-target="#ads" data-slide-to="0" class="active"></li>
+					    <li data-target="#ads" data-slide-to="1"></li>
+					    <li data-target="#ads" data-slide-to="2"></li>
+		</ol>
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
 	      <img class="img-fluid d-block w-100" src="assets/img/ads/morning-coffee-combo-tarp-2018-(size-3).jpg">
@@ -100,9 +105,7 @@
 				<p class="about-description mb-2" style="animation-delay: 0.3s;">
 					Behind our company’s success are different people united by the same vision — one summarized in ensuring total customer satisfaction.
 					<div class="wow bounceIn read-more float-right" style="animation-delay: 0.8s;">
-						<div class="hvr-float-shadow">
-							<a href="about.php" class="hvr-icon-pulse-grow">Read more <i class="hvr-icon fa fa-angle-double-right" style="position: relative; top: 0.5px;"></i></a>
-						</div>
+							<a href="about.php" class="hvr-icon-pulse-grow hover-shine"><span>Read more </span><i class="hvr-icon fa fa-angle-double-right" style="position: relative; top: 0.5px;"></i></a>
 					</div>
 				</p>
 			</div>
@@ -133,7 +136,7 @@
 					       	MANAGEMENT ENGINEER, ACCOUNTING OFFICER, WAREHOUSE OFFICER, PROGRAMMER, HARDWARE SPECIALIST, MARKETING STAFF, AUDIT STAFF, MANAGEMENT TRAINEE, STORE CREW, PRODUCTION CREW, SAP SYSTEM ANALYST / ADMINISTRATOR, POS SYSTEM ADMINISTRATOR
 					       </p>
 					       <div class="mx-auto text-center pb-4">
-					       		<a class="btn-custom" href="careers.php">APPLY NOW</a>
+					       		<a class="btn-custom shine" href="careers.php">APPLY NOW</a>
 					   		</div>
 					    </div>
 					    <div class="carousel-item">
@@ -142,7 +145,7 @@
 					       	Please Contact Us For More Info
 					       </p>
 					       <div class="mx-auto text-center pb-4">
-					       		<a class="btn-custom" href="contact_us.php">CONTACT US</a>
+					       		<a class="btn-custom shine" href="contact_us.php">CONTACT US</a>
 					   		</div>
 					    </div>
 					  </div>

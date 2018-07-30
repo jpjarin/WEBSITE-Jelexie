@@ -59,7 +59,7 @@
                       <li>Keen on Details</li>
                       <li>Having SAP Knowledge is an advantage</li>
                     </ul>
-                    <button class="btn btn-apply mt-3" data-toggle="modal" data-target="#under-construction">Apply Now</button>
+                    <button class="btn btn-apply shine mt-3" data-toggle="modal" data-target="#under-construction">Apply Now</button>
                   </li>
                   
                   <li class="list-group-item">
@@ -73,7 +73,7 @@
                       <li>Have basic knowledge in business process and development</li>
                       <li>Advanced mathematical and analytical skill is required</li>
                     </ul>
-                    <button class="btn btn-apply mt-3">Apply Now</button>
+                    <button class="btn btn-apply shine mt-3">Apply Now</button>
                   </li>
 
                   <li class="list-group-item">
@@ -86,7 +86,7 @@
                       <li>Keen on Details</li>
                       <li>Have Basic Knowledge in MS Office</li>
                     </ul>
-                    <button class="btn btn-apply mt-3">Apply Now</button>
+                    <button class="btn btn-apply shine mt-3">Apply Now</button>
                   </li>
 
                   <li class="list-group-item">
@@ -101,7 +101,7 @@
                       <li>Willing to work under pressure and with minimum supervision.</li>
                       <li>Good communication skills</li>
                     </ul>
-                    <button class="btn btn-apply mt-3">Apply Now</button>
+                    <button class="btn btn-apply shine mt-3">Apply Now</button>
                   </li>
 
                 </ul>

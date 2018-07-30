@@ -14,10 +14,11 @@
             touch: true
           });
 
-		$(document).ready(function () {
-			$('#product-view').load("assets/category/products/pastries/asado-bun.html", function () {
+	$('#product-view').load("assets/category/products/pastries/asado-bun.html", function () {
 				$.getScript("assets/js/jqBootstrapValidation.min.js"); $.getScript("assets/js/comment.js");
 			});
+
+		$(document).ready(function () {
 			// your on click function here
 			$('#products-list .flex-viewport a').click(function (event) {
 				event.preventDefault();

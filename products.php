@@ -37,7 +37,7 @@
 	</nav>
 
 <section id="product-page" class="pb-4">
-	<div class="container bg-white pt-3" style="border-radius: 0.25rem; -moz-box-shadow: 3px 4px 10px 3px #890000;-webkit-box-shadow: 3px 4px 10px 3px #890000;box-shadow: 3px 4px 10px 3px #890000;">
+	<div id="product-page-body" class="container bg-white pt-3" style="border-radius: 0.25rem; -moz-box-shadow: 3px 4px 10px 3px #890000;-webkit-box-shadow: 3px 4px 10px 3px #890000;box-shadow: 3px 4px 10px 3px #890000;">
 		<div class="categories row justify-content-center">
 					<div class="col-xs-4 m-1">
 						<div id="pastries" class="category rounded hvr-bob">
