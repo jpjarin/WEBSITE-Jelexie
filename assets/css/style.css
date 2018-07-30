@@ -229,6 +229,37 @@ button.navbar-toggler:focus{
 }*/
 
 /* ABOUT SECTION */
+.home-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .home-container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-container {
+    max-width: 1400px;
+  }
+}
 .about-section{
 	z-index: 2;
 }
@@ -239,14 +270,14 @@ button.navbar-toggler:focus{
 }
 #about-home p{
   font-family: 'Bago', Sans-serif;
-  font-size: 1.500em;
+  /*font-size: 1.500em;*/
 }
 @media only screen and (min-width: 1224px){
   #about-home h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   #about-home p{
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
 }
 .about-heading, .about-description{
@@ -402,7 +433,7 @@ button.navbar-toggler:focus{
   -webkit-box-shadow: 5px 7px 10px 3px #890000;
   box-shadow: 5px 7px 10px 3px #890000;
   border-radius: 10px;
-  padding: 15px 15px 20px 20px;
+  padding: 15px 0px 20px 20px;
   background-color:#ffffff;
 }
 /*FB-PLUGIN*/

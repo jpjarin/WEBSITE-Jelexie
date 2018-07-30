@@ -128,7 +128,7 @@ footer .fa-4x{
 .category h4{
   font-size: 2rem;
 }
-.navbar .navbar-collapse{
+/*.navbar .navbar-collapse{
   z-index: 10;
   height: 150vh;
   left: 0;
@@ -142,7 +142,7 @@ footer .fa-4x{
 .nav-link:hover{
   width: 25%;
   margin: auto;
-}
+}*/
 .navbar-brand .logo {
     height: 100%;
     width: 120px;
@@ -209,7 +209,7 @@ footer .adjust{
     font-size: 1.125em;
 }
 .about-wrapper{
-  padding: 15px 25px 20px 35px;
+  /*padding: 15px 25px 20px 35px;*/
 }
 .employees{
 	background-position: 50% 125%;

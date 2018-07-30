@@ -96,27 +96,34 @@
 </section>
 
 <section id="about" class="about-section pt-4 bg-red">
-	<div id="about-home" class="container pb-2 mb-3">
-		<div class="about-wrapper wow fadeIn">
+	<div id="about-home" class="home-container pb-2 mb-3">
 		<div class="row">
-			<div class="col-md-8 mb-4">
-				<div class="about-content">
-				<h1 class="about-heading mt-0 pt-2" style="animation-delay: 0.2s;">ABOUT US</h1>
-				<p class="about-description mb-2" style="animation-delay: 0.3s;">
-					Behind our company’s success are different people united by the same vision — one summarized in ensuring total customer satisfaction.
-					<div class="wow bounceIn read-more float-right" style="animation-delay: 0.8s;">
-							<a href="about.php" class="hvr-icon-pulse-grow hover-shine"><span>Read more </span><i class="hvr-icon fa fa-angle-double-right" style="position: relative; top: 0.5px;"></i></a>
+			<div class="col-md-6 p-0">
+				<div class="about-wrapper row wow fadeIn">
+					<div class="col-md-6 p-0">
+						<div class="about-content h-100 d-flex flex-column">
+						<div class="mb-auto">
+						<h1 class="about-heading mt-0 mb-2 pt-2" style="animation-delay: 0.2s;">ABOUT US</h1>
+						<p class="about-description" style="animation-delay: 0.3s;">
+							Behind our company’s success are different people united by the same vision — one summarized in ensuring total customer satisfaction.
+						</p>
+						</div>
+							<div class="wow bounceIn read-more mt-auto align-self-end pb-4" style="animation-delay: 0.8s;">
+									<a href="about.php" class="hvr-icon-pulse-grow hover-shine"><span>Read more </span><i class="hvr-icon fa fa-angle-double-right" style="position: relative; top: 0.5px;"></i></a>
+							</div>
+						</div>
 					</div>
-				</p>
-			</div>
-			</div>
 
-			<div class="col-md-4">
-				<div class="container-fluid">
-					<img class="img-fluid w-100" src="http://via.placeholder.com/1x1">
+					<div class="col-md-6 p-0">
+						<div class="container-fluid">
+							<img class="img-fluid w-100" src="http://via.placeholder.com/1x1">
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
+			<div class="col-md-6">
+				
+			</div>
 	</div>
 </div>
 
