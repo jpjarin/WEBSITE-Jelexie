@@ -303,6 +303,9 @@ button.navbar-toggler:focus{
 .hover-shine {
   overflow: hidden;
   position: relative;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  transition: all 0.3s cubic-bezier(1,0.22,1,0.19);
 }
 .hover-shine span {
   z-index: 20;
@@ -466,7 +469,7 @@ button.navbar-toggler:focus{
     background-color: #b42927!important;
 }
 #carousel .carousel-inner{
-  height: 35em;
+  height: 50em;
   -moz-box-shadow: 5px 5px 10px 2px #890000;
   -webkit-box-shadow: 5px 5px 10px 2px #890000;
   box-shadow: 5px 5px 10px 2px #890000;
@@ -485,6 +488,9 @@ button.navbar-toggler:focus{
   border: 1px solid #b42927;
   padding: 10px;
   color: #b42927;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 .carousel .btn-custom:hover{
   border: 1px solid #b42927;

@@ -97,37 +97,61 @@
 
 <section id="about" class="about-section pt-4 bg-red">
 	<div id="about-home" class="home-container pb-2 mb-3">
-		<div class="row">
-			<div class="col-md-6 p-0">
-				<div class="about-wrapper row wow fadeIn">
-					<div class="col-md-6 p-0">
-						<div class="about-content h-100 d-flex flex-column">
-						<div class="mb-auto">
-						<h1 class="about-heading mt-0 mb-2 pt-2" style="animation-delay: 0.2s;">ABOUT US</h1>
-						<p class="about-description" style="animation-delay: 0.3s;">
-							Behind our company’s success are different people united by the same vision — one summarized in ensuring total customer satisfaction.
-						</p>
-						</div>
-							<div class="wow bounceIn read-more mt-auto align-self-end pb-4" style="animation-delay: 0.8s;">
-									<a href="about.php" class="hvr-icon-pulse-grow hover-shine"><span>Read more </span><i class="hvr-icon fa fa-angle-double-right" style="position: relative; top: 0.5px;"></i></a>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 p-0">
+					<div class="container-fluid">
+						<div class="about-wrapper row wow fadeIn">
+							<div class="col-md-6 p-0">
+								<div class="about-content h-100 d-flex flex-column">
+									<div class="mb-auto">
+										<h1 class="about-heading mt-0 mb-2 pt-2" style="animation-delay: 0.2s;">ABOUT US</h1>
+										<p class="about-description" style="animation-delay: 0.3s;">Behind our company’s success are different people united by the same vision — one summarized in ensuring total customer satisfaction.</p>
+									</div>
+									<div class="wow bounceIn read-more mt-auto align-self-end pb-4" style="animation-delay: 0.8s;">	<a href="about.php" class="hvr-icon-pulse-grow hover-shine"><span>Read more </span><i class="hvr-icon fa fa-angle-double-right" style="position: relative; top: 0.5px;"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 p-0">
+								<div class="container-fluid">
+									<img class="img-fluid w-100" src="http://via.placeholder.com/1x1">
+								</div>
 							</div>
 						</div>
 					</div>
-
-					<div class="col-md-6 p-0">
+				</div>
+				<div class="col-md-6">
+					<div class="home-info row">
 						<div class="container-fluid">
-							<img class="img-fluid w-100" src="http://via.placeholder.com/1x1">
+							<div id="carousel" class="wow slideInUp h-100 carousel slide carousel-fade" data-ride="carousel">
+								<ol class="carousel-indicators">
+									<li data-target="#carousel" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel" data-slide-to="1"></li>
+								</ol>
+								<div class="carousel-inner employees">
+									<div class="carousel-item active">
+										<h1 class="text-center mt-4 mb-2">WE ARE HIRING!</h1>
+										<p class="text-center px-4 pt-1 pb-2">MANAGEMENT ENGINEER, ACCOUNTING OFFICER, WAREHOUSE OFFICER, PROGRAMMER, HARDWARE SPECIALIST, MARKETING STAFF, AUDIT STAFF, MANAGEMENT TRAINEE, STORE CREW, PRODUCTION CREW, SAP SYSTEM ANALYST / ADMINISTRATOR, POS SYSTEM ADMINISTRATOR</p>
+										<div class="mx-auto text-center pb-4">	<a class="btn-custom" href="careers.php">APPLY NOW</a>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<h1 class="text-center pb-2 px-4 mt-5">BE PART OF OUR JELEXIE BRANCHES NOW!</h1>
+										<p class="text-center pb-4 px-3">Please Contact Us For More Info</p>
+										<div class="mx-auto text-center pb-4">	<a class="btn-custom" href="contact_us.php">CONTACT US</a>
+										</div>
+									</div>
+								</div>
+								<!-- <img src="assets/img/employees.png" class="img-fluid align-bottom employees pt-5"> -->
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
-				
-			</div>
+		</div>
 	</div>
-</div>
 
-	<div id="carousel-section" class="mt-2 pt-2 px-2 pb-3 bg-red">
+	<!-- <div id="carousel-section" class="mt-2 pt-2 px-2 pb-3 bg-red">
 		<div class="container pl-2 mt-2">
 			<div class="home-info row">
 				<div class="col-sm-6 mb-4">
@@ -143,7 +167,7 @@
 					       	MANAGEMENT ENGINEER, ACCOUNTING OFFICER, WAREHOUSE OFFICER, PROGRAMMER, HARDWARE SPECIALIST, MARKETING STAFF, AUDIT STAFF, MANAGEMENT TRAINEE, STORE CREW, PRODUCTION CREW, SAP SYSTEM ANALYST / ADMINISTRATOR, POS SYSTEM ADMINISTRATOR
 					       </p>
 					       <div class="mx-auto text-center pb-4">
-					       		<a class="btn-custom shine" href="careers.php">APPLY NOW</a>
+					       		<a class="btn-custom" href="careers.php">APPLY NOW</a>
 					   		</div>
 					    </div>
 					    <div class="carousel-item">
@@ -152,11 +176,11 @@
 					       	Please Contact Us For More Info
 					       </p>
 					       <div class="mx-auto text-center pb-4">
-					       		<a class="btn-custom shine" href="contact_us.php">CONTACT US</a>
+					       		<a class="btn-custom" href="contact_us.php">CONTACT US</a>
 					   		</div>
 					    </div>
 					  </div>
-					  <!-- <img src="assets/img/employees.png" class="img-fluid align-bottom employees pt-5"> -->
+					  <!-- <img src="assets/img/employees.png" class="img-fluid align-bottom employees pt-5">
 					</div>
 				</div>
 
@@ -169,7 +193,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> --> -->
 <?php include 'assets/includes/footer.html';?>
 
 
