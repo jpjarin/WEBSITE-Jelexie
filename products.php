@@ -54,8 +54,10 @@
 							<div class="cakes-dropdown">
 							  <div class="dropbtn"><h4 class="p-2 mb-0">Cakes<i class="fas fa-caret-down" style="padding:3.4px 0px 0 5px;"></i></h4></div>
 							  <div id="cakes-dropdown-content" class="cakes-dropdown-content pt-2">
-							    <a id="ref-cakes" href="#">Category 1<span style="padding-left: 12px;position: relative;top: 3px;" class="icon-ref-cake"></span></a>
+							    <a id="ref-cakes" href="#">Refrigerated Cakes<span style="padding-left: 10px;position: relative;top: 2px;" class="icon-ref-cake"></span></a>
+
 							    <a href="#">Made-to-order cakes<span style="padding-left: 10px; position: relative;top: 2px;" class="icon-mto"></span></a>
+							    
 							    <a href="#">Fondant Cakes<span style="padding-left: 10px; position: relative;top: 2px;" class="icon-fondant"></span></a>
 							  </div>
 							</div>

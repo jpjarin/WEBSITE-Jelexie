@@ -42,10 +42,10 @@
       <div class="hiring">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-6 align-self-center">
+            <div class="col-md-5 align-self-center">
               <img src="assets/img/join-us-now-min.png" class="img-fluid">
             </div>
-            <div class="col-md-6 p-0">
+            <div class="col-md-7 p-0">
               <div class="available-positions">
                 <div>
                   <ul class="list-group list-group-flush">
@@ -116,7 +116,7 @@
 
 
 
-<section id="careers-section" class="mb-3">
+<!-- <section id="careers-section" class="mb-3">
   <div class="container bg-white pb-4" style="border-radius: 0.25rem; -moz-box-shadow: 3px 4px 10px 3px #890000;-webkit-box-shadow: 3px 4px 10px 3px #890000;box-shadow: 3px 4px 10px 3px #890000;">
       <div class="jumbotron jumbotron-fluid bg-white pt-4 pb-0 mb-0">
         <div class="container-fluid text-center">
@@ -182,7 +182,7 @@
         </div>
       </div>
   </div>
-</section>
+</section> -->
 
 <script>
       window.fbMessengerPlugins = window.fbMessengerPlugins || {

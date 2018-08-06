@@ -31,7 +31,7 @@ $(function() {
         cache: false,
         success: function() {
           // Success message
-          $('#success').html("<div class='alert alert-success alert-dismissible'>");
+          $('#success').html("<div class='animated jackInTheBox alert alert-success alert-dismissible'>");
           $('#success > .alert-success').html("<a class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</a>");
           $('#success > .alert-success')

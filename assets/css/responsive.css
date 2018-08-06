@@ -20,6 +20,9 @@
 .branches-heading,.branch-text{
 	text-align: left;
 }
+.about-wrapper{
+  padding: 15px 20px 15px 20px;
+}
 .category h4{
 	font-size: 4vw;
 }
@@ -34,6 +37,24 @@
   font-size: 2rem;
   font-family: 'Heavitas', sans-serif;
   color: #000000;
+}
+#contact-page h1{
+  font-size: 2.5rem;
+}
+#contact-page h4 {
+    font-size: 1.25rem;
+    color: #b42927;
+    font-weight: bold;
+}
+#contact-page .contact-details {
+    font-size: 1.167rem;
+    padding: 0px 0px 0px 10px;
+}
+#contact-page .detail{
+  padding: 15px 0;
+}
+form#contact-form {
+    padding: 0px 15px 20px 15px;
 }
 footer h1{
   font-size: 1.500em; 
@@ -104,7 +125,18 @@ h5#branches-heading{
 }
 .available-positions{
   height: 50vh;
-  
+}
+#contact-page h4{
+  font-size: 1.1rem;
+  color: #b42927;
+  font-weight: bold;
+}
+#contact-page .contact-details {
+    font-size: 1rem;
+    padding: 0px 0px 0px 20px;
+}
+form#contact-form {
+    padding: 0px 30px 20px 30px;
 }
 footer h1{
   font-size: 1.250em; 
@@ -152,6 +184,10 @@ footer .fa-4x{
 }
 .product-pic{
   width: 95%!important;
+}
+#contact-page .contact-details {
+    font-size: 1.4rem;
+    padding: 0 0 0 40px;
 }
 footer h1{
   font-size: 1.2em;
@@ -209,7 +245,7 @@ footer .adjust{
     font-size: 1.125em;
 }
 .about-wrapper{
-  /*padding: 15px 25px 20px 35px;*/
+  padding: 13px 0px 13px 20px;
 }
 .employees{
 	background-position: 50% 125%;
@@ -234,7 +270,10 @@ footer .adjust{
 }
 .navbar-brand .logo{
 	height: 100%;
-	width: 160px;
+	width: 130px;
+}
+.about-wrapper{
+  padding: 13px 0px 15px 20px;
 }
 .about-jelexie-logo {
     width: 85%;
@@ -282,6 +321,14 @@ footer .adjust{
 }
 .product-description {
     width: 70%;
+}
+}
+@media (min-width: 1600px){
+.container {
+    max-width: 1230px !important;
+}
+.about-wrapper{
+  padding: 20px 10px 12px 30px;
 }
 }
 @media only screen  and (min-width : 1800px) {

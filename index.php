@@ -5,7 +5,7 @@
 -->
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Jelexie Bakeshop</title>
 	<meta charset="utf-8">
@@ -96,53 +96,157 @@
 </section>
 
 <section id="about" class="about-section pt-4 bg-red">
-	<div id="about-home" class="home-container pb-2 mb-3">
+	<div id="about-home" class="home-container pb-2">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-6 p-0">
+				<div class="col-md-7 mb-4" style="padding: 0 10px;">
 					<div class="container-fluid">
 						<div class="about-wrapper row wow fadeIn">
-							<div class="col-md-6 p-0">
+							<div class="col-md-7 p-0">
 								<div class="about-content h-100 d-flex flex-column">
 									<div class="mb-auto">
-										<h1 class="about-heading mt-0 mb-2 pt-2" style="animation-delay: 0.2s;">ABOUT US</h1>
-										<p class="about-description" style="animation-delay: 0.3s;">Behind our company’s success are different people united by the same vision — one summarized in ensuring total customer satisfaction.</p>
+										<h1 class="about-heading mt-0 mb-1" style="animation-delay: 0.2s;">ABOUT US</h1>
+										<p class="about-description mb-2" style="animation-delay: 0.3s;">Behind our company’s success are different people united by the same vision — one summarized in ensuring total customer satisfaction.</p>
 									</div>
 									<div class="wow bounceIn read-more mt-auto align-self-end pb-4" style="animation-delay: 0.8s;">	<a href="about.php" class="hvr-icon-pulse-grow hover-shine"><span>Read more </span><i class="hvr-icon fa fa-angle-double-right" style="position: relative; top: 0.5px;"></i></a>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6 p-0">
+							<div class="col-md-5 p-0 order-first order-sm-1">
 								<div class="container-fluid">
 									<img class="img-fluid w-100" src="http://via.placeholder.com/1x1">
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="home-info row">
-						<div class="container-fluid">
-							<div id="carousel" class="wow slideInUp h-100 carousel slide carousel-fade" data-ride="carousel">
-								<ol class="carousel-indicators">
-									<li data-target="#carousel" data-slide-to="0" class="active"></li>
-									<li data-target="#carousel" data-slide-to="1"></li>
-								</ol>
-								<div class="carousel-inner employees">
-									<div class="carousel-item active">
-										<h1 class="text-center mt-4 mb-2">WE ARE HIRING!</h1>
-										<p class="text-center px-4 pt-1 pb-2">MANAGEMENT ENGINEER, ACCOUNTING OFFICER, WAREHOUSE OFFICER, PROGRAMMER, HARDWARE SPECIALIST, MARKETING STAFF, AUDIT STAFF, MANAGEMENT TRAINEE, STORE CREW, PRODUCTION CREW, SAP SYSTEM ANALYST / ADMINISTRATOR, POS SYSTEM ADMINISTRATOR</p>
-										<div class="mx-auto text-center pb-4">	<a class="btn-custom" href="careers.php">APPLY NOW</a>
+						
+							<div class="row mt-4">
+								<div class="">
+									<div class="our-products-wrapper wow fadeIn" data-wow-delay="0.2s">
+										
+										<div id="our-products-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+											  <div class="carousel-inner" style="border-top-left-radius: 5px; border-top-right-radius: 5px;background-color: #ffffff;">
+											    <div class="carousel-item active">
+											      <img class="d-block w-100" src="assets/img/pastries.jpg" alt="First slide">
+											    </div>
+											    <div class="carousel-item">
+											      <img class="d-block w-100" src="assets/img/breads.jpg" alt="Second slide">
+											    </div>
+											    <div class="carousel-item">
+											      <img class="d-block w-100" src="assets/img/cakes.jpg" alt="Third slide">
+											    </div>
+											  </div>
+											  <a class="carousel-control-prev" href="#our-products-carousel" role="button" data-slide="prev">
+											    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+											    <span class="sr-only">Previous</span>
+											  </a>
+											  <a class="carousel-control-next" href="#our-products-carousel" role="button" data-slide="next">
+											    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+											    <span class="sr-only">Next</span>
+											  </a>
 										</div>
-									</div>
-									<div class="carousel-item">
-										<h1 class="text-center pb-2 px-4 mt-5">BE PART OF OUR JELEXIE BRANCHES NOW!</h1>
-										<p class="text-center pb-4 px-3">Please Contact Us For More Info</p>
-										<div class="mx-auto text-center pb-4">	<a class="btn-custom" href="contact_us.php">CONTACT US</a>
+
+										<div class="our-products p-3 d-flex flex-lg-row flex-md-row flex-column">
+												<h1 class="m-0 our-products-heading align-self-center">Our Products</h1>
+											<div class="wow bounceIn view-products mt-auto align-self-end ml-auto" data-wow-delay="0.3s" style="animation-delay: 0.8s;">
+												<a href="products.php" class="hvr-icon-pulse-grow hover-shine"><span>View Products </span><i class="hvr-icon fa fa-angle-double-right" style="position: relative; top: 0.5px;"></i></a>
+											</div>
 										</div>
 									</div>
 								</div>
-								<!-- <img src="assets/img/employees.png" class="img-fluid align-bottom employees pt-5"> -->
+							</div>
+
+							<div id="branch-locator" class="mt-4 wow fadeIn">
+								<div class="row">
+						<div class="col-md-8 px-0">
+							<iframe class="map" src="https://www.google.com/maps/d/u/0/embed?mid=1egCvQGSgUMwWA1Yks1dsmBoQPYswrj5U" style="border:0"></iframe>
+						</div>
+						<div class="col-md-4 px-0">
+							<div class="branch-locations" style="-moz-box-shadow: 5px 5px 10px 2px #890000;
+							  -webkit-box-shadow: 5px 5px 10px 2px #890000;
+							  box-shadow: 5px 5px 10px 2px #890000">
+ 								<ul class="list-group list-group-flush">
+ 									<li class="list-group-item">
+ 										<h1>CUT-CUT</h1>
+ 										<h6>Cut-Cut 1st Tarlac City<br>
+											0998-842-5935</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1>STA. IGNACIA</h1>
+ 										<h6>Romulo High way Poblacion<br>
+ 										West Sta Ignacia Tarlac<br>
+										0998-842-5928</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1>SAN CARLOS</h1>
+ 										<h6>Roxas Building San Carlos City<br>
+ 										0998-842-5927</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1>LUISITA</h1>
+ 										<h6>Mc Arthur High Way,<br>
+ 										San Miguel Tarlac
+ 										<br>0998-842-5937</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1>MALASIQUI</h1>
+ 										<h6>Ramon Magsaysay St. Malasiqui <br>
+ 										Pangasinan
+ 										0998-842-5920</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1>MANAOAG</h1>
+ 										<h6>Rizal St. Manaoag Pangasinan<br>
+											0998-842-5921</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1>MASON</h1>
+ 										<h6>Brgy. Santo Cristo Tarlac City<br>
+											0998-842-5938</h6>
+ 									</li>
+ 								</ul>
+							</div>
+						</div>
+					</div>
+							</div>
+
+					</div>
+				</div>
+				<div class="col-md-5" style="padding: 0 10px">
+					<div class="">
+						<div class="home-info row">
+							<div class="">
+								<div class="container-fluid">
+									<div id="carousel" class="wow fadeIn h-100 carousel slide carousel-fade" data-ride="carousel" data-wow-delay="0.1s">
+										<ol class="carousel-indicators">
+											<li data-target="#carousel" data-slide-to="0" class="active"></li>
+											<li data-target="#carousel" data-slide-to="1"></li>
+										</ol>
+										<div class="carousel-inner employees">
+											<div class="carousel-item active align-self-center">
+												<h1 class="text-center mt-4 mb-2">WE ARE HIRING!</h1>
+												<p class="text-center px-4 pt-1 pb-2">MANAGEMENT ENGINEER, ACCOUNTING OFFICER, WAREHOUSE OFFICER, PROGRAMMER, HARDWARE SPECIALIST, MARKETING STAFF, AUDIT STAFF, MANAGEMENT TRAINEE, STORE CREW, PRODUCTION CREW, SAP SYSTEM ANALYST / ADMINISTRATOR, POS SYSTEM ADMINISTRATOR</p>
+												<div class="mx-auto text-center pb-4">	<a class="btn-custom" href="careers.php">APPLY NOW</a>
+												</div>
+											</div>
+											<div class="carousel-item align-self-center">
+												<h1 class="text-center pb-2 px-4 mt-5">BE PART OF OUR JELEXIE BRANCHES NOW!</h1>
+												<p class="text-center pb-4 px-3">Please Contact Us For More Info</p>
+												<div class="mx-auto text-center pb-4">	<a class="btn-custom" href="contact_us.php">CONTACT US</a>
+												</div>
+											</div>
+										</div>
+										<!-- <img src="assets/img/employees.png" class="img-fluid align-bottom employees pt-5"> -->
+									</div>
+								</div>
+							</div>
+							<div class="col-12 pt-4">
+								<div class="fb-timeline">
+									<div class="container-fluid h-100 fb-view mx-auto wow fadeIn" data-wow-delay="0.5s">
+										<div class="fb-loading">
+										<div class="fb-page" data-href="https://www.facebook.com/Jelexie-179456868470/" data-tabs="timeline, messages" data-width="500" data-height="680" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Jelexie-179456868470/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Jelexie-179456868470/">Jelexie</a></blockquote></div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -201,6 +305,7 @@
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 <script src="assets/js/pace.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="assets/js/jquery.rwd-fb-plugin.js"></script>
 <script src="assets/js/wow.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/jquery.sticky.js"></script>

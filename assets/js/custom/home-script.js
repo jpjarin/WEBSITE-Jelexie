@@ -80,4 +80,14 @@ $(window).on('load',function(){
 	$('#carousel').carousel({
 	  interval: 5000
 	});
+
+	//our prod carousel
+	$('#our-products-carousel').carousel({
+	  interval: 3000,
+	  pause: false
+	});
   });
+
+$(function(){
+    $('.fb-page').rwd();
+});
