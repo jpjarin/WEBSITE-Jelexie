@@ -27,7 +27,7 @@ new WOW().init();
          ajaxStop: function() { $body.removeClass("loading"); }    
     });
 
-    //for debugging
+    //for testing loader
     // $body.addClass("loading"); 
  
   
@@ -62,6 +62,16 @@ new WOW().init();
           // handler in order to cancel the default action
           // of the link which is to redirect to the url and
           // execute the AJAX request
+          event.preventDefault();
+      });
+    $('#mto').click(function() {
+          $('#category-view').load("assets/category/mto.html");
+          
+          event.preventDefault();
+      });
+    $('#fondant').click(function() {
+          $('#category-view').load("assets/category/fondant.html");
+          
           event.preventDefault();
       });
 

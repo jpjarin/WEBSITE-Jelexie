@@ -1,0 +1,695 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto|Muli|Open+Sans);
+html{
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+}
+body{
+	height: 100%;
+	width: 100%;
+	color: #000000;
+	font-family: 'Helvetica', Roboto, Sans-serif;
+	font-size: 24px;
+	line-height: 1.6em;
+	background-color: #ffffff;
+}
+@font-face {
+  font-family: 'Verdana';
+  src: url('../../assets/fonts/Verdana/verdana.woff') format('woff'),
+       url('../../assets/fonts/Verdana/verdana.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bago';
+   src: url('../../assets/fonts/Bago/bago.eot');
+  src: url("../../assets/fonts/Bago/bago.otf") format("opentype"),
+       url('../../assets/fonts/Bago/bago.woff2') format('woff2'),
+       url('../../assets/fonts/Bago/bago.woff') format('woff'), 
+       url('../../assets/fonts/Bago/bago.ttf')  format('truetype'),
+       url('../../assets/fonts/Bago/bago.svg') format('svg');
+}
+@font-face {
+  font-family: 'Harabara';
+   src: url('../../assets/fonts/Harabara/harabara.eot');
+  src: url('../../assets/fonts/Harabara/harabara.otf') format("opentype"),
+       url('../../assets/fonts/Harabara/harabara.woff2') format('woff2'),
+       url('../../assets/fonts/Harabara/harabara.woff') format('woff'), 
+       url('../../assets/fonts/Harabara/harabara.ttf')  format('truetype'),
+       url('../../assets/fonts/Harabara/harabara.svg') format('svg');
+}
+@font-face {
+  font-family: 'Helvetica';
+   src: url('../../assets/fonts/Helvetica/helvetica.eot');
+  src: url('../../assets/fonts/Helvetica/helvetica.otf') format("opentype"),
+       url('../../assets/fonts/Helvetica/helvetica.woff2') format('woff2'),
+       url('../../assets/fonts/Helvetica/helvetica.woff') format('woff'), 
+       url('../../assets/fonts/Helvetica/helvetica.ttf')  format('truetype'),
+       url('../../assets/fonts/Harabara/helvetica.svg') format('svg');
+}
+@font-face {
+  font-family: 'Heavitas';
+   src: url('../../assets/fonts/Heavitas/heavitas.eot');
+  src: url('../../assets/fonts/Heavitas/heavitas.otf') format("opentype"),
+       url('../../assets/fonts/Heavitas/heavitas.woff2') format('woff2'),
+       url('../../assets/fonts/Heavitas/heavitas.woff') format('woff'), 
+       url('../../assets/fonts/Heavitas/heavitas.ttf')  format('truetype'),
+       url('../../assets/fonts/Heavitas/heavitas.svg') format('svg');
+}
+
+@font-face {
+  font-family: "custom-icons";
+  src:url("../../assets/fonts/Custom/custom-icons.eot");
+  src:url("../../assets/fonts/Custom/custom-icons.eot?#iefix") format("embedded-opentype"),
+    url("../../assets/fonts/Custom/custom-icons.woff") format("woff"),
+    url("../../assets/fonts/Custom/custom-icons.ttf") format("truetype"),
+    url("../../assets/fonts/Custom/custom-icons.svg#custom-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "custom-icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "custom-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bread:before {
+  content: "\61";
+}
+.icon-fondant:before {
+  content: "\62";
+}
+.icon-mto:before {
+  content: "\63";
+}
+.icon-pastry:before {
+  content: "\64";
+}
+.icon-ref-cake:before {
+  content: "\65";
+}
+
+
+h1,h2,h3,h4,h5{
+	font-family: 'Verdana', Inherit, Sans-serif;
+  -webkit-transform: translateZ(0px);
+}
+p{
+  -webkit-transform: translateZ(0px);
+}
+.nowrap{
+	white-space: nowrap;
+}
+.main{
+	padding-left: 0em !important;
+	padding-right: 0em !important;
+  background-image: url('../../assets/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-yellow{
+	background-color: #fbdd17;
+}
+.bg-gray{
+	background-color: #fafafa;
+}
+.bg-white{
+  min-height: 100%;
+}
+.bg-red{
+  background-color:#b42927; 
+}
+.bg-red-2{
+  background-color:#bb2323; 
+}
+
+/*PACE.js*/
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #b42927;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 3px;
+}
+
+/*AJAX LOADER*/
+.loader {
+    display:    none;
+    position:   absolute;
+    z-index:    99 !important;
+    top:        0;
+    left:       0;
+    min-height: 63%;
+    height:     63%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../../assets/img/loader-red.svg') 
+                50% 50% 
+                no-repeat;
+    background-size: 30%;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 800px) {
+  .loader{
+    width: 104%;
+    height: 65%;
+  }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 400px) {
+  .loader{
+    left: -18px;
+    height: 78%;
+    width: 115%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../../assets/img/loader-red.svg') 
+                50% 22% 
+                no-repeat;
+    background-size: 30%;
+  }
+}
+@media only screen and (min-device-width : 400px) and (max-device-width : 500px) {
+  .loader{
+    left: -18px;
+    height: 78%;
+    width: 111%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../../assets/img/loader-red.svg') 
+                50% 22% 
+                no-repeat;
+    background-size: 30%;
+  }
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  .loader{
+    width: 100%;
+    left: -20px;
+    min-height: 67%;
+  }
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+#products-view.loading .loader {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+#products-view.loading .loader {
+    display: block;
+}
+/*......*/
+
+/*PRELOADER*/
+/*#product-loader{
+  position: relative;
+  min-height: 100vh;
+}
+.product-load{
+  position: absolute;
+    z-index:    1001 !important;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: #ffffff
+                url('../../assets/img/loading-bar.gif') 
+                50% 30% 
+                no-repeat;
+    background-size: 45%;
+}*/
+/*......*/
+
+/* NAVVIGATION BAR */
+#navbar{
+  z-index: 1005;
+}
+.navbar{
+  font-size: 1.500em;
+  font-family: 'Heavitas', Sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  /*letter-spacing: 1.5px;*/
+  border-bottom: 4px solid #ffffff;/*#da251c;*/
+}
+@media screen and (max-width: 601px){
+.navbar .navbar-collapse{
+  z-index: 10;
+  height: 150vh;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  background-color: #fbdd17;
+  transition: height 0.2s linear;
+  font-size: 1.5rem;
+}
+.nav-link:hover{
+  width: 80%;
+  margin: auto;
+} 
+}
+.navbar-brand .logo{
+  height: 100%;
+  width: 170px;
+}
+.navbar-nav{
+  position: relative;
+}
+.navbar .navbar-toggler{
+  border: 2px solid #4a4a4a;
+}
+button.navbar-toggler:focus{
+  outline: none;
+}
+.navbar .navbar-toggler .navbar-toggler-icon{
+  color: #4a4a4a;
+}
+.navbar-nav .nav-item{
+  margin: 13px 8px;
+}
+.nav-link{
+  color: #b42927;
+}
+.nav-link:hover{
+  color: #ffffff;
+  background-color: #b42927;
+  border-radius: 3px;
+}
+.dropdown-toggle:focus{
+  color: #ffffff;
+  background-color: #b42927;
+}
+
+.dropdown .menu-dropdown{
+  font-size: 1rem;
+  top: 35.5px;
+    left: 0px;
+    background-color: #b42927;
+    border-radius: 3px;
+    border: none;
+}
+@media screen and (max-width: 991px){
+  .dropdown .menu-dropdown{
+    position: relative !important;
+    top: -8px;
+  }
+}
+.dropdown .menu-dropdown .dropdown-item{
+  color: #ffffff;
+}
+.dropdown .menu-dropdown .dropdown-item:hover{
+  background-color: #b42927;
+  color: #fbdd17;
+  text-decoration: underline;
+  text-decoration-color: #fbdd17;
+}
+/*.navbar .navbar-toggler:hover{
+ background-color: #d8bc00;
+}*/
+.btn-download{
+  background-color: #b42927;
+}
+.btn-download:hover{
+  background-color: #941513;
+}
+.modal.fade.in .modal-dialog {
+  transform: scale(0.9);
+  opacity: 0;
+  transition: all 0s linear;
+  display: block !important;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: zoomOut;
+  animation-name: zoomOut;
+}
+.modal.fade .modal-dialog {
+  opacity: 1;
+  transform: scale(1);
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+
+/* BREADCRUMBS */
+.breadcrumb{
+  opacity: 0;
+  background-color: #fafafa!important;
+  padding: 1rem 1rem !important;
+  font-family: inherit, Sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 0 !important;
+  /*border-top-left-radius: 0rem !important;
+  border-top-right-radius: 0rem !important;
+  border-bottom-left-radius: .25rem !important;
+  border-bottom-right-radius: .25rem !important;*/
+  -moz-box-shadow: 3px 3px 10px 3px #890000;
+  -webkit-box-shadow: 3px 3px 10px 3px #890000;
+  box-shadow: 3px 3px 10px 3px #890000;
+}
+.breadcrumb .breadcrumb-item a{
+  color: #b42927;
+}
+.breadcrumb-item.active {
+    color: #000000 !important;
+}
+/*.breadcrumb-item+.breadcrumb-item::before {
+    color: #000000 !important;
+    content: ">" !important;
+}*/
+
+/*PRODUCT PAGE*/
+#product-page{
+  opacity: 0;
+  min-height: 100vh;
+  padding: 0px 4px;
+  transition: height 0.66s ease-out;
+}
+#product-page-body{
+  min-height: 100vh;
+}
+#products-list{
+  min-height: 100%; 
+}
+#products-view{
+  min-height: 100vh;
+}
+.categories{
+  text-transform: uppercase;
+  font-family: "Heavitas",Sans-serif;
+  position: relative;
+  z-index: 999;
+}
+.category{
+  cursor: pointer;
+  background-color: #b42927;
+  color: #ffffff;
+  padding: 0px 2px;
+  -webkit-transform: translateZ(0px);
+
+
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+
+}
+.category h4{
+  font-size: 2.5rem;
+}
+.category:hover{
+  background-color: #b42927;
+  color: #fbdd17;
+}
+.category a:focus{
+  background-color: #b42927;
+  color: #ffffff;
+}
+/*.category h4:after{
+  content: '|';
+  color: #4a4a4a;
+  position: relative;
+  left: 10px;
+}*/
+#category-view{
+  min-height: 100vh;
+}
+#category-view h1{
+  font-family: 'Heavitas', Sans-serif;
+  color: #2d2d2d;
+}
+#product-view{
+  min-height: 50vh;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: inherit;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.cakes-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.cakes-dropdown-content {
+    display: none;
+    position: absolute;
+    top: 93%;
+    left: -2px;
+    background-color: #b42927;
+    width: 175%;
+    box-shadow: 9px 13px 15px -3px rgba(0,0,0,0.2);
+    z-index: 9;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+@media screen and (max-width: 550px){
+ .cakes-dropdown-content {
+    width: 300%;
+    left: -198%;
+} 
+}
+@media screen and (min-device-width : 768px) and (max-width: 800px){
+ .cakes-dropdown-content {
+    width: 200%;
+    left: -155px;
+} 
+.category h4{
+  font-size: 2rem;
+}
+}
+.show{
+  display: block;
+}
+
+/* Links inside the dropdown */
+.cakes-dropdown-content a {
+  font-size: 1.5rem;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.cakes-dropdown-content a:hover{
+  text-decoration: none;
+}
+
+/* Change color of dropdown links on hover */
+.cakes-dropdown-content a:hover {background-color: #b42927;color: #fbdd17; }
+
+/* Show the dropdown menu on hover */
+/*.cakes-dropdown:hover .cakes-dropdown-content {display: block;}*/
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.cakes-dropdown:hover .dropbtn {background-color: inherit;}
+
+.product-pic{
+  -moz-box-shadow: 3px 3px 5px #c1cbce;
+  -webkit-box-shadow: 3px 3px 5px #c1cbce;
+  box-shadow: 3px 3px 5px #c1cbce;
+  width: 80% !important;
+}
+.product-description{
+  color: #ffffff;
+  text-align: left;
+ /* border-top: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+  border-left:20px solid #ffffff;
+  border-right:20px solid #ffffff;*/
+  width: 100%;
+  border-radius: 10px;
+}
+.drop-shadow{
+  -moz-box-shadow: 3px 3px 5px #c1cbce;
+  -webkit-box-shadow: 3px 3px 5px #c1cbce;
+  box-shadow: 3px 3px 5px #c1cbce;
+  border-radius: 10px;
+}
+.description{
+}
+.heading{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: 'Heavitas', Sans-serif;
+  color: #b42927;
+  padding: 1px 15px;
+  background-color: #fbdd17;
+}
+.paragraph{
+  background-color: #b42927;
+  font-family: 'Bago', Sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  padding: 20px 15px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.paragraph p{
+  margin-bottom: 10px;
+}
+.comment-section{
+  font-size: 1.2em;
+  font-family: inherit;
+  color: #000000;
+}
+form#comment-form textarea:focus {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+  background: #fff;
+  border-color: #2196f3
+}
+form#comment-form button:focus {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+  background: #fff;
+  border-color: #2196f3;
+}
+form .form-control[readonly]:focus {
+  -webkit-box-shadow: 0 1px 2px #fff !important;
+  box-shadow: 0 1px 2px #fff !important;
+  background: #fff !important;
+  border:1px solid #ced4da !important;
+  background-color: #e9ecef !important;
+}
+form .form-control:disabled, .form-control[readonly] {
+    margin-bottom: 5px !important;
+}
+form#comment-form textarea {resize: none;}
+.alert {
+    margin: auto;
+    display: block;
+    bottom: 160px;
+    left: 8% !important;
+    width: 273px;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+       padding: 0.75rem 1rem !important;
+    z-index: 500;
+}
+@media only screen and (max-width: 500px){
+  .alert{
+    left: 0% !important;
+  }
+}
+#success{
+  position: absolute;
+}
+.alert-dismissible{
+  padding-right: 1em !important;
+}
+.alert-dismissible .close {
+    top: -10px !important;
+    right: -10px !important;
+    padding: .75rem 1.25rem;
+}
+
+/* FOOTER */
+footer{
+  font-family: 'Bago', Roboto, Sans-serif;
+  color: #2d2d2d;
+}
+footer .footer{
+  background-color: #fbdd17;
+}
+footer h1{
+  font-family: 'Heavitas', sans-serif;
+  /*font-weight: bold;*/
+  text-transform: uppercase;
+  color: #b42927;
+  font-size: 1.600em; 
+}
+footer p{
+  font-size: 1.063em;
+}
+footer .fa-4x{
+  font-size: 5.5em;
+}
+@media screen and (max-width: 500px){
+ footer h1{
+  font-size: 1.500em; 
+}
+footer p{
+  font-size: 1.250em;
+}
+footer .contact-info{
+  line-height: 2rem;
+}
+footer .fa-4x{
+  font-size: 5em;
+}
+}
+footer a{
+  color: #2d2d2d;
+}
+footer .fa-instagram{
+  background: #2d2d2d;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+footer .fa-instagram:hover{
+  background: -webkit-linear-gradient(#4c68d7,#8a3ab9, #cd486b, #bc2a8d, #e95950, #fbad50, #fccc63);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer .adjust{
+  padding-left: 0px;
+}
+footer .copyright{
+  font-family: 'Verdana',Sans-serif;
+  font-size: 90%;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #f6d600;
+}

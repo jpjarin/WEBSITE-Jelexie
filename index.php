@@ -5,10 +5,11 @@
 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
 	<title>Jelexie Bakeshop</title>
 	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta property="og:title" content="Jelexie Bakeshop"/>
 	<meta property="og:description" content="Ang Sarap Kasama Sa Bawat Okasyon" />
@@ -29,12 +30,17 @@
 		<meta http-equiv="refresh" content="0;url=noscript.html">
 	</noscript>
 
-	<!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
+	<style type="text/css">
+		body.modal-open {
+	  padding-right: 0 !important;
+	}
+	</style>
 </head>
 <body>
+
+	<!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -44,6 +50,16 @@
   js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+<script> 
+var $buoop = {required:{e:-4,f:-3,o:-3,s:-1,c:-3},insecure:true,unsupported:true,api:2018.08 }; 
+function $buo_f(){ 
+ var e = document.createElement("script"); 
+ e.src = "//browser-update.org/update.min.js"; 
+ document.body.appendChild(e);
+};
+try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+catch(e){window.attachEvent("onload", $buo_f)}
+</script>
 
 
 <div class="preloader">
@@ -284,7 +300,7 @@
 					   		</div>
 					    </div>
 					  </div>
-					  <!-- <img src="assets/img/employees.png" class="img-fluid align-bottom employees pt-5">
+					  <img src="assets/img/employees.png" class="img-fluid align-bottom employees pt-5">
 					</div>
 				</div>
 
@@ -297,10 +313,10 @@
 			</div>
 		</div>
 	</div>
-</section> --> -->
+</section> --> 
 <?php include 'assets/includes/footer.html';?>
 
-
+<script src="assets/js/modernizr-3.6.0.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 <script src="assets/js/pace.js"></script>

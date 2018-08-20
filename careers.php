@@ -16,6 +16,9 @@
 	<noscript>
 		<meta http-equiv="refresh" content="0;url=noscript.html">
 	</noscript>
+  <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 </head>
 <body>
 
@@ -31,7 +34,7 @@
 
 
 
-<section id="careers-section" class="mb-3">
+<section id="careers-section" class="pb-3">
   <div class="container bg-white pb-4" style="border-radius: 0.25rem; -moz-box-shadow: 3px 4px 10px 3px #890000;-webkit-box-shadow: 3px 4px 10px 3px #890000;box-shadow: 3px 4px 10px 3px #890000;">
       <div class="jumbotron jumbotron-fluid bg-white pt-4 pb-0 mb-0">
         <div class="container-fluid text-center">
@@ -42,10 +45,10 @@
       <div class="hiring">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-5 align-self-center">
+            <div class="col-lg-5 col-md-6 align-self-center">
               <img src="assets/img/join-us-now-min.png" class="img-fluid">
             </div>
-            <div class="col-md-7 p-0">
+            <div class="col-lg-7 col-md-6 p-0">
               <div class="available-positions">
                 <div>
                   <ul class="list-group list-group-flush">
@@ -59,7 +62,7 @@
                       <li>Keen on Details</li>
                       <li>Having SAP Knowledge is an advantage</li>
                     </ul>
-                    <button class="btn btn-apply shine mt-3" data-toggle="modal" data-target="#under-construction">Apply Now</button>
+                    <button class="btn btn-apply shine mt-3" data-toggle="modal" data-target="#online-application">Apply Now</button>
                   </li>
                   
                   <li class="list-group-item">
@@ -73,7 +76,7 @@
                       <li>Have basic knowledge in business process and development</li>
                       <li>Advanced mathematical and analytical skill is required</li>
                     </ul>
-                    <button class="btn btn-apply shine mt-3">Apply Now</button>
+                    <button class="btn btn-apply shine mt-3" data-toggle="modal" data-target="#online-application">Apply Now</button>
                   </li>
 
                   <li class="list-group-item">
@@ -86,7 +89,7 @@
                       <li>Keen on Details</li>
                       <li>Have Basic Knowledge in MS Office</li>
                     </ul>
-                    <button class="btn btn-apply shine mt-3">Apply Now</button>
+                    <button class="btn btn-apply shine mt-3" data-toggle="modal" data-target="#online-application">Apply Now</button>
                   </li>
 
                   <li class="list-group-item">
@@ -101,7 +104,7 @@
                       <li>Willing to work under pressure and with minimum supervision.</li>
                       <li>Good communication skills</li>
                     </ul>
-                    <button class="btn btn-apply shine mt-3">Apply Now</button>
+                    <button class="btn btn-apply shine mt-3" data-toggle="modal" data-target="#online-application">Apply Now</button>
                   </li>
 
                 </ul>
@@ -221,7 +224,7 @@
 
 
 <!-- MODALS -->
-<div class="modal fade" id="apply" tabindex="-1" role="dialog" aria-hidden="true">
+<!-- <div class="modal fade" id="apply" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog mx-auto" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -345,18 +348,67 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
-<div class="modal fade" id="under-construction" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog mx-auto" role="document">
-    <div class="modal-content">
-      <div class="modal-body text-center">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<div class="modal fade" id="online-application" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content mx-auto">
+      <div class="modal-header">
+        <img src="assets/img/logo-min-2.png" class="img-fluid my-auto" style="width: 15%">
+        <h5 class="modal-title mx-auto" id="exampleModalLabel">Online Application</h5>
+        <button type="button" class="close ml-0" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-        <big>SORRY WE ARE CURRENTLY UPDATING</big>
-        <big></big>
+      </div>
+      <div class="modal-body">
+        <div id="mail-status"></div>
+        <div class="form">
+          <form id="online-application-form" enctype="multipart/form-data" method="post">
+            <div class="form-group row text-right">
+              <label for="fullname" class="col-2 col-form-label pr-0">Name:</label>
+                <div class="col-10">
+                  <input type="text" class="form-control" id="name" placeholder="Your Name" required="required">
+                </div>
+            </div>
+            <div class="form-group row text-right">
+              <label for="email" class="col-2 col-form-label pr-0">Email:</label>
+                <div class="col-10">
+                  <input type="email" class="form-control" id="name" placeholder="Your Email" required="required">
+                </div>
+            </div>
+            <div class="form-group row text-right">
+                <label for="position-desired" class="col-2 col-form-label pr-0 pl-1">Position Desired:</label>
+                <div class="col d-flex">
+                  <select class="form-control my-auto" id="position-desired" required>
+                        <option disabled selected value="">Select Position:</option>
+                        <option value="...">Position</option>
+                        <option value="...">Position</option>
+                        <option value="...">Position</option>
+                </select>
+                </div>
+            </div>
+            <div class="form-group row text-right">
+              <label for="resume" class="col-2 col-form-label pr-0 pl-1">Resume:</label>
+                <div class="col-10 text-left">
+                  <input type="file" class="form-control border-0 pl-0" name="resume" id="resume" required="required">
+                  <small id="fileHelp" class="form-text text-muted mt-0">Attach your resume</small></div>
+                </div>
+            </div>
+            <div class="form-check" style="padding-left: 38px;">
+              <label class="form-check-label" style="cursor: pointer;">
+                <input type="checkbox" class="form-check-input" required="required" style="top: 2px;"><strong>Terms of Agreement</strong><br>I acknowledge and Agree that my personal details shall be used only by the company for employment purposes only. 
+              </label>
+            </div>
+            <div class="form-group row mb-2">
+              <div class="col text-center">
+                <button type="submit" class="btn btn-apply rounded mt-3" id="submitApplication">Submit</button>
+              </div>
+            </div>
+            <div class="success"></div>
+            <div class="error"></div>
+          </form>
+        </div>
       </div>
     </div>
   </div>
@@ -372,5 +424,7 @@
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/jquery.sticky.js"></script>
   <script src="assets/js/custom/careers-script.js"></script>
+ <!--  <script src="assets/js/jqBootstrapValidation.min.js"></script> -->
+  <script src="assets/js/online-application.js"></script>
 </body>
 </html>

@@ -24,3 +24,24 @@ new WOW().init();
 	  interval: 6000
 	});
   });
+
+//online application
+// $(document).ready(function() {
+// $('#online-application-form').submit( function( e ) {
+// var formData = new FormData($(this)[0]);
+
+//     $.ajax({
+//         url: "././assets/online-application.php",
+//         type: 'POST',
+//         data: formData,
+//         async: false,
+//         success: function (data) {
+//             alert(data)
+//         },
+//         cache: false,
+//         contentType: false,
+//         processData: false
+//     });
+//     return false; 
+//     });
+// });

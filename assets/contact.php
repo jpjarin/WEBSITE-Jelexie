@@ -10,10 +10,20 @@ require('PHPMailer/src/SMTP.php');
 // require '/PHPMailer/src/PHPMailer.php';
 // require '/PHPMailer/src/SMTP.php';
 
-$name = addslashes(strip_tags($_POST['name']));
-$email_address = addslashes(strip_tags($_POST['email']));
-$subject = addslashes(strip_tags($_POST['subject']));
-$message = addslashes(strip_tags($_POST['message']));
+if(empty($_POST['name'])        ||
+   empty($_POST['email'])       ||
+   empty($_POST['subject'])         ||
+   empty($_POST['message']) ||
+   !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
+   {
+    echo "No arguments Provided!";
+    return false;
+   }
+
+$name = strip_tags(htmlspecialchars($_POST['name']));
+$email_address = strip_tags(htmlspecialchars($_POST['email']));
+$subject = strip_tags(htmlspecialchars($_POST['subject']));
+$message = strip_tags(htmlspecialchars($_POST['message']));
  $mail = new PHPMailer\PHPMailer\PHPMailer();
 
                              // Passing `true` enables exceptions
@@ -48,38 +58,14 @@ try {
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = "New {$subject} from {$name}";
-    $mail->Body    = '
-
-    <html>
-     <head>
-    </head>
-    <body>
-    <style type="text/css">
-    .mainBox{width:100%; text-align:center; }
-    .mailBody{border-radius:5px; box-shadow:-1px 2px 8px 0px #333; 
-    -webkit-box-shadow:-1px 2px 8px 0px #333;-moz-box-shadow:-1px 2px 8px 0px #333; border-top:5px solid #b42927; 
-    margin:10px auto;background:#fff; padding:20px; width:560px;}
-    .gotoBtn{height:50px; border: 2px solid #ee6600;  border-radius: 50px;  padding: 0 4em;  margin-top: 30px;  font-family:"Bago", Arial, sans-serif;  font-size: 1.2em;  font-weight: normal;  background-color: transparent;  color: #ee6600;}
-
-    </style>
-    <div class="mainBox">
-    <div class="mailBody">
-    <p style="text-align:center;">You have received a new message from <b>WWW.JELEXIE.COM</b> contact form.</p>
-    <p style="text-align: left;">
-        Here are the details:<br><br>
-        Sender: <b>{$name}</b>
-        <br>
-        Email: <b>{$email_address}</b>
+    $mail->Body    = "You have received a new message from <b>WWW.JELEXIE.COM</b> website contact form.<br><br>"
+        ."Here are the details:<br><br>
+        Name: <b>{$name}</b>
         <br><br>
+        Email: <b>{$email_address}</b><br>
+        <br>
         Message:<br>
-        {$message}
-    </p>
-
-     </div>
-     </div>
-     </body>
-    </html>
-';
+        {$message}";
 
     $mail->AltBody = "You have received a new message from WWW.JELEXIE.COM website contact form.\n\n"."Here are the details:\n\nName: {$name}\n\nEmail: {$name}\n\nMessage:\n{$name}";
 

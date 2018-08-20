@@ -35,7 +35,7 @@
   </ol>
 </nav>
 
-<section id="about-page" class="about-us animated fadeIn" style="animation-delay: 0.4s;">
+<section id="about-page" class="about-us" style="animation-delay: 0.4s;">
 	<div class="container bg-white border-radius" style="border-radius: 0.25rem; -moz-box-shadow: 3px 4px 10px 3px #890000;-webkit-box-shadow: 3px 4px 10px 3px #890000;box-shadow: 3px 4px 10px 3px #890000;">
 		<div class="row about-page-wrapper mb-2">
 			<div class="col-md-12 aboutUs">
@@ -46,10 +46,10 @@
 									Behind our company’s success are different people united by the same vision — one summarized in ensuring total customer satisfaction.
 								</p>
 					</div>
-					<div class="col-md-5 mb-3 align-self-center">
+					<div class="col-md-4 mb-3 align-self-center">
 						<div class="container-fluid text-center"><img class="img-fluid about-jelexie-logo" src="assets/img/logo-min.png"></div>
 					</div>
-					<div class="col-md-7">
+					<div class="col-md-8">
 						<h5 id="about-heading">The Company</h5>
 						<img class="img-fluid mx-auto w-100 py-3 px-4 about-jelexie-logo-mobile" src="assets/img/logo-min.png">
 										<p class="about-p-text">

@@ -11,8 +11,6 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="icon" href="favicon.png">
-	<!-- <link rel="stylesheet" type="text/css" href="assets/css/pre-loader.css"> -->
-	<!-- <link href="https://file.myfontastic.com/y3AetaxQ6K68KPQvMCHkxJ/icons.css" rel="stylesheet"> -->
 	<link href="assets/css/product-style.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/flexslider.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
@@ -24,6 +22,9 @@
 	<noscript>
 		<meta http-equiv="refresh" content="0;url=noscript.html">
 	</noscript>
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 </head>
 <body>
 <?php include 'assets/includes/navbar.html';?>
@@ -56,9 +57,9 @@
 							  <div id="cakes-dropdown-content" class="cakes-dropdown-content pt-2">
 							    <a id="ref-cakes" href="#">Refrigerated Cakes<span style="padding-left: 10px;position: relative;top: 2px;" class="icon-ref-cake"></span></a>
 
-							    <a href="#">Made-to-order cakes<span style="padding-left: 10px; position: relative;top: 2px;" class="icon-mto"></span></a>
+							    <a id="mto" href="#">Made-to-order cakes<span style="padding-left: 10px; position: relative;top: 2px;" class="icon-mto"></span></a>
 							    
-							    <a href="#">Fondant Cakes<span style="padding-left: 10px; position: relative;top: 2px;" class="icon-fondant"></span></a>
+							    <a id="fondant" href="#">Fondant Cakes<span style="padding-left: 10px; position: relative;top: 2px;" class="icon-fondant"></span></a>
 							  </div>
 							</div>
 						</div>
@@ -85,6 +86,7 @@
 <!-- <script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script> -->
 <script src="assets/js/pace.js"></script>
 <script src="assets/js/jquery.easing.min.js"></script>
+<script src="assets/js/jquery.event.ue.js"></script>
 <script src="assets/js/jquery.flexslider.js"></script>
 <script src="assets/js/wow.min.js"></script>
  <script src="assets/js/bootstrap.min.js"></script>

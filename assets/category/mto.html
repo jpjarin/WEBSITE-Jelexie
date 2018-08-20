@@ -1,0 +1,284 @@
+
+<script type="text/javascript">
+	$('.flexslider').flexslider({
+            animation: "slide",
+            animationLoop: true,
+            controlNav: false,
+            keyboard: false,
+            itemWidth: 210,
+            itemMargin: 5,
+            minItems: 2,
+            maxItems: 4,
+            easing: "swing",
+            slideshowSpeed: 100000,
+            animationSpeed: 1000,
+            touch: true
+          });
+
+	$('#product-view').load("assets/category/products/mto/bdc-001.html");
+
+		$(document).ready(function () {
+			// your on click function here
+			$('#products-list .flex-viewport a').click(function (event) {
+				event.preventDefault();
+				event.stopPropagation();
+				var url = $(this).data('url');
+				$('#product-view').load($(this).data('url'), function () {
+					$.getScript("assets/js/jqBootstrapValidation.min.js"), $.getScript("assets/js/comment.js")
+				});
+				window.scrollTo({
+					top: 180,
+					behavior: "smooth"
+				});
+				// return false;
+			});
+		});
+</script>
+<h1 style="color: #000000;">Made-to-order Cakes</h1>
+		<div id="product-view" class="row mt-4">
+			<!-- <div class="col-md-7 px-0 align-self-center">
+				<div class="product-image text-center animated fadeIn">
+					<img src="assets/img/products/pastries/WEBSITE_ASADO_BUN WITH NAME.jpg" class="product-pic" style="width: 
+					  80%">
+				</div>
+			</div>
+			<div class="col-md-5 px-0 py-3">
+				<div class="product-description">
+					<div class="description">
+						<div class="drop-shadow animated fadeIn">
+							<div class="heading">
+								<h1 class="my-2">Asado Bun</h1>
+							</div>
+							<div class="paragraph">
+								<p>A light brown bread bun filled with savory pork asado.</p>
+							</div>
+						</div>
+						<div class="comment-section mt-4">
+							<form id="comment-form">
+								<label for="comment">Leave a comment:</label>
+								<input type="text" id="product-name" class="form-control" readonly="readonly" value="Product Name: Asado Bun">
+								<textarea id="comment" class="form-control" required="required" rows="5" cols="30" placeholder="Your comment here"></textarea>
+								<button type="submit" class="btn btn-primary mt-2 animated bounceIn" style="animation-delay: 0.5s;" id="sendCommentBtn">SEND</button><div id="success" class="form-group"></div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<!-- <script src="assets/js/jqBootstrapValidation.min.js"></script>
+			<script src="assets/js/comment.js"></script> -->
+		</div>
+		<div id="products-list" class="row mt-4">
+		<h1 class="mt-2 mb-2 ml-3" style="color: #000000; font-size: 20px;">Other Made-to-order Cakes:</h1>
+			<div class="container animated fadeIn">
+				<div class="flexslider carousel mb-3">
+					<ul class="slides">
+						<li><a data-url="assets/category/products/mto/bdc-001.html">
+					<img src="assets/img/products/cakes/MTO/(BDC 001).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-002.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 002).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-005.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 005).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-007.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 007).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-008.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 008).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-010.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 010).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-012.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 012).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-014.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 014).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-015.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 015).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-016.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 016).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-018.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 018).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-019.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 019).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-020.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 020).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-021.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 021).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-022.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 022).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-023.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 023).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-024.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 024).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-026.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 026).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-028.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 028).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-030.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 030).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-031.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 031).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-032.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 032).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-033.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 033).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-034.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 034).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-035.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 035).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-036.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 036).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-037.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 037).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-038.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 038).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-039.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 039).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-040.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 040).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-041.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 041).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-042.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 042).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-043.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 043).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-044.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 044).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-045.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 045).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-046.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 046).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-047.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 047).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-048.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 048).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-053.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 053).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-064.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 064).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-066.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 066).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-067.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 067).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-072.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 072).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-077.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 077).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-078.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 078).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-079.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 079).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-080.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 080).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-081.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 081).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-082.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 082).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-083.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 083).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-084.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 084).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-085.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 085).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-086.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 086).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-087.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 087).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-088.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 088).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-089.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 089).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-090.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 090).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-091.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 091).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-092.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 092).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-093.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 093).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-094.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 094).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-095.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 095).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-096.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 096).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-097.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 097).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-098.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 098).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-099.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 099).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a data-url="assets/category/products/mto/bdc-100.html">
+							<img src="assets/img/products/cakes/MTO/(BDC 100).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li>
+							<img src="http://via.placeholder.com/1x1" class="img-fluid img-thumbnail">
+						</li>
+						<!-- items mirrored twice, total of 12 -->
+					</ul>
+				</div>
+			</div>
+
+		</div>

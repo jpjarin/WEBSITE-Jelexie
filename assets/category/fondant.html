@@ -1,0 +1,96 @@
+<script type="text/javascript">
+	$('.flexslider').flexslider({
+            animation: "slide",
+            animationLoop: true,
+            controlNav: false,
+            keyboard: false,
+            itemWidth: 210,
+            itemMargin: 5,
+            minItems: 2,
+            maxItems: 4,
+            easing: "swing",
+            slideshowSpeed: 100000,
+            animationSpeed: 1000,
+            touch: true
+          });
+
+	$('#product-view').load("assets/category/products/fondant/ce-b_001.html");
+
+		$(document).ready(function () {
+			// your on click function here
+			$('#products-list .flex-viewport a').click(function (event) {
+				event.preventDefault();
+				event.stopPropagation();
+				$('#product-view').load($(this).attr('href'), function () {
+					$.getScript("assets/js/jqBootstrapValidation.min.js"), $.getScript("assets/js/comment.js")
+				});
+				window.scrollTo({
+					top: 180,
+					behavior: "smooth"
+				});
+				// return false;
+			});
+		});
+</script>
+<h1 style="color: #000000;">Fondant Cakes</h1>
+		<div id="product-view" class="row mt-4">
+			<!-- <div class="col-md-7 px-0 align-self-center">
+				<div class="product-image text-center animated fadeIn">
+					<img src="assets/img/products/pastries/WEBSITE_ASADO_BUN WITH NAME.jpg" class="product-pic" style="width: 
+					  80%">
+				</div>
+			</div>
+			<div class="col-md-5 px-0 py-3">
+				<div class="product-description">
+					<div class="description">
+						<div class="drop-shadow animated fadeIn">
+							<div class="heading">
+								<h1 class="my-2">Asado Bun</h1>
+							</div>
+							<div class="paragraph">
+								<p>A light brown bread bun filled with savory pork asado.</p>
+							</div>
+						</div>
+						<div class="comment-section mt-4">
+							<form id="comment-form">
+								<label for="comment">Leave a comment:</label>
+								<input type="text" id="product-name" class="form-control" readonly="readonly" value="Product Name: Asado Bun">
+								<textarea id="comment" class="form-control" required="required" rows="5" cols="30" placeholder="Your comment here"></textarea>
+								<button type="submit" class="btn btn-primary mt-2 animated bounceIn" style="animation-delay: 0.5s;" id="sendCommentBtn">SEND</button><div id="success" class="form-group"></div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<!-- <script src="assets/js/jqBootstrapValidation.min.js"></script>
+			<script src="assets/js/comment.js"></script> -->
+		</div>
+		<div id="products-list" class="row mt-4">
+		<h1 class="mt-2 mb-2 ml-3" style="color: #000000;font-size: 20px;">Other Fondant Cakes:</h1>
+			<div class="container animated fadeIn">
+				<div class="flexslider carousel mb-3">
+					<ul class="slides">
+						<li><a href="assets/category/products/fondant/ce-b_001.html">
+							<img src="assets/img/products/cakes/FONDANT/Fondant Cake (CE-B 001).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a href="assets/category/products/fondant/ce-b_002.html">
+							<img src="assets/img/products/cakes/FONDANT/Fondant Cake (CE-B 002).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a href="assets/category/products/fondant/ce-b_003.html">
+							<img src="assets/img/products/cakes/FONDANT/Fondant Cake (CE-B 003).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a href="assets/category/products/fondant/ce-b_005.html">
+							<img src="assets/img/products/cakes/FONDANT/Fondant Cake (CE-B 005).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a href="assets/category/products/fondant/ce-b_006.html">
+							<img src="assets/img/products/cakes/FONDANT/Fondant Cake (CE-B 006).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<li><a href="assets/category/products/fondant/ce-b_007.html">
+							<img src="assets/img/products/cakes/FONDANT/Fondant Cake (CE-B 007).jpg" class="img-fluid img-thumbnail"></a>
+						</li>
+						<!-- items mirrored twice, total of 12 -->
+					</ul>
+				</div>
+			</div>
+
+		</div>

@@ -127,6 +127,13 @@
             slider.flexAnimate(target, slider.vars.pauseOnAction);
           });
         }
+        if (slider.vars.drag) {
+          slider.bind('udragstart.udrag', function(event) {
+            event.preventDefault();
+            var target = (event.px_delta_x < 0) ? slider.getTarget('next') : slider.getTarget('prev');
+            slider.flexAnimate(target, slider.vars.pauseOnAction);
+          });
+        }
 
         // PAUSEPLAY
         if (slider.vars.pausePlay) { methods.pausePlay.setup(); }
@@ -1146,6 +1153,7 @@
     randomize: false,               //Boolean: Randomize slide order
     fadeFirstSlide: true,           //Boolean: Fade in the first slide when animation type is "fade"
     thumbCaptions: false,           //Boolean: Whether or not to put captions on thumbnails when using the "thumbnails" controlNav.
+    drag: false,
 
     // Usability features
     pauseOnAction: true,            //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
@@ -1158,8 +1166,8 @@
     // Primary Controls
     controlNav: true,               //Boolean: Create navigation for paging control of each slide? Note: Leave true for manualControls usage
     directionNav: true,             //Boolean: Create navigation for previous/next navigation? (true/false)
-    prevText: "Previous",           //String: Set the text for the "previous" directionNav item
-    nextText: "Next",               //String: Set the text for the "next" directionNav item
+    prevText: "",           //String: Set the text for the "previous" directionNav item
+    nextText: "",               //String: Set the text for the "next" directionNav item
 
     // Secondary Navigation
     keyboard: true,                 //Boolean: Allow slider navigating via keyboard left/right keys

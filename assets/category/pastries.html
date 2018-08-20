@@ -10,8 +10,8 @@
             maxItems: 4,
             easing: "swing",
             slideshowSpeed: 100000,
-            animationSpeed: 1500,
-            touch: true
+            animationSpeed: 1000,
+            touch: true,
           });
 
 	$('#product-view').load("assets/category/products/pastries/asado-bun.html", function () {
@@ -23,7 +23,9 @@
 			$('#products-list .flex-viewport a').click(function (event) {
 				event.preventDefault();
 				event.stopPropagation();
-				$('#product-view').load($(this).attr('href'), function () {
+
+				var url = $(this).data('url');
+				$('#product-view').load($(this).data('url'), function () {
 					$.getScript("assets/js/jqBootstrapValidation.min.js"), $.getScript("assets/js/comment.js")
 				});
 				window.scrollTo({
@@ -72,58 +74,58 @@
 			<div class="container animated fadeIn">
 				<div class="flexslider carousel mb-3">
 					<ul class="slides">
-						<li><a href="assets/category/products/pastries/asado-bun.html">
+						<li><!-- <a href="assets/category/products/pastries/asado-bun.html"> --><a data-url="assets/category/products/pastries/asado-bun.html">
 							<img src="assets/img/products/pastries/WEBSITE_ASADO_BUN WITH NAME.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/pastries/banana-bar.html">
+						<li><a data-url="assets/category/products/pastries/banana-bar.html">
 							<img src="assets/img/products/pastries/WEBSITE_BANANA_BAR WITH NAME.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/pastries/brownies-mini.html">
+						<li><a data-url="assets/category/products/pastries/brownies-mini.html">
 							<img src="assets/img/products/pastries/WEBSITE_BROWNIES_MINI WITH NAME.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/pastries/caramel-chiffon-slice.html">
+						<li><a data-url="assets/category/products/pastries/caramel-chiffon-slice.html">
 							<img src="assets/img/products/pastries/WEBSITE_Caramel Chiffon Slice.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/pastries/cheesecake.html">
+						<li><a data-url="assets/category/products/pastries/cheesecake.html">
 							<img src="assets/img/products/pastries/WEBSITE_CHEESECAKE WITH NAME.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/pastries/cheesy-ensaymada.html">
+						<li><a data-url="assets/category/products/pastries/cheesy-ensaymada.html">
 							<img src="assets/img/products/pastries/WEBSITE_Cheesy Ensaymada.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/pastries/choco-torte.html">
+						<li><a data-url="assets/category/products/pastries/choco-torte.html">
 							<img src="assets/img/products/pastries/WEBSITE_Choco Torte.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/pastries/chocolate-ensaymada.html">
+						<li><a data-url="assets/category/products/pastries/chocolate-ensaymada.html">
 							<img src="assets/img/products/pastries/WEBSITE_Chocolate Ensaymada.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/pastries/classic-ensaymada.html">
+						<li><a data-url="assets/category/products/pastries/classic-ensaymada.html">
 							<img src="assets/img/products/pastries/WEBSITE_Classic Ensaymada.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/pastries/crinkles.html">
+						<li><a data-url="assets/category/products/pastries/crinkles.html">
 							<img src="assets/img/products/pastries/WEBSITE_Crinkles.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/pastries/eggpie.html">
+						<li><a data-url="assets/category/products/pastries/eggpie.html">
 							<img src="assets/img/products/pastries/WEBSITE_EGGPIE WITH NAME.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/pastries/eggpie-mini.html">
+						<li><a data-url="assets/category/products/pastries/eggpie-mini.html">
 							<img src="assets/img/products/pastries/WEBSITE_EGGPIE_MINI WITH NAME.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/pastries/fluffy-mamon.html">
+						<li><a data-url="assets/category/products/pastries/fluffy-mamon.html">
 							<img src="assets/img/products/pastries/WEBSITE_Fluffy mamon.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/pastries/fruitti-roll.html">
+						<li><a data-url="assets/category/products/pastries/fruitti-roll.html">
 							<img src="assets/img/products/pastries/WEBSITE_Fruitti Roll.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/pastries/fudge-brownies.html">
+						<li><a data-url="assets/category/products/pastries/fudge-brownies.html">
 							<img src="assets/img/products/pastries/WEBSITE_FUDGE_BROWNIES WITH NAME.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/pastries/macaroons.html">
+						<li><a data-url="assets/category/products/pastries/macaroons.html">
 							<img src="assets/img/products/pastries/WEBSITE_Macaroons.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/pastries/pianono-roll.html">
+						<li><a data-url="assets/category/products/pastries/pianono-roll.html">
 							<img src="assets/img/products/pastries/WEBSITE_Pianono Roll.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/pastries/ube-ensaymada.html">
+						<li><a data-url="assets/category/products/pastries/ube-ensaymada.html">
 							<img src="assets/img/products/pastries/WEBSITE_Ube Ensaymada.jpg" class="img-fluid img-thumbnail"></a>
 						</li>
 						<!-- items mirrored twice, total of 12 -->
