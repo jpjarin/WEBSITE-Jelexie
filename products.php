@@ -41,12 +41,12 @@
 	<div id="product-page-body" class="container bg-white pt-3" style="border-radius: 0.25rem; -moz-box-shadow: 3px 4px 10px 3px #890000;-webkit-box-shadow: 3px 4px 10px 3px #890000;box-shadow: 3px 4px 10px 3px #890000;">
 		<div class="categories row justify-content-center">
 					<div class="col-xs-4 m-1">
-						<div id="pastries" class="category rounded hvr-bob">
+						<div id="pastries" class="category rounded hvr-bob" data-url="assets/category/pastries.html">
 							<h4 class="p-2 mb-0">Pastries<span style="padding-left: 6px; position: relative;top: 5px;" class="icon-pastry"></span></h4>
 						</div>
 					</div>
 					<div class="col-xs-4 m-1">
-						<div id="breads" class="category rounded hvr-bob">
+						<div id="breads" class="category rounded hvr-bob" data-url="assets/category/breads.html">
 							<h4 class="p-2 mb-0">Breads<span style="padding-left: 6px; position: relative;top: 5px;" data-icon="a"></span></h4>
 						</div>
 					</div>
@@ -55,11 +55,11 @@
 							<div class="cakes-dropdown">
 							  <div class="dropbtn"><h4 class="p-2 mb-0">Cakes<i class="fas fa-caret-down" style="padding:3.4px 0px 0 5px;"></i></h4></div>
 							  <div id="cakes-dropdown-content" class="cakes-dropdown-content pt-2">
-							    <a id="ref-cakes" href="#">Refrigerated Cakes<span style="padding-left: 10px;position: relative;top: 2px;" class="icon-ref-cake"></span></a>
+							    <div class="cake-category" id="ref-cakes" data-url="assets/category/ref-cakes.html">Refrigerated Cakes<span style="padding-left: 10px;position: relative;top: 2px;" class="icon-ref-cake"></span></div>
 
-							    <a id="mto" href="#">Made-to-order cakes<span style="padding-left: 10px; position: relative;top: 2px;" class="icon-mto"></span></a>
+							    <div class="cake-category" id="mto" href="" data-url="assets/category/mto.html">Made-to-order cakes<span style="padding-left: 10px; position: relative;top: 2px;" class="icon-mto"></span></div>
 							    
-							    <a id="fondant" href="#">Fondant Cakes<span style="padding-left: 10px; position: relative;top: 2px;" class="icon-fondant"></span></a>
+							    <div class="cake-category" id="fondant" href="" data-url="assets/category/fondant.html">Fondant Cakes<span style="padding-left: 10px; position: relative;top: 2px;" class="icon-fondant"></span></div>
 							  </div>
 							</div>
 						</div>

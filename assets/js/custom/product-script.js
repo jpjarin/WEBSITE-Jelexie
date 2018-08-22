@@ -36,47 +36,55 @@ new WOW().init();
 
   $('#category-view').load("assets/category/pastries.html");
 
-  $('#pastries').click(function() {
-          $('#category-view').load("assets/category/pastries.html");
-          // it's important to return false from the click
-          // handler in order to cancel the default action
-          // of the link which is to redirect to the url and
-          // execute the AJAX request
+
+  $('#pastries,#breads,#ref-cakes,#mto,#fondant').click(function() {
+      var url = $(this).data('url');
+      $('#category-view').load($(this).data('url'));
           event.preventDefault();
       });
 
 
-     $('#breads').click(function() {
-        $('#category-view').load("assets/category/breads.html");
+  // $('#pastries').click(function() {
+  //         $('#category-view').load("assets/category/pastries.html");
+  //         // it's important to return false from the click
+  //         // handler in order to cancel the default action
+  //         // of the link which is to redirect to the url and
+  //         // execute the AJAX request
+  //         event.preventDefault();
+  //     });
 
-        // it's important to return false from the click
-        // handler in order to cancel the default action
-        // of the link which is to redirect to the url and
-        // execute the AJAX request
-        event.preventDefault();
-    });
 
-    $('#ref-cakes').click(function() {
-          $('#category-view').load("assets/category/ref-cakes.html");
-          // it's important to return false from the click
-          // handler in order to cancel the default action
-          // of the link which is to redirect to the url and
-          // execute the AJAX request
-          event.preventDefault();
-      });
-    $('#mto').click(function() {
-          $('#category-view').load("assets/category/mto.html");
+  //    $('#breads').click(function() {
+  //       $('#category-view').load("assets/category/breads.html");
+
+  //       // it's important to return false from the click
+  //       // handler in order to cancel the default action
+  //       // of the link which is to redirect to the url and
+  //       // execute the AJAX request
+  //       event.preventDefault();
+  //   });
+
+  //   $('#ref-cakes').click(function() {
+  //         $('#category-view').load("assets/category/ref-cakes.html");
+  //         // it's important to return false from the click
+  //         // handler in order to cancel the default action
+  //         // of the link which is to redirect to the url and
+  //         // execute the AJAX request
+  //         event.preventDefault();
+  //     });
+  //   $('#mto').click(function() {
+  //         $('#category-view').load("assets/category/mto.html");
           
-          event.preventDefault();
-      });
-    $('#fondant').click(function() {
-          $('#category-view').load("assets/category/fondant.html");
+  //         event.preventDefault();
+  //     });
+  //   $('#fondant').click(function() {
+  //         $('#category-view').load("assets/category/fondant.html");
           
-          event.preventDefault();
-      });
+  //         event.preventDefault();
+  //     });
 
     //cakes dropdown
-    $('.cakes-dropdown-content a').click(function() {
+    $('.cakes-dropdown-content .cake-category').click(function() {
           $('.cakes-dropdown-content').removeClass('show');
       });
     $('.dropbtn').click(function() {
