@@ -11,6 +11,15 @@
 #breadcrumb{
   padding: 0px 10px 0px 10px;
 }
+.about-content{
+  padding: 0;
+}
+.read-more.pb-4{
+  padding: 10px 0!important;
+}
+.about-content.mb-3{
+  margin-bottom: 1rem !important;
+}
 .about-jelexie-logo-mobile{
   display: block;
 }
@@ -80,7 +89,7 @@ footer .fa-4x{
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 800px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 991px) {
 .navbar .navbar-collapse{
 	z-index: 10;
 	height: 150vh;
@@ -276,7 +285,7 @@ footer .adjust{
 	width: 130px;
 }
 .about-wrapper{
-  padding: 13px 0px 15px 20px;
+  padding: 20px 0px 20px 25px;
 }
 .about-jelexie-logo {
     width: 80%;
@@ -330,9 +339,9 @@ footer .adjust{
 .container {
     max-width: 1230px !important;
 }
-.about-wrapper{
-  padding: 20px 10px 12px 30px;
-}
+/*.about-wrapper{
+  padding: 20px 20px 10px 12px;
+}*/
 }
 @media only screen  and (min-width : 1800px) {
 	.employees{

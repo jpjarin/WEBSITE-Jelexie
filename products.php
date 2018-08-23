@@ -17,6 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/css/all.css" media="all">
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/hover.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/easyzoom.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
 	<noscript>
@@ -57,9 +58,9 @@
 							  <div id="cakes-dropdown-content" class="cakes-dropdown-content pt-2">
 							    <div class="cake-category" id="ref-cakes" data-url="assets/category/ref-cakes.html">Refrigerated Cakes<span style="padding-left: 10px;position: relative;top: 2px;" class="icon-ref-cake"></span></div>
 
-							    <div class="cake-category" id="mto" href="" data-url="assets/category/mto.html">Made-to-order cakes<span style="padding-left: 10px; position: relative;top: 2px;" class="icon-mto"></span></div>
+							    <div class="cake-category" id="mto" data-url="assets/category/mto.html">Made-to-order cakes<span style="padding-left: 10px; position: relative;top: 2px;" class="icon-mto"></span></div>
 							    
-							    <div class="cake-category" id="fondant" href="" data-url="assets/category/fondant.html">Fondant Cakes<span style="padding-left: 10px; position: relative;top: 2px;" class="icon-fondant"></span></div>
+							    <div class="cake-category" id="fondant" data-url="assets/category/fondant.html">Fondant Cakes<span style="padding-left: 10px; position: relative;top: 2px;" class="icon-fondant"></span></div>
 							  </div>
 							</div>
 						</div>

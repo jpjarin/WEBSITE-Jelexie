@@ -61,6 +61,9 @@ h1{
 p{
   -webkit-transform: translateZ(0px);
 }
+a{
+ -webkit-transform: translateZ(0px); 
+}
 
 /* ==========================================================================
    Browser Upgrade Prompt
@@ -241,6 +244,9 @@ button.navbar-toggler:focus{
 }*/
 
 /* ABOUT SECTION */
+/*#home-page{
+  opacity: 0;
+}*/
 .home-container {
   width: 100%;
   padding-right: 15px;
@@ -248,7 +254,6 @@ button.navbar-toggler:focus{
   margin-right: auto;
   margin-left: auto;
 }
-
 @media (min-width: 576px) {
   .home-container {
     max-width: 540px;
@@ -445,14 +450,27 @@ button.navbar-toggler:focus{
     left: 100%;
   }
 }
-
+.about-content{
+  padding-right: 15px;
+}
+@media only screen and (min-width: 767px){
+  .about-content.mb-3{
+  margin: 0 !important;
+}
+}
 .about-wrapper{
   -moz-box-shadow: 5px 7px 10px 3px #890000;
   -webkit-box-shadow: 5px 7px 10px 3px #890000;
   box-shadow: 5px 7px 10px 3px #890000;
   border-radius: 10px;
-  padding: 15px 10px 15px 20px;
+  padding: 15px 10px 0px 15px;
   background-color:#ffffff;
+}
+.our-products{
+  padding: 10px;  
+}
+.our-products h1{
+  color: #000000 !important;
 }
 .our-products-wrapper{
   -moz-box-shadow: 5px 7px 10px 3px #890000;
@@ -463,9 +481,6 @@ button.navbar-toggler:focus{
 }
 .our-products-heading{
 
-}
-.our-products h1{
-  color: #000000 !important;
 }
 .view-products a{
   color: #000000;
@@ -520,11 +535,20 @@ button.navbar-toggler:focus{
 .home-info .carousel{
   background: linear-gradient(#fbdd17, #ffffff);
 }
-.carousel-indicators li{
+/*.carousel-indicators li{
   background-color: #ba8281!important
 }
 .carousel-indicators .active {
     background-color: #b42927!important;
+}*/
+.carousel-indicators li {
+    background-color: rgba(255, 255, 255, 0.36)!important;
+    /*border-radius: 12px;
+    width: 12px;
+    height: 12px;*/
+}
+.carousel-indicators .active {
+    background-color: rgba(255, 255, 255, 0.36)!important
 }
 #carousel .carousel-inner{
   height: 37em;
@@ -599,6 +623,9 @@ button.navbar-toggler:focus{
 .carousel-fade .carousel-control {
   z-index: 2;
 }
+#ads{
+  background-color: #b42927;
+}
 #ads img.img-fluid{
   background-color: #af3b3a;
 }
@@ -621,14 +648,14 @@ button.navbar-toggler:focus{
 } 
 }
 #ads .carousel-indicators li {
-    background-color: #c37b7a!important;
+    background-color: rgba(255,255,255,.5)!important;
     opacity: 0.3;
     /*border-radius: 12px;
     width: 12px;
     height: 12px;*/
 }
 #ads .carousel-indicators .active {
-    background-color: #b42927!important;
+    background-color: #ffffff!important;
 }
 
 /*HOME PAGE BRANCH LOCATOR*/

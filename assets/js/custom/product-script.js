@@ -37,12 +37,18 @@ new WOW().init();
   $('#category-view').load("assets/category/pastries.html");
 
 
-  $('#pastries,#breads,#ref-cakes,#mto,#fondant').click(function() {
+  $('#pastries,#breads,#ref-cakes,#mto').click(function() {
       var url = $(this).data('url');
       $('#category-view').load($(this).data('url'));
           event.preventDefault();
       });
-
+  $('#fondant').click(function() {
+      var url = $(this).data('url');
+      $('#category-view').load($(this).data('url'),function () {
+          $.getScript("assets/js/image-zoom.js")
+        });
+          event.preventDefault();
+      });
 
   // $('#pastries').click(function() {
   //         $('#category-view').load("assets/category/pastries.html");

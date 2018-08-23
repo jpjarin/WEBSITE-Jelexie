@@ -16,13 +16,15 @@
 
 	$('#product-view').load("assets/category/products/fondant/ce-b_001.html");
 
+
 		$(document).ready(function () {
 			// your on click function here
 			$('#products-list .flex-viewport a').click(function (event) {
 				event.preventDefault();
 				event.stopPropagation();
-				$('#product-view').load($(this).attr('href'), function () {
-					$.getScript("assets/js/jqBootstrapValidation.min.js"), $.getScript("assets/js/comment.js")
+				var url = $(this).data('url');
+				$('#product-view').load($(this).data('url'), function () {
+					$.getScript("assets/js/image-zoom.js");
 				});
 				window.scrollTo({
 					top: 180,
@@ -32,6 +34,28 @@
 			});
 		});
 </script>
+<style type="text/css">
+		.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+margin-top: 20px;
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 100%;
+  height: 300px;
+}
+}
+</style>
 <h1 style="color: #000000;">Fondant Cakes</h1>
 		<div id="product-view" class="row mt-4">
 			<!-- <div class="col-md-7 px-0 align-self-center">
@@ -70,22 +94,22 @@
 			<div class="container animated fadeIn">
 				<div class="flexslider carousel mb-3">
 					<ul class="slides">
-						<li><a href="assets/category/products/fondant/ce-b_001.html">
+						<li><a data-url="assets/category/products/fondant/ce-b_001.html">
 							<img src="assets/img/products/cakes/FONDANT/Fondant Cake (CE-B 001).jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/fondant/ce-b_002.html">
+						<li><a data-url="assets/category/products/fondant/ce-b_002.html">
 							<img src="assets/img/products/cakes/FONDANT/Fondant Cake (CE-B 002).jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/fondant/ce-b_003.html">
+						<li><a data-url="assets/category/products/fondant/ce-b_003.html">
 							<img src="assets/img/products/cakes/FONDANT/Fondant Cake (CE-B 003).jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/fondant/ce-b_005.html">
+						<li><a data-url="assets/category/products/fondant/ce-b_005.html">
 							<img src="assets/img/products/cakes/FONDANT/Fondant Cake (CE-B 005).jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/fondant/ce-b_006.html">
+						<li><a data-url="assets/category/products/fondant/ce-b_006.html">
 							<img src="assets/img/products/cakes/FONDANT/Fondant Cake (CE-B 006).jpg" class="img-fluid img-thumbnail"></a>
 						</li>
-						<li><a href="assets/category/products/fondant/ce-b_007.html">
+						<li><a data-url="assets/category/products/fondant/ce-b_007.html">
 							<img src="assets/img/products/cakes/FONDANT/Fondant Cake (CE-B 007).jpg" class="img-fluid img-thumbnail"></a>
 						</li>
 						<!-- items mirrored twice, total of 12 -->
