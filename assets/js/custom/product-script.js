@@ -45,7 +45,7 @@ new WOW().init();
   $('#fondant').click(function() {
       var url = $(this).data('url');
       $('#category-view').load($(this).data('url'),function () {
-          $.getScript("assets/js/image-zoom.js")
+          $.getScript("assets/js/magnifier.js")
         });
           event.preventDefault();
       });

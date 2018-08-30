@@ -90,21 +90,6 @@ footer .fa-4x{
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 991px) {
-.navbar .navbar-collapse{
-	z-index: 10;
-	height: 150vh;
-	left: 0;
-  width: 100%;
-  position: absolute;
-  top: 100%;
-  background-color: #fbdd17;
-  transition: height 0.2s linear;
-  font-size: 2rem;
-}
-.nav-link:hover{
-	width: 35%;
-	margin: auto;
-}
 .display-4{
   font-size: 3rem !important;
 }
@@ -172,21 +157,18 @@ footer .fa-4x{
 .category h4{
   font-size: 2rem;
 }
-/*.navbar .navbar-collapse{
+.navbar .navbar-collapse{
   z-index: 10;
-  height: 150vh;
-  left: 0;
+  height: 100%;
   width: 100%;
-  position: absolute;
-  top: 98%;
   background-color: #fbdd17;
   transition: height 0.2s linear;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .nav-link:hover{
   width: 25%;
   margin: auto;
-}*/
+}
 .navbar-brand .logo {
     height: 100%;
     width: 120px;
@@ -196,6 +178,9 @@ footer .fa-4x{
 }
 .product-pic{
   width: 95%!important;
+}
+.product-description{
+  margin: auto;
 }
 #contact-page .contact-details {
     font-size: 1.4rem;
@@ -212,6 +197,18 @@ footer p{
 
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+.navbar .navbar-collapse{
+  z-index: 10;
+  height: 150vh;
+  width: 100%;
+  background-color: #fbdd17;
+  transition: height 0.2s linear;
+  font-size: 2rem;
+}
+.nav-link:hover{
+  width: 35%;
+  margin: auto;
+}
 footer .adjust{
 	padding-left: 3.5rem
 }

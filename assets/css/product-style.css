@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto|Muli|Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto|Open+Sans);
 html{
 	height: 100%;
 	width: 100%;
@@ -143,7 +143,9 @@ p{
 .bg-red-2{
   background-color:#bb2323; 
 }
-
+.img-thumbnail{
+  min-height: 100%;
+}
 /*PACE.js*/
 .pace {
   -webkit-pointer-events: none;
@@ -271,10 +273,7 @@ p{
 .navbar .navbar-collapse{
   z-index: 10;
   height: 150vh;
-  left: 0;
   width: 100%;
-  position: absolute;
-  top: 100%;
   background-color: #fbdd17;
   transition: height 0.2s linear;
   font-size: 1.5rem;
@@ -651,18 +650,51 @@ button.navbar-toggler:focus{
   color: #b42927;
   padding: 1px 15px;
   background-color: #fbdd17;
+  font-size: 13px;
 }
 .paragraph{
   background-color: #b42927;
   font-family: 'Bago', Sans-serif;
   font-size: 1.3rem;
   line-height: 1.8rem;
-  padding: 20px 15px;
+  padding: 15px 15px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
+  margin-bottom: 1rem;
 }
 .paragraph p{
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  /*text-shadow:
+   -1px -1px 0 #ae0300,  
+    1px -1px 0 #ae0300,
+    -1px 1px 0 #ae0300,
+     1px 1px 0 #ae0300;*/
+}
+.paragraph .list-inline{
+  margin-bottom: 0px;
+}
+.paragraph li{
+  list-style-type: none;
+/*  color: #fbdd17;*/
+}
+.paragraph li::before {
+      display: inline-block;
+    vertical-align: middle;
+    width: 5px;
+    height: 5px;
+    background-color: #fbdd17;
+    margin-left: -1em;
+    left: -8px;
+    top: -2px;
+    position: relative;
+    border-radius: 20px;
+    content: ' ';
+}
+/*.paragraph li span{
+  color: #ffffff;
+}*/
+.paragraph strong{
+  color: #fbdd17;
 }
 .comment-section{
   font-size: 1.2em;

@@ -14,7 +14,9 @@
             touch: true
           });
 
-	$('#product-view').load("assets/category/products/fondant/ce-b_001.html");
+	$('#product-view').load("assets/category/products/fondant/ce-b_001.html", function () {
+					$.getScript("assets/js/magnifier.js");
+				});
 
 
 		$(document).ready(function () {
@@ -24,7 +26,7 @@
 				event.stopPropagation();
 				var url = $(this).data('url');
 				$('#product-view').load($(this).data('url'), function () {
-					$.getScript("assets/js/image-zoom.js");
+					$.getScript("assets/js/magnifier.js");
 				});
 				window.scrollTo({
 					top: 180,
@@ -34,7 +36,7 @@
 			});
 		});
 </script>
-<style type="text/css">
+<!-- <style type="text/css">
 		.img-zoom-container {
   position: relative;
 }
@@ -55,7 +57,7 @@ margin-top: 20px;
   height: 300px;
 }
 }
-</style>
+</style> -->
 <h1 style="color: #000000;">Fondant Cakes</h1>
 		<div id="product-view" class="row mt-4">
 			<!-- <div class="col-md-7 px-0 align-self-center">

@@ -3,6 +3,7 @@ body.preloader-site {
 	overflow: hidden
 }
 .preloader {
+  display: none;
 	background: #fff;
 	bottom: 0;
 	height: 100vh;

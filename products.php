@@ -17,7 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/css/all.css" media="all">
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/hover.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/easyzoom.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/magnifier.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
 	<noscript>
@@ -93,6 +93,7 @@
  <script src="assets/js/bootstrap.min.js"></script>
  <script src="assets/js/jquery.sticky.js"></script>
  <!-- <script src="assets/js/jqBootstrapValidation.min.js"></script> -->
+ <script src="assets/js/modernizr-3.6.0.min.js"></script>
  <script src="assets/js/custom/product-script.js"></script>
  <!-- <script src="assets/js/comment.js"></script> -->
 </body>

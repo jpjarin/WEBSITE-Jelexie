@@ -3,10 +3,10 @@
 	// 	    Body.css({"overflow":"hidden"});
 	// 	});
 
-	new WOW().init();
 
 if (Cookies.get('noPreloader') === 'true') {
 		$('.preloader').remove();
+		new WOW().init();
     } 
     else  {
       $(window).on('DOMContentLoaded', function() {
@@ -18,6 +18,7 @@ if (Cookies.get('noPreloader') === 'true') {
 		
 		$(window).on('load', function() {
 		    $('.preloader').fadeOut();
+		    new WOW().init();
 		});
       });
     } 
@@ -62,11 +63,16 @@ $(window).on('load',function(){
 //JQuery Sticky
  $(document).ready(function(){
     $("#navbar").sticky({topSpacing:0,zIndex:999});
+
+	$(".carousel-control-prev, .carousel-control-next, .carousel-indicators").css({"visibility":"hidden"});    
   });
 
 
  $(window).on('load', function(){
    //Ads
+
+   $(".carousel-control-prev, .carousel-control-next, .carousel-indicators").css({"visibility":"visible"});
+
 	$('#ads').carousel({
 	  interval: 4000
 	});

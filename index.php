@@ -35,6 +35,18 @@
 		body.modal-open {
 	  padding-right: 0 !important;
 	}
+
+	.blur-up {
+		-webkit-filter: blur(5px);
+		filter: blur(5px);
+		transition: filter 90ms, -webkit-filter 90ms;
+	}
+
+	.blur-up.lazyloaded {
+		-webkit-filter: blur(0);
+		filter: blur(0);
+	}
+
 	</style>
 </head>
 <body>
@@ -53,7 +65,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <script> 
-var $buoop = {required:{e:-4,f:-3,o:-3,s:-1,c:-3},insecure:true,unsupported:true,api:2018.08,reminder:0,reminderClosed:24 }; 
+var $buoop = {required:{e:-4,f:-3,o:-3,s:-1,c:-3},insecure:true,unsupported:true,style:"bottom",api:2018.08 }; 
 function $buo_f(){ 
  var e = document.createElement("script"); 
  e.src = "//browser-update.org/update.min.js"; 
@@ -89,7 +101,7 @@ catch(e){window.attachEvent("onload", $buo_f)}
 		</ol>
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
-	      <img class="img-fluid d-block w-100 lazyload" src="assets/img/ads/morning-coffee-combo-tarp-2018-(size-3).blur.jpg" data-src="assets/img/ads/morning-coffee-combo-tarp-2018-(size-3).jpg">
+	      <img class="img-fluid d-block w-100 lazyload blur-up" src="assets/img/ads/morning-coffee-combo-tarp-2018-(size-3).blur.jpg" data-src="assets/img/ads/morning-coffee-combo-tarp-2018-(size-3).jpg">
 	    </div>
 	    <div class="carousel-item">
 	      <img class="img-fluid d-block w-100" src="assets/img/ads/butter just got better website.jpg">
@@ -144,7 +156,7 @@ catch(e){window.attachEvent("onload", $buo_f)}
 										<div id="our-products-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 											  <div class="carousel-inner" style="border-top-left-radius: 5px; border-top-right-radius: 5px;background-color: #ffffff;">
 											    <div class="carousel-item active">
-											      <img class="d-block w-100" src="assets/img/pastries.jpg" alt="First slide">
+											      <img class="d-block w-100 lazyload blur-up" src="assets/img/pastries.jpg" alt="First slide">
 											    </div>
 											    <div class="carousel-item">
 											      <img class="d-block w-100" src="assets/img/breads.jpg" alt="Second slide">
@@ -176,12 +188,36 @@ catch(e){window.attachEvent("onload", $buo_f)}
 							<div id="branch-locator" class="mt-4 wow fadeInUp">
 								<div class="row">
 						<div class="col-md-8 px-0">
-							<iframe class="map" src="https://www.google.com/maps/d/u/0/embed?mid=1egCvQGSgUMwWA1Yks1dsmBoQPYswrj5U" style="border:0"></iframe>
+							<div class="flex-column">
+								<div class="store-head">
+									<div class="row h-100">
+										<div class="col-6">
+											<div class="h-100 d-flex">
+												<div class="mt-auto text-upper">
+													<h2 class=m-0">Store Locator</h2>
+												</div>
+											</div>
+										</div>
+										<div class="col-6 text-right d-flex">
+											<div class="m-auto">
+												<img src="assets/img/logo-min.png" class="img-fluid p-1" style="width: 62%;">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="map-wrapper custom-shadow">
+									<iframe class="map" src="https://www.google.com/maps/d/u/0/embed?mid=1egCvQGSgUMwWA1Yks1dsmBoQPYswrj5U" style=""></iframe>
+								</div>
+							</div>
+							<div class="custom-shadow">
+							<div class="store-floor">
+								
+							</div>
+								
+							</div>
 						</div>
-						<div class="col-md-4 px-0">
-							<div class="branch-locations" style="-moz-box-shadow: 5px 5px 10px 2px #890000;
-							  -webkit-box-shadow: 5px 5px 10px 2px #890000;
-							  box-shadow: 5px 5px 10px 2px #890000">
+						<div class="col-md-4 px-2">
+							<div class="branch-locations custom-shadow">
  								<ul class="list-group list-group-flush">
  									<li class="list-group-item">
  										<h1>CUT-CUT</h1>
@@ -260,7 +296,7 @@ catch(e){window.attachEvent("onload", $buo_f)}
 							<div class="col-12 pt-4">
 								<div class="fb-timeline">
 									<div class="container-fluid h-100 fb-view mx-auto wow fadeInUp" data-wow-delay="0.5s">
-										<div class="fb-loading">
+										<div class="fb-loading custom-shadow">
 										<div class="fb-page" data-href="https://www.facebook.com/Jelexie-179456868470/" data-tabs="timeline, messages" data-width="500" data-height="680" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Jelexie-179456868470/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Jelexie-179456868470/">Jelexie</a></blockquote></div>
 										</div>
 									</div>
