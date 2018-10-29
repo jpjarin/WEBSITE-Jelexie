@@ -1,5 +1,6 @@
 new WOW().init();
 
+
 //JQuery Sticky
  $(document).ready(function(){
     $("#navbar").sticky({topSpacing:0,zIndex:999});

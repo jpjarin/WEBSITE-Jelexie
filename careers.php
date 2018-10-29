@@ -21,6 +21,19 @@
     <![endif]-->
 </head>
 <body>
+  
+<div id="site-update">
+    <div class="site-update animated">
+      <div class="alert alert-dismissible fade show text-center" role="alert" style="position: initial;">
+      <div style="position: inherit;">
+        <strong>Notice:</strong> We are still undergoing our site update. Please keep in mind that our website may not function properly yet.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+    </div>
+</div>
 
 <?php include 'assets/includes/navbar.html';?>
 <div class="bg-red">
@@ -52,6 +65,49 @@
               <div class="available-positions">
                 <div>
                   <ul class="list-group list-group-flush">
+
+                  <li class="list-group-item">
+                    <h1 class="my-2">STORE CREW</h1>
+                    <h5 class="font-weight-bold">Job Qualification</h5>
+                    <ul class="list-group pl-4">
+                      <li>Atleast High School Graduate/ Vocational Course or College Level</li>
+                      <li>Single with Pleasing Personality</li>
+                      <li>20-28 Years Old</li>
+                      <li>Customer Oriented</li>
+                      <li>Atlest 5'2 in Height</li>
+                      <li>Willing to relocate</li>
+                      <li>Fresh Graduates are Encouraged to Apply</li>
+                    </ul>
+                    <button class="btn btn-apply shine mt-3" data-toggle="modal" data-target="#online-application">Apply Now</button>
+                  </li>
+
+                  <li class="list-group-item">
+                    <h1 class="my-2">PRODUCTION CREW</h1>
+                    <h5 class="font-weight-bold">Job Qualification</h5>
+                    <ul class="list-group pl-4">
+                      <li>Atleast High School Graduate / Vocational Course or College Level</li>
+                      <li>Must be flexible, physically fit and willing to render overtime</li>
+                      <li>Experience in Food production is an advantage</li>
+                    </ul>
+                    <button class="btn btn-apply shine mt-3" data-toggle="modal" data-target="#online-application">Apply Now</button>
+                  </li>
+
+                  <li class="list-group-item">
+                    <h1 class="my-2">MANAGEMENT TRAINEE</h1>
+                    <h5 class="font-weight-bold">Job Qualification</h5>
+                    <ul class="list-group pl-4">
+                      <li>Atleast High School Graduate Food Beverages Services, Business Studies or Equivalent</li>
+                      <li>Female</li>
+                      <li>Single with Pleasing Personality</li>
+                      <li>20-28 Years Old</li>
+                      <li>Strong customer service focus / Oriented</li>
+                      <li>Atlest 5'2 in Height</li>
+                      <li>Hardworking, Team Leader, willing to relocate</li>
+                      <li>Fresh Graduates are Encouraged to Apply</li>
+                    </ul>
+                    <button class="btn btn-apply shine mt-3" data-toggle="modal" data-target="#online-application">Apply Now</button>
+                  </li>
+
                   <li class="list-group-item">
                     <h1 class="my-2">ACCOUNTING OFFICER</h1>
                     <h6 class="mb-3">Responsible for processing accounting transactions and preparation of accounting reports on sales, financial statements, budget variance and other reports pertaining to the operations. </h6>
@@ -103,6 +159,61 @@
                       <li>Knowledge of Object Oriented Programming</li>
                       <li>Willing to work under pressure and with minimum supervision.</li>
                       <li>Good communication skills</li>
+                    </ul>
+                    <button class="btn btn-apply shine mt-3" data-toggle="modal" data-target="#online-application">Apply Now</button>
+                  </li>
+
+                  <li class="list-group-item">
+                    <h1 class="my-2">HARDWARE SPECIALIST</h1>
+                    <h5 class="font-weight-bold">Job Qualification</h5>
+                    <ul class="list-group pl-4">
+                      <li>Bachelor’s/College Degree, Computer Science/Information Technology or equivalent</li>
+                      <li>Should have a previous working experience in a same position</li>
+                      <li>A minimum of 1 year experiences</li>
+                      <li>Strong customer service focus</li>
+                      <li>Willing to work under pressure and with minimum supervision.</li>
+                      <li>Good communication skills</li>
+                    </ul>
+                    <button class="btn btn-apply shine mt-3" data-toggle="modal" data-target="#online-application">Apply Now</button>
+                  </li>
+
+                  <li class="list-group-item">
+                    <h1 class="my-2">MARKETING STAFF</h1>
+                    <h5 class="font-weight-bold">Job Qualification</h5>
+                    <ul class="list-group pl-4">
+                      <li>Bachelor’s/College Degree in Marketing</li>
+                      <li>Exceptional Communicating, Writing Skill, Solid Computer & Presentation Skills</li>
+                      <li>A minimum of 1 year experiences</li>
+                      <li>Strong customer service focus</li>
+                      <li>Understanding of Marketing Elements and Market Research</li>
+                      <li>Able to work under pressure and with minimum supervision.</li>
+                    </ul>
+                    <button class="btn btn-apply shine mt-3" data-toggle="modal" data-target="#online-application">Apply Now</button>
+                  </li>
+
+                  <li class="list-group-item">
+                    <h1 class="my-2">AUDIT STAFF</h1>
+                    <h5 class="font-weight-bold">Job Qualification</h5>
+                    <ul class="list-group pl-4">
+                      <li>Graduate of any Business Course</li>
+                      <li>Single with Pleasing Personality</li>
+                      <li>Customer Oriented</li>
+                      <li>Atlest 5'2 in Height</li>
+                      <li>Flexible, Good Leadership Skills and Communication </li>
+                      <li>Fresh Graduates are Encouraged to Apply</li>
+                    </ul>
+                    <button class="btn btn-apply shine mt-3" data-toggle="modal" data-target="#online-application">Apply Now</button>
+                  </li>
+
+                  <li class="list-group-item">
+                    <h1 class="my-2">SAP SYSTEM ANALYST / ADMINISTRATOR</h1>
+                    <h5 class="font-weight-bold">Job Qualification</h5>
+                    <ul class="list-group pl-4">
+                      <li>Experience implementing SAP Business One 8.8, 9.0 or 9.1</li>
+                      <li>Excellent communication skills </li>
+                      <li>Solid understanding of integration and manufacturing functionality between SAP BI systems</li>
+                      <li>Solid project management and functional lead experience</li>
+                      <li>Strong SQL Experience</li>
                     </ul>
                     <button class="btn btn-apply shine mt-3" data-toggle="modal" data-target="#online-application">Apply Now</button>
                   </li>
@@ -350,8 +461,33 @@
   </div>
 </div> -->
 
-
 <div class="modal fade" id="online-application" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content mx-auto">
+      <div class="modal-header">
+        <img src="assets/img/logo-min-2.png" class="img-fluid my-auto" style="width: 15%">
+        <h5 class="modal-title mx-auto" id="exampleModalLabel">Online Application</h5>
+        <button type="button" class="close ml-0" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="text-center">
+          <p style="font-family: 'Roboto',sans-serif;
+    font-size: 1.5rem;line-height: 30px;">Sorry we are still undergoing our site update. In the meantime you can email your resume at:<br><br><a href="mailto:jobs@jelexie.com" style="color: #000000;text-decoration: none;"><strong><i class="fas fa-envelope"></i>&nbsp;&nbsp;jobs@jelexie.com</strong></a></p>
+        </div>  
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary mx-auto" data-dismiss="modal" style="background-color: #b42927; border-color: #b42927;">Close</button>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ONLINE APPLICATION MODAL -->
+<!-- <div class="modal fade" id="online-application" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content mx-auto">
       <div class="modal-header">
@@ -412,7 +548,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <?php include 'assets/includes/footer.html';?>
 

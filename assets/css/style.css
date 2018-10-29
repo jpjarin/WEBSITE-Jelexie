@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto|Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto|Open+Sans:600);
 html{
 	height: 100%;
 	width: 100%;
@@ -666,6 +666,8 @@ button.navbar-toggler:focus{
 }
 #branch-locator h6{
   font-size: 1rem;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 600;
 }
 #branch-locator h1{
   font-size: 1rem;
@@ -685,8 +687,8 @@ button.navbar-toggler:focus{
     top: 4px;
     z-index: 1;
     /*outline: 3px solid #b42927;*/
-    border-right: 3px solid #da251c;
-    border-left: 3px solid #da251c;
+    border-right: 3px solid #e20200;
+    border-left: 3px solid #e20200;
     border-bottom: 0;
     border-top: 0;
 }
@@ -725,13 +727,14 @@ button.navbar-toggler:focus{
     -webkit-box-shadow: inset -4px 4px 2px rgba(144, 144, 144, 0.4), inset 4px -4px 2px rgba(144, 144, 144, 0.4);
    box-shadow: inset -4px 4px 2px rgba(144, 144, 144, 0.4), inset 4px -4px 2px rgba(144, 144, 144, 0.4);
 }
-.emboss {
-    box-shadow: 0 -30px 50px #777 inset !important;
-   /* border: 15px solid #bbb !important;*/
+#branch-locator .search-branch{
+  position: absolute;
+  z-index: 1;
 }
-.bevel {
-    box-shadow: 0 -30px 50px #aaa inset, 0 0 15px #222 inset !important;
-    /*border: 15px solid #bbb !important;*/
+#branch-locator input:focus{
+outline: none;
+box-shadow:none !important;
+border:1px solid #ccc !important;
 }
 /*........*/
 
@@ -1053,10 +1056,11 @@ form#contact-form textarea:focus {
   width: 100%;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
-  height: 25em;
+  height: 22.5em;
   border: 2px solid #e2e2e2;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
   box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+  margin-top: 37px;
 }
 .branch-locations .list-group-item{
   padding: 10px 20px;
@@ -1074,7 +1078,7 @@ form#contact-form textarea:focus {
 
 /* FOOTER */
 footer{
-  font-family: 'Bago', Roboto, Sans-serif;
+  font-family: 'Bago', Sans-serif;
   color: #2d2d2d;
 }
 footer .footer{
@@ -1149,4 +1153,29 @@ footer .copyright{
  .online-services{
   display: none;
 } 
+}
+
+#site-update{
+  /*border: 2px solid #c7c7c7ee;*/
+}
+.site-update{
+    background-color: #dddddd;
+  opacity: 0;
+  height: auto;
+  position: fixed !important;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+  outline: 2px solid #969696;
+}
+#site-update .alert{
+  width: 100%;
+  box-shadow: none;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+#site-update button{
+ outline: none;
+box-shadow:none !important;
+border:none !important; 
 }

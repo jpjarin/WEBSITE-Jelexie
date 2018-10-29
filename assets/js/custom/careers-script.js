@@ -1,5 +1,14 @@
 new WOW().init();
 
+//TEMPORARY
+$(window).on('load',function(){
+  $('.alert').alert();
+  $('.site-update').css({"opacity":"1"});
+  $('.site-update').addClass('slideInUp');
+  $('#site-update').on('click',function(){
+    $('.site-update').fadeOut();
+  });
+});
 
 //JQuery Sticky
  $(document).ready(function(){

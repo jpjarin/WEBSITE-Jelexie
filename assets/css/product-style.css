@@ -816,3 +816,28 @@ footer .copyright{
 .online-services{
   display: none;
 }
+
+#site-update{
+  /*border: 2px solid #c7c7c7ee;*/
+}
+.site-update{
+    background-color: #dddddd;
+  opacity: 0;
+  height: auto;
+  position: fixed !important;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+  outline: 2px solid #969696;
+}
+#site-update .alert{
+  width: 100%;
+  box-shadow: none;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+#site-update button{
+ outline: none;
+box-shadow:none !important;
+border:none !important; 
+}

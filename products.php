@@ -28,6 +28,20 @@
 	<![endif]-->
 </head>
 <body>
+
+<div id="site-update">
+		<div class="site-update animated">
+			<div class="alert alert-dismissible fade show text-center" role="alert" style="position: initial;">
+			<div style="position: inherit;">
+			  <strong>Notice:</strong> We are still undergoing our site update. Please keep in mind that our website may not function properly yet.
+			  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			    <span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+		</div>
+		</div>
+</div>
+
 <?php include 'assets/includes/navbar.html';?>
 <div class="bg-red">
 

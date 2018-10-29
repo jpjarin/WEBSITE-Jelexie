@@ -1,4 +1,4 @@
-<!-- 
+﻿<!-- 
 * Jelexie Bakeshop (http://www.jelexie.com/)
 * Copyright 2018 JVP Breadking Food Corporation
 * Licensed Under MIT (http://www.jelexie.com/LICENSE)
@@ -74,7 +74,18 @@ function $buo_f(){
 try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
 catch(e){window.attachEvent("onload", $buo_f)}
 </script>
-
+<div id="site-update">
+		<div class="site-update animated">
+			<div class="alert alert-dismissible fade show text-center" role="alert" style="position: initial;">
+			<div style="position: inherit;">
+			  <strong>Notice:</strong> We are still undergoing our site update. Please keep in mind that our website may not function properly yet.
+			  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			    <span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+		</div>
+		</div>
+</div>
 
 <div class="preloader">
 	<div class="load">
@@ -98,9 +109,13 @@ catch(e){window.attachEvent("onload", $buo_f)}
 					    <li data-target="#ads" data-slide-to="0" class="active"></li>
 					    <li data-target="#ads" data-slide-to="1"></li>
 					    <li data-target="#ads" data-slide-to="2"></li>
+					    <li data-target="#ads" data-slide-to="3"></li>
 		</ol>
 	  <div class="carousel-inner">
-	    <div class="carousel-item active">
+	  	<div class="carousel-item active">
+	      <img class="img-fluid d-block w-100 lazyload blur-up" src="assets/img/ads/EXCITING-NEW-CAKES-SIZE-3-blur.jpg" data-src="assets/img/ads/EXCITING-NEW-CAKES-SIZE-3.jpg">
+	    </div>
+	    <div class="carousel-item">
 	      <img class="img-fluid d-block w-100 lazyload blur-up" src="assets/img/ads/morning-coffee-combo-tarp-2018-(size-3).blur.jpg" data-src="assets/img/ads/morning-coffee-combo-tarp-2018-(size-3).jpg">
 	    </div>
 	    <div class="carousel-item">
@@ -144,7 +159,7 @@ catch(e){window.attachEvent("onload", $buo_f)}
 							</div>
 							<div class="col-md-5 p-0 order-first order-sm-1">
 								<div class="about-content mb-3">
-									<img class="img-fluid w-100" src="http://via.placeholder.com/1x1">
+									<img class="img-fluid w-100" src="assets/img/home-pic.jpg">
 								</div>
 							</div>
 						</div>
@@ -216,46 +231,179 @@ catch(e){window.attachEvent("onload", $buo_f)}
 								
 							</div>
 						</div>
-						<div class="col-md-4 px-2">
+						<div id="branch-search" class="col-md-4 px-2">
+							<div style="position: relative;">
+									<div class="search-branch input-group">
+									  <div class="input-group-prepend">
+									    <span class="input-group-text" id="basic-addon1" style="border-radius: 0;"><i class="fas fa-search"></i></span>
+									  </div>
+									  <input type="text" class="fuzzy-search form-control" placeholder="Search Branch" aria-label="Search" style="border-radius: 0;">
+									</div>
+								</div>
 							<div class="branch-locations custom-shadow">
- 								<ul class="list-group list-group-flush">
+ 								<ul class="list list-group list-group-flush">
  									<li class="list-group-item">
- 										<h1>CUT-CUT</h1>
+ 										<h1 class="branch-name">CUT-CUT</h1>
  										<h6>Cut-Cut 1st Tarlac City<br>
 											0998-842-5935</h6>
  									</li>
  									<li class="list-group-item">
- 										<h1>STA. IGNACIA</h1>
+ 										<h1 class="branch-name">STA. IGNACIA</h1>
  										<h6>Romulo High way Poblacion<br>
  										West Sta Ignacia Tarlac<br>
 										0998-842-5928</h6>
  									</li>
  									<li class="list-group-item">
- 										<h1>SAN CARLOS</h1>
+ 										<h1 class="branch-name">SAN CARLOS</h1>
  										<h6>Roxas Building San Carlos City<br>
  										0998-842-5927</h6>
  									</li>
  									<li class="list-group-item">
- 										<h1>LUISITA</h1>
+ 										<h1 class="branch-name">LUISITA</h1>
  										<h6>Mc Arthur High Way,<br>
  										San Miguel Tarlac
  										<br>0998-842-5937</h6>
  									</li>
  									<li class="list-group-item">
- 										<h1>MALASIQUI</h1>
- 										<h6>Ramon Magsaysay St. Malasiqui <br>
- 										Pangasinan
+ 										<h1 class="branch-name">MALASIQUI</h1>
+ 										<h6>Ramon Magsaysay St. Malasiqui
+ 										Pangasinan<br>
  										0998-842-5920</h6>
  									</li>
  									<li class="list-group-item">
- 										<h1>MANAOAG</h1>
+ 										<h1 class="branch-name">MANAOAG</h1>
  										<h6>Rizal St. Manaoag Pangasinan<br>
 											0998-842-5921</h6>
  									</li>
  									<li class="list-group-item">
- 										<h1>MASON</h1>
+ 										<h1 class="branch-name">MASON</h1>
  										<h6>Brgy. Santo Cristo Tarlac City<br>
 											0998-842-5938</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">BAYAMBANG</h1>
+ 										<h6>M.H del Pilar St. Bayambang Pangasinan<br>
+											0998-842-5916</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">BUGALLON</h1>
+ 										<h6>Romulo High way Poblacion Bugallon Pangasinan<br>
+											0998-842-5945</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">CAMILING</h1>
+ 										<h6>Quezon Avenue Poblacion B. Camiling Tarlac City<br>
+											0998-842-5917</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">CAPAS</h1>
+ 										<h6>Sto Cristo Capas Tarlac City<br>
+											0998-842-5933</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">CONCEPCION</h1>
+ 										<h6>L Porces San Nicolas Concepcion Tarlac<br>
+											0998-834-5944</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">DAU</h1>
+ 										<h6>Mc Arthur Highway Mabalacat Pampanga<br>
+											0998-842-5936</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">LINGAYEN</h1>
+ 										<h6>Lampik Poblacion Lingayen Pangasinan<br>
+											0998-842-5946</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">MANGALDAN</h1>
+ 										<h6>Rizal St. Mangaldan Pangasinan<br>
+											0998-842-5922</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">MANGATAREM</h1>
+ 										<h6>Plaza Rizal Brgy. Zamora Pangasinan<br>
+											0998-842-5923</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">MH DEL PILAR</h1>
+ 										<h6>MH del Pillar St. Sto Cristo Tarlac city<br>
+											0998-842-5939</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">ROSALES</h1>
+ 										<h6>General Luna Zone 3 Rosales Panganasinan<br>
+											0998-842-5926</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">URDANETA 2</h1>
+ 										<h6>Zamora ST Poblacion Norte Paniqui Tarlac 2307<br>
+											0998-842-5931</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">URDANETA 1</h1>
+ 										<h6>9 Public Markert Urdanet City Pangasinan<br>
+											0998-842-5931</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">VICTORIA</h1>
+ 										<h6>San Gavino Victoria Tarlac<br>
+											0998-842-5943</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">C. SANTOS</h1>
+ 										<h6>Core C Santos St. Aquino Blvd. Poblacion Tarlac City<br>
+											0998-842-5932</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">TALAVERA</h1>
+ 										<h6>Marcos Talaver Nueva Ecija<br>
+											0998-842-5953</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">TAYUG</h1>
+ 										<h6>Bonifacio St corner Zaragosa St Tayug Pangasinan<br>
+											0998-842-5929</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">TERESA HOMES</h1>
+ 										<h6>Block 13 Lot 35 Terresa Homes Brgy. Tibag Tarlac City<br>
+											0998-842-5942	</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">URDANETA 2</h1>
+ 										<h6>RDS Building PMA Sison Poblacion Urdaneta City<br>
+											0998-842-5930</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">ZARAGOZA</h1>
+ 										<h6>Santa Rosa - Tarlac Rd, Zaragoza, Nueva Ecija<br>
+											0998-842-5944</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">GERONA</h1>
+ 										<h6>Poblacion St. Gerona Tarlac City<br>
+											0998-842-5918</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">GUIMBA</h1>
+ 										<h6>Afan Salvador St, Sto Cristo Guimba Nueva Ecija<br>
+											0998-842-5919</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">MONCADA</h1>
+ 										<h6>Poblacion 1 Mc Arthur highway Moncada Tarlac<br>
+											0998-842-5924</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">PANIQUI</h1>
+ 										<h6>Zamora St, Poblacion 1 Paniqui Tarlac City<br>
+											0998-842-5925</h6>
+ 									</li>
+ 									<li class="list-group-item">
+ 										<h1 class="branch-name">PANAMPUNAN</h1>
+ 										<h6>Mc Arthur Highway Sepung Calzada Tarlac City 2300<br>
+											0998-842-5940</h6>
  									</li>
  								</ul>
 							</div>
@@ -296,7 +444,7 @@ catch(e){window.attachEvent("onload", $buo_f)}
 							<div class="col-12 pt-4">
 								<div class="fb-timeline">
 									<div class="container-fluid h-100 fb-view mx-auto wow fadeInUp" data-wow-delay="0.5s">
-										<div class="fb-loading custom-shadow">
+										<div class="fb-loading">
 										<div class="fb-page" data-href="https://www.facebook.com/Jelexie-179456868470/" data-tabs="timeline, messages" data-width="500" data-height="680" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Jelexie-179456868470/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Jelexie-179456868470/">Jelexie</a></blockquote></div>
 										</div>
 									</div>
@@ -359,6 +507,7 @@ catch(e){window.attachEvent("onload", $buo_f)}
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 <script src="assets/js/pace.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 <script src="assets/js/jquery.rwd-fb-plugin.js"></script>
 <script src="assets/js/wow.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
